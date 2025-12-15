@@ -1,0 +1,170 @@
+Hessischer Landtag · 20. Wahlperiode · 130. Sitzung · 21. März 2023 
+10667 
+
+
+Cyberangriffe werden zunehmend professioneller, gefährlicher 
+und komplexer in der Erkennung. Deshalb haben 
+wir für die Landesverwaltung einen Cyberabwehrplan aufgestellt, 
+um die wesentlichen Vorbereitungen auf einen 
+Cyberangriff zu treffen und gegebenenfalls die Arbeitsfähigkeit 
+der Verwaltung zügig wiederherstellen zu können. 
+Mit dem HITSiG soll nun ein weiterer Baustein in unserer 
+Cybersicherheitsarchitektur geschaffen werden  das werden 
+wir jedenfalls miteinander in den nächsten Wochen 
+beraten. Ich freue mich auf diese Beratungen.  Vielen 
+Dank. 
+
+
+(Beifall CDU) 
+
+
+Vizepräsident Dr. Ulrich Wilken: 
+
+
+Danke für die Einbringung, Herr Staatsminister Beuth.  
+Für die SPD-Fraktion hat sich Herr Kaffenberger zu Wort 
+gemeldet. 
+
+
+Bijan Kaffenberger (SPD): 
+
+
+Sehr geehrter Herr Präsident, liebe Anwesende! Ein Hessisches 
+IT-Sicherheitsgesetz auf den Weg zu bringen, steht 
+schon in dem Koalitionsvertrag von CDU und GRÜNEN. 
+Unterschrieben wurde er am 23.12.2018. Jetzt kommt der 
+Entwurf. Ich würde sagen: besser spät als nie. 
+
+
+Der Innenminister hat es gerade schon angesprochen. Seit 
+etwas mehr als einem Jahr erleben wir einen russischen 
+Angriffskrieg auf die Ukraine. Schon davor haben wir im 
+digitalen Raum deutlich die Auswirkungen der hybriden 
+Kriegsführung gespürt. Daraus lassen sich aus Sicht der 
+SPD-Fraktion drei Schlussfolgerungen ableiten: 
+
+
+Erstens. Dass wir ein Hessisches IT-Sicherheitsgesetz bekommen, 
+ergibt Sinn, und das ist gut. Es ist auch wichtig, 
+dass wir heute darüber diskutieren. Dazu gehört auch, dass 
+wir deutlich auf die von mir eben angesprochenen hybriden 
+Gefahren hinweisen. 
+
+
+Zweitens. Es braucht eine klare Kompetenzverteilung. Dazu 
+müssen wir zentralisierte und schnelle Prozesse etablieren. 
+Aus meiner Sicht und aus Sicht der SPD-Fraktion sollte 
+der Bund hier mehr Verantwortung übernehmen; denn 
+ein Großteil der Angriffe kommt eben aus dem Ausland. 
+Die Gefahr geht von fremden Mächten aus, allen voran 
+vom russischen Staat oder seinen staatsnahen Akteuren. 
+Unsere Bundesinnenministerin Nancy Faeser ist bereit, 
+mehr Verantwortung für die IT-Sicherheit zu übernehmen. 
+Wir halten es daher für richtig, dass das BSI eine Zentralstellenfunktion 
+bekommen sollte. 
+
+
+(Beifall SPD) 
+
+
+Drittens. Das Land muss aber auch mehr für die IT-Sicherheit 
+der Kommunen tun. Zwar können die Kommunen 
+schon jetzt beim Kommunalen Dienstleistungszentrum Cybersicherheit 
+freiwillig Beratungen für IT-Sicherheitsmaßnahmen 
+in Anspruch nehmen; allerdings zeigt die Auswertung 
+eines Berichtsantrags der SPD-Fraktion, dass auf einer 
+Sicherheitsskala von 0 bis 10 hessische Mittel-und 
+Großstädte im Schnitt lediglich den Wert 3 von 10 erreichen 
+und kleine Städte und kleinere Gemeinden sogar nur 
+2,5. 
+
+
+Die Ransomware-Attacken in Darmstadt, im Odenwald, 
+aber auch die Hacks in Wiesbaden und kürzlich in Rodgau 
+zeigen: Die Kommunen brauchen dringend einen IT-Not
+
+
+ruf. Wir müssen nämlich sicherstellen, dass den Kommunen 
+bei konkreten Vorkommnissen schnell geholfen wird 
+und ihnen ausreichend Mittel, Personal und auch Knowhow 
+zur Verfügung gestellt werden, um solche Gefahrenlagen 
+auch bewältigen zu können. 
+
+
+(Beifall SPD) 
+
+
+Welchen dieser Anforderungen kann Ihr Gesetzentwurf 
+denn gerecht werden? Eine Bündelung der Kompetenzen 
+ist auf jeden Fall sinnvoll. Darauf weist unter anderem 
+auch die IT-Sicherheitsexpertin Haya Shulman vom nationalen 
+Cybersicherheitszentrum ATHENE in Darmstadt immer 
+wieder hin. Ob ein Zentrum auf Landesebene jetzt 
+der Weisheit letzter Schluss ist, bleibt aus meiner Sicht 
+fraglich. Die Landesregierung sollte da aus meiner Sicht 
+zunächst lieber klären, wie sie eigene Zuständigkeiten untereinander 
+ordentlich aufteilt; denn es gibt immer noch zu 
+viele Köche beim Thema IT-Sicherheit: Beispielsweise das 
+Innenministerium mit dem genannten Hessen3C und dem 
+CERT, das Finanzministerium, das für die HZD und das 
+CSIRT zuständig ist, irgendwie ist auch noch das Digitalministerium 
+dabei  keiner weiß genau, wie. 
+
+
+Dass ich mit dieser Meinung nicht alleine bin, zeigt auch, 
+dass sich der Rechnungshof dem schon gewidmet hat. Gerade 
+in der vergangenen Ausschusssitzung des Unterausschusses 
+für Finanzcontrolling und Verwaltungssteuerung 
+hatten wir eine Bemerkungsnummer mit dem Titel IT-
+Sicherheit  Optimierungspotenziale nutzen! Das zeigt 
+deutlich, dass das keine reine Kritik der SPD-Fraktion ist. 
+Der Rechnungshof sieht das genauso; also sollte man sich 
+mit seinen Zuständigkeiten auseinandersetzen. 
+
+
+(Beifall SPD) 
+
+
+Das hessische Zentrum sollte keine Aufgaben übernehmen, 
+die künftig am besten beim BSI zentralisiert werden sollten. 
+Diese Aufgaben müssen jetzt zügig zwischen Bund 
+und Ländern vereinbart und konkretisiert werden. Das 
+Land sollte sich aus unserer Sicht dabei, wie bereits erwähnt, 
+zuerst auf die Verbesserung der Situation in den 
+Kommunen konzentrieren. 
+
+
+Der schwarz-grüne Gesetzentwurf enthält bisher aber keine 
+Regelungen, die über die verpflichtenden kommunalen 
+IT-Sicherheitsaspekte hinausgehen. Auch die Mittel, die 
+wir als SPD-Fraktion im Haushalt für die Förderung von 
+IT-Sicherheit in Kommunen beantragt hatten, sind nicht im 
+Gesetzentwurf verankert. 
+
+
+Ich habe mir einmal die Mühe gemacht, in Social Media 
+ein bisschen nachzuschauen, und wurde im Netzwerk 
+Mastodon fündig. Ein IT-Sicherheitsbeauftragter einer hessischen 
+Großstadt schreibt dort: 
+
+
+Faktisch bedeutet dies, es verbessert sich nichts für 
+die kommunale IT-Sicherheit durch das HITSiG. 
+
+
+Ein Teil der GRÜNEN sieht das tatsächlich ähnlich. Auf 
+dem Listenparteitag vor Kurzem wurde nämlich ebenfalls 
+gefordert, die Kommunen beim Thema Cybersicherheit 
+endlich finanziell mehr zu unterstützen. Ich glaube, das 
+zeigt deutlich  wieder: das ist keine reine Kritik der SPD-
+Fraktion : Das sehen sogar die GRÜNEN so, wenn sie 
+einmal offen reden können, und der Landesrechnungshof. 
+Ich hatte es schon erwähnt. 
+
+
+(Beifall SPD) 
+
+
+Wir brauchen im gleichen Maße deutlich digitalere Verwaltungen. 
+Wir brauchen klare Zuständigkeiten und mehr In
+

@@ -1,0 +1,160 @@
+10668 
+Hessischer Landtag · 20. Wahlperiode · 130. Sitzung · 21. März 2023 
+
+
+vestitionen in IT-Sicherheit. Dazu leistet aus unserer Sicht 
+der Gesetzentwurf der von CDU und GRÜNEN geführten 
+Landesregierung in der jetzigen Form noch keinen ausreichenden 
+Beitrag. Wir sind aber gespannt auf die Meinungen 
+weiterer Expertinnen und Experten und vor allem auf 
+die Debatte auf Bundesebene zur Zentralstelle beim BSI. 
+
+
+Herr Innenminister, seien Sie sich sicher, die SPD-Fraktion 
+wird wieder eigene Vorschläge zum Hessischen IT-Sicherheitsgesetz 
+einbringen, um die IT-Sicherheit in Hessen ein 
+wenig voranzubringen.  Vielen Dank. 
+
+
+(Beifall SPD) 
+
+
+Vizepräsident Dr. Ulrich Wilken: 
+
+
+Danke, Herr Kaffenberger.  Für die Fraktion BÜNDNIS 
+90/DIE GRÜNEN hat sich Herr Leveringhaus gemeldet. 
+
+
+Torsten Leveringhaus (BÜNDNIS 90/DIE GRÜNEN): 
+
+
+Sehr geehrter Herr Präsident, sehr geehrte Kolleginnen und 
+Kollegen! Wir haben gerade fast zwei Stunden  es waren 
+am Ende sogar über zwei Stunden  über das Thema Sicherheit 
+diskutiert. Lassen Sie uns jetzt über Sicherheit reden. 
+Aber wir verändern etwas den Fokus, vielleicht wechseln 
+wir auch ein bisschen die Welt; denn wir kommen 
+von der reinen Kohlenstoffwelt in die digitale Welt, in die 
+Siliziumwelt. 
+
+
+Auch diese beschäftigt uns jetzt als Landtag, als Politik 
+nun schon ein bisschen länger. Aber etablierte Strukturen 
+im Krisenfall, über die wir gerade gesprochen haben, wie 
+Feuerwehr, Rettungsdienste oder die Polizei, haben wir 
+hier langsam aufgebaut, oder wir bauen sie im Moment 
+noch auf. 
+
+
+Dabei sind die Gefahren längst da, und sie nehmen in der 
+Häufigkeit und in der Form ihrer Angriffe immer mehr 
+zu. Auch das ist schon angesprochen worden. Angriffe 
+auf staatliche Stellen wie Rathäuser, Landkreise oder den 
+Bundestag, aber auch auf Wirtschaftsunternehmen jeder 
+Größe, werden immer mehr zum Alltag. Der Schaden, der 
+entstehen kann, ist bei allen Beteiligten sehr hoch. In der 
+Wirtschaft kann schnell die Existenz der ganzen Firma auf 
+dem Spiel stehen, wenn die Produktion lahmgelegt ist oder 
+man nicht mehr auf Kundendaten zugreifen kann, weil 
+diese verschlüsselt sind. 
+
+
+Bei Angriffen auf staatliche Infrastrukturen steht noch etwas 
+ganz anderes auf dem Spiel, nämlich das Vertrauen 
+der Menschen in uns als Politik und als Politikerinnen und 
+Politiker. Denn, was heißt es dann, wenn ein Rathaus oder 
+eine Kreisverwaltung tage-, ja, vielleicht wochenlang nicht 
+erreichbar ist? Was heißt es dann konkret? Das heißt, dass 
+man dringend benötigte Dokumente, wie einen Reisepass, 
+nicht beantragen und abholen kann oder  das ist wesentlich 
+schlimmer  dass Sozialleistungen nicht bewilligt und 
+ausgezahlt werden können. Das kann für die Betroffenen 
+wirklich existenzbedrohend sein. 
+
+
+(Zuruf) 
+
+
+ Ich höre gerade von meinem Kollegen: Die Steuererklärung 
+gehört sicher auch dazu. 
+Wenn Behörden oder Unternehmen wochenlang nicht erreichbar 
+sind, rüttelt das am Vertrauen der Bürgerinnen und 
+Bürger in den Staat. Es ist daher absolut richtig, dass wir 
+
+
+als Land das Thema IT-Sicherheit angehen und uns darum 
+kümmern. Mit der Schaffung des Hessen CyberCompetenceCenters, 
+Hessen3C, im Jahr 2019 oder mit dem Netzwerktreffen 
+Cybersicherheit aus dem Januar dieses Jahres 
+sind wir hier als Land aktiv und bieten diese Unterstützung 
+an. 
+
+
+Aber alles, was ich jetzt gesagt habe, ist die technische 
+Seite des Ganzen. Wir müssen eben auch rechtlich klar 
+regeln, was zu tun ist. Was passiert denn im Falle eines 
+Angriffs? Oder, anders gefragt: Wer macht dann was, und 
+auf welcher Grundlage macht die Person das? Genau für 
+diese Fragen legen wir heute den Gesetzentwurf zum IT-
+Sicherheitsgesetz vor und greifen dabei mehrere Punkte 
+auf. 
+
+
+So schaffen wir erstmals eine zentrale Stelle, die im Bereich 
+der IT-Sicherheit eigenständig im Land Hessen aktiv 
+werden kann  sei es nur durch die Beobachtung der 
+Situation im Netz oder durch die Auswertung von Informationen 
+über Risiken und Schwachstellen. Hier weise ich 
+auch gerne darauf hin  das wurde vom Kollegen Kaffenberger 
+gerade angesprochen: Kommunen profitierten davon 
+nicht , dass Kommunen diese Stelle eben weiter in 
+Anspruch nehmen können. Dass diese Kommunen Ziele 
+von Angriffen sind, haben wir nicht zuletzt erst vor Kurzem 
+in Rodgau gemerkt. 
+
+
+Zweiter Punkt in diesem Gesetzentwurf. Seit 2019 haben 
+wir die Stelle des Chief Information Security Officers. Diese 
+Position wird nun mit dem Hessischen IT-Sicherheitsgesetz 
+erstmals gesetzlich verankert und damit auch gestärkt. 
+
+
+Dritter und wichtigster Punkt des ganzen Gesetzentwurfs. 
+Das neu geschaffene Zentrum für Informationssicherheit 
+erhält dann die Befugnis, zu Zwecken der Abwehr von Gefahren 
+für die Sicherheit in der Informationstechnik aktiv 
+zu werden, was bisher bei einem Cyberangriff nicht geregelt 
+war. Die hatten wir auch schon; die Kolleginnen und 
+Kollegen hier im Landtag erinnern sich sicherlich. Man 
+kann jetzt gesetzlich abgesichert aktiv werden; denn, dass 
+man reagieren muss, ist, denke ich, allen klar, aber bisher 
+fehlte diese rechtliche Grundlage, und wir sichern unsere 
+aufgebauten Instrumente ab. 
+
+
+Sehr geehrte Kolleginnen und Kollegen, wir leben nicht 
+nur in Zeiten von Software as a Service, sondern auch immer 
+mehr in Zeiten von Hacking as a Service. Die Angriffe 
+im Netz nehmen zu, sie werden besser, gezielter, und sie 
+sind in der Lage, unserer Gesellschaft schweren Schaden 
+zuzufügen. 
+
+
+Wo wir als Staat helfen und unterstützen können, sollten 
+wir es daher tun. Das HITSiG, so, wie wir es heute einbringen, 
+ist ein wichtiger Baustein dabei. Ich freue mich, ebenso 
+wie der Innenminister und der Kollege Kaffenberger, 
+auf die Anhörung und die Meinungen der Expertinnen und 
+Experten.  Vielen Dank. 
+
+
+(Beifall BÜNDNIS 90/DIE GRÜNEN und CDU) 
+
+
+Vizepräsident Dr. Ulrich Wilken: 
+
+
+Vielen Dank, Herr Leveringhaus.  Für die AfD-Fraktion 
+hat sich Herr Lichert gemeldet. 
+

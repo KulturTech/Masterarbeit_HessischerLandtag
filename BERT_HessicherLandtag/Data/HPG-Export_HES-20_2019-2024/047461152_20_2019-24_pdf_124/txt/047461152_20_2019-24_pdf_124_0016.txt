@@ -1,0 +1,171 @@
+10114 
+Hessischer Landtag · 20. Wahlperiode · 124. Sitzung · 24. Januar 2023 
+
+
+Moritz Promny (Freie Demokraten): 
+
+
+Vielen Dank, Frau Präsidentin.  Ich frage die Landesregierung: 
+
+
+Inwiefern erhalten Schulverwaltungsfachkräfte Zugang 
+zum Planungssystem Personal und Budget (PPB)? 
+
+
+Präsidentin Astrid Wallmann: 
+
+
+Vielen Dank.  Herr Staatsminister, Sie haben das Wort. 
+
+
+Prof. Dr. R. Alexander Lorz, Kultusminister: 
+
+
+Lieber Herr Kollege Promny, das Planungssystem Personal 
+und Budget, kurz: PPB, bietet allen berechtigten Nutzerinnen 
+und Nutzern die Möglichkeit, an den Prozessen zur 
+Planung der Unterrichtsversorgung an Schulen sowie an 
+der Bewirtschaftung des Schulbudgets mitzuwirken. 
+
+
+Hierzu können Personen aus dem Hessischen Kultusministerium, 
+der Hessischen Lehrkräfteakademie, den Staatlichen 
+Schulämtern sowie den Schulen eine entsprechende 
+Zugangsberechtigung erhalten. In Schulen können neben 
+Mitgliedern der Schulleitung weitere Personen in diese 
+Prozesse eingebunden werden, wenn diese durch ihre 
+Schulleitungen mit der Wahrnehmung entsprechender Aufgaben 
+beauftragt werden. 
+
+
+Sofern es sich bei diesen Personen um Personal der Schulträger 
+handelt, wozu auch die sogenannten Schulverwaltungskräfte 
+zu zählen sind, ist hierfür freilich die Zustimmung 
+des jeweiligen Schulträgers notwendig. Grundsätzlich 
+werden die Berechtigungen zur PPB-Nutzung für die 
+in Schulen tätigen Personen auf Antrag der Schulleitung 
+durch das jeweils zuständige Staatliche Schulamt zugewiesen. 
+
+
+Präsidentin Astrid Wallmann: 
+
+
+Vielen Dank.  Mir liegt keine Nachfrage hierzu vor. 
+
+
+Dann rufe ich Frage 814 
+auf und darf Herrn Abg. Kaffenberger 
+von der SPD-Fraktion das Wort erteilen. 
+
+
+Bijan Kaffenberger (SPD): 
+
+
+Vielen Dank, Frau Präsidentin.  Ich frage die Landesregierung: 
+
+
+Wie haben im Rahmen des bundesweiten Warntages die 
+digitalen Warnmaßnahmen wie Cell Broadcast und die App 
+hessenWARN funktioniert? 
+
+
+Präsidentin Astrid Wallmann: 
+
+
+Herr Staatsminister, Sie haben das Wort. 
+
+
+Peter Beuth, Minister des Innern und für Sport: 
+
+
+Vielen Dank, Herr Abg. Kaffenberger.  Der zweite bundesweite 
+Warntag diente neben dem Test der eingeführten 
+Warnmedien auch dem erstmaligen und prototypischen 
+Test des ab Februar 2023 durch die Mobilfunkbetreiber 
+bereitzustellenden Dienstes Cell Broadcast. 
+
+
+Bei diesem Test des Dienstes Cell Broadcast kam es im 
+südhessischen Raum zu einem Problem im Netz der Tele
+
+
+kom. Hier wurden keine Nachrichten zugestellt, wohingegen 
+dies im nordhessischen Raum funktionierte. Davon 
+abgesehen, hat Cell Broadcast in erwartetem Umfang nach 
+hiesigem Kenntnisstand planmäßig funktioniert. 
+
+
+Hinsichtlich der App hessenWARN kann nach den bislang 
+vorliegenden Rückmeldungen und der Auswertung der unserem 
+technischen Dienstleister zur Verfügung stehenden 
+Daten gesagt werden, dass die landeseigene Warn-App am 
+bundesweiten Warntag sehr gut funktioniert hat. Die Warnungen 
+wurden pünktlich an die registrierten Endgeräte 
+ausgesendet. Der Versand der Probewarnungen war nach 
+drei Minuten abgeschlossen. Verzögerungen beim Aussenden 
+konnten nicht festgestellt werden. Fehlerrückmeldungen 
+lagen lediglich von 120 Nutzern vor, was bei rund 
+
+
+300.000 Nutzern auf eine nur geringe Ausfallquote schließen 
+lässt. 
+Dabei ist zu erwähnen, dass im Einzelfall gewisse Faktoren 
+wie fehlende Datenverbindungen der Mobilgeräte eine 
+wichtige Rolle spielen können. Weiterhin kann es aufseiten 
+des Providers zu technischen Verzögerungen kommen  
+beispielsweise zu einer Überlastung des Servers , die unsererseits 
+nicht beeinflusst werden können. 
+
+
+Ferner zeigte sich in der Vergangenheit, dass durch die 
+Nutzer oftmals keine Berechtigungen an die App hinsichtlich 
+der Push-Benachrichtigungen erteilt wurden, was im 
+Ergebnis zum Ausbleiben der Benachrichtigungen durch 
+die App führte. 
+
+
+Abschließend kann zu hessenWARN gesagt werden, dass 
+sich die App als sehr gutes, leistungsstarkes und zuverlässiges 
+Warnmedium für die hessischen Bürgerinnen und 
+Bürger gezeigt hat und am bundesweiten Warntag die an 
+sie gestellten Anforderungen in vollem Umfang erfüllt hat. 
+
+
+Präsidentin Astrid Wallmann: 
+
+
+Vielen Dank.  Es gibt eine Nachfrage von Herrn Abg. 
+Kaffenberger. 
+
+
+Bijan Kaffenberger (SPD): 
+
+
+Vielen Dank, Herr Staatsminister, für die ausführliche Antwort. 
+ Über das Thema Mobilfunkempfang reden wir 
+in den nächsten Tagen genug, deswegen eine Frage zum 
+Cell Broadcast: Haben Sie mit dem verantwortlichen Mobilfunknetzbetreiber 
+Telekom Gespräche geführt, um der 
+Sache auf den Grund zu gehen, wie es zu diesem Versagen 
+insbesondere im südhessischen Raum kommen konnte, um 
+das künftig zu vermeiden? 
+
+
+Präsidentin Astrid Wallmann: 
+
+
+Herr Staatsminister, Sie haben das Wort. 
+
+
+Peter Beuth, Minister des Innern und für Sport: 
+
+
+Herr Abgeordneter, da ist zunächst einmal der Bund in der 
+Verantwortung, der dieses System sozusagen in Auftrag 
+gegeben hat und am Ende verantwortet. Insofern haben wir 
+selbstverständlich ein Interesse daran, dass es funktioniert, 
+und sind in den entsprechenden Gremien  etwa im AK V 
+der IMK  auch im Gespräch darüber, was zu verbessern 
+ist. Aber die Verantwortung hierfür liegt am Ende beim 
+Bund und beim Mobilfunkbetreiber. Ich bin mir sehr si
+

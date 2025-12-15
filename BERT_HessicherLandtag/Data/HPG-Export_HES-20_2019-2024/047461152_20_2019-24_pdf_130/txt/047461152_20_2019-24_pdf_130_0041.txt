@@ -1,0 +1,174 @@
+Hessischer Landtag · 20. Wahlperiode · 130. Sitzung · 21. März 2023 
+10669 
+
+
+Andreas Lichert (AfD): 
+
+
+Herr Präsident, werte Abgeordnete, sehr geehrte Damen 
+und Herren! Ja, lieber spät als nie. Wenn man sich die 
+Bedeutung von IT, von elektronischer Verwaltung und von 
+Verwaltungsdigitalisierung zu Gemüte führt, dann muss 
+man sich eigentlich die Frage stellen: Wie konnten wir 
+eigentlich so lange ohne ein solches Gesetz auskommen? 
+Aber, wie gesagt, lieber spät als nie. 
+
+
+Dieses Gesetz schafft nun die notwendigen gesetzlichen 
+Grundlagen und auch einen organisatorischen Rahmen für 
+verschiedene Institutionen  sie sind gerade schon genannt 
+worden: Hessen3C, CERT etc. , die sich bereits mit dem 
+Thema IT-Sicherheit und der Verfügbarkeit der IT-Systeme 
+beschäftigen. Insofern sind die grundlegende Zielsetzung 
+und die Stoßrichtung dieses Gesetzentwurfs gut und richtig. 
+Viele Maßnahmen sind aus unserer Sicht ebenfalls 
+sachdienlich und somit zu begrüßen. 
+
+
+Vergessen wir nicht, die elektronische Verwaltung wird 
+noch wichtiger werden, Stichwort: Onlinezugangsgesetz. 
+Erinnern wir uns: Alle Verwaltungsleistungen sollen online 
+abrufbar sein. 
+
+
+(Zuruf René Rock (Freie Demokraten)) 
+
+
+Der Stichtag dafür war der Jahreswechsel. Ich gebe gerne 
+zu, die SPD war ein bisschen schneller als wir, der Berichtsantrag 
+zum Stand der Umsetzung des Onlinezugangsgesetzes 
+ist noch in der Beantwortung. Da sind wir sehr 
+gespannt, aber ehrlicherweise nicht sehr optimistisch, was 
+die Antworten auf die Fragen zur Umsetzung des OZG in 
+Hessen angeht. 
+
+
+Beim Bund sieht es einigermaßen desaströs aus, oder 
+bundesweit, muss man sagen. Die IT-Fachzeitschrift ct 
+schrieb jüngst, das von den 580 umzusetzenden Verwaltungsleistungen 
+gerade einmal 100 flächendeckend online 
+verfügbar seien. Gut, wir sind gespannt, wie es in Hessen 
+aussieht. 
+
+
+(Beifall AfD) 
+
+
+Aufgrund des Onlinezugangsgesetzes besteht allerdings die 
+Gefahr von Potemkinschen Dörfern. Die entscheidende 
+Forderung des Onlinezugangsgesetzes ist nur die Schnittstelle 
+zum Bürger und Unternehmer. Das heißt, was unter 
+der Haube im Maschinenraum der Verwaltung passiert, das 
+ist gar nicht explizit Gegenstand des OZG. Wenn diese 
+Prozesse dann tatsächlich einmal voll digitalisiert sind, 
+wachsen natürlich auch das Bedrohungspotenzial und das 
+Risiko für Angriffe und Schadsoftware. 
+
+
+Gut finden wir an diesem Gesetzentwurf, dass auch potenziell 
+kritische Themen adressiert werden, insbesondere 
+§ 11 zur Auswertung von Inhaltsdaten, also nicht nur 
+technische Daten, sondern eben auch die Inhalte. Das ist 
+aus unserer Sicht ausgewogen geregelt. Es gibt z. B. die 
+Anforderung, dass eine entsprechende Anordnung durch 
+den Leiter der zuständigen Stelle erforderlich ist. Wenn 
+dieses Zentrum für Informationssicherheit die zuständige 
+Stelle ist, dann muss die entsprechende Person sogar die 
+Befähigung zum Richteramt haben. Das bedeutet, dass dort 
+hohe Hürden eingezogen sind. Das halten wir für gut. 
+
+
+Diese Daten sollen grundsätzlich automatisch pseudonymisiert 
+werden, sofern zureichende tatsächliche Anhaltspunkte 
+für eine Bedrohung vorliegen. Auch das halten wir für 
+gut. Denn, vergessen wir eines nicht: Freiheit, Sicherheit 
+und informationelle Selbstbestimmung dürfen nicht gegen
+
+
+einander ausgespielt und mit dem Totschlagargument der 
+Sicherheit übersteuert werden. 
+
+
+(Beifall AfD) 
+
+
+Jetzt kommen wir zur offenen Flanke und dem neuralgischen 
+Punkt dieses Gesetzentwurfs, nämlich die Unterstützung 
+der Kommunen. Es sind schon einige Beispiele genannt 
+worden, ich brauche das nicht zu wiederholen. Wir 
+finden es ein bisschen seltsam und inkonsistent, wenn die 
+Kommunen einerseits explizit im Geltungsbereich, § 1, 
+mit erfasst werden, wir aber dann im Vorblatt und in der 
+Gesetzesbegründung lesen müssen: 
+
+
+Das HITSiG statuiert für hessische Gemeinden und 
+Gemeindeverbände keine Verpflichtungen, die über 
+die bereits bestehenden Verpflichtungen zur IT-Sicherheit 
+hinausgehen. 
+
+
+Das scheint eigentlich ein bisschen wenig zu sein. 
+
+
+Meine Damen und Herren, wir wissen natürlich alle um 
+die Bedeutung der kommunalen Selbstverwaltung, keine 
+Frage. Und wir wissen auch um die finanziellen Belastungen 
+der Kommunen. Aber wir befürchten, dass die entsprechende 
+Verpflichtung der Kommunen über kurz oder 
+lang wird kommen müssen. Dann wird natürlich auch das 
+Land an dieser Stelle den Kommunen die dafür notwendigen 
+Mittel zur Verfügung stellen. Bis dahin haben wir aber 
+leider nur ein ziemlich unzureichendes Placebo in diesem 
+Gesetzentwurf. Auch da zitiere ich aus dem Vorblatt: 
+
+
+Für Kommunen und sonstige Stellen kann das Zentrum 
+für Informationssicherheit im Wege der Auftragsverarbeitung 
+entsprechende Dienstleitungen 
+
+
+ und jetzt kommt es  
+
+
+(je nach Kapazität) erbringen. 
+
+
+Meine Damen und Herren, das ist aus unserer Sicht deutlich 
+zu wenig. Insofern werden wir, Stand jetzt, diesem 
+Gesetzentwurf so nicht zustimmen können.  Ich bedanke 
+mich. 
+
+
+(Beifall AfD) 
+
+
+Vizepräsident Dr. Ulrich Wilken: 
+
+
+Danke, Herr Lichert.  Für die CDU-Fraktion hat sich Herr 
+Steinraths gemeldet. 
+
+
+Frank Steinraths (CDU): 
+
+
+Sehr geehrter Herr Präsident, sehr geehrte Damen und Herren! 
+In einer immer stärker digitalisierten Welt sind Cyberangriffe 
+zu einer allgegenwärtigen Bedrohung geworden. 
+Auch Deutschland und Hessen sind dabei keine Ausnahme. 
+Ganz im Gegenteil, immer häufiger sind Unternehmen, 
+Organisationen, aber auch die öffentliche Verwaltung 
+Opfer von Cyberangriffen. Das Bundesamt für Sicherheit 
+in der Informationstechnik, BSI, bewertet in seinem Bericht 
+zur Lage der IT-Sicherheit in Deutschland: Die Bedrohung 
+ist so hoch wie noch nie. 
+
+
+Seit dem letzten Jahr stellt das BSI gar eine erhöhte Bedrohungslage 
+für Deutschland im Kontext des Kriegs in 
+der Ukraine fest. So beobachtet das BSI seit Ende April 
+2022 beispielsweise wiederholt sogenannte DDoS-Angriffe 
+von Hacktivisten auf deutsche und auf internationale Ziele. 
+Auch wenn diese Angriffe bislang in den meisten Fällen 
+

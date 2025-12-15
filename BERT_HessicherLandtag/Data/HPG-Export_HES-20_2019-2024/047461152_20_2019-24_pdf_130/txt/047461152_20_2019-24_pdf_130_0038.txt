@@ -1,0 +1,163 @@
+10666 
+Hessischer Landtag · 20. Wahlperiode · 130. Sitzung · 21. März 2023 
+
+
+auch dadurch Rechnung getragen, dass wir 17 % über den 
+Durst einplanen. Es wird nämlich vorgesehen, dass Mehreinstellungen 
+von 17 % zum Ausgleich der zu erwartenden 
+Studienabbrecherquote erfolgen. Wo hier ein Defizit sein 
+soll, kann ich beim besten Willen nicht erkennen. Somit ist 
+auch dieses Argument letztendlich im Nirwana verschwunden. 
+
+
+Meine Damen und Herren, lieber Peter  ich darf heute 
+einmal die persönliche Anrede verwenden , es ist heute 
+die letzte Kriminalstatistik, die du dem Landtag vorlegen 
+wirst. Natürlich hast du dich im Rahmen deiner Regierungserklärung, 
+auch im Namen der Hessischen Landesregierung, 
+bei der hessischen Polizei, bei den vielen tüchtigen 
+Kolleginnen und Kollegen für ihre erfolgreiche Arbeit 
+in den vergangenen Jahren bedankt. Das ist richtig und 
+wichtig. Du hast in deiner Rede dargelegt, dass erfolgreiche 
+Sicherheitswerte nicht aus dem heiteren Himmel kommen 
+und dass sie kein Zufallsprodukt sind. Ich darf dich 
+zitieren: 
+
+
+Sie sind das Ergebnis beständiger strategischer 
+Grundüberlegungen, politischer Schwerpunktsetzungen 
+und einer gestärkten Polizei. 
+
+
+Ich darf für die CDU-Fraktion feststellen  und ich gebe 
+die Hoffnung nicht auf, dass mit Blick auf die Faktenlage 
+der eine oder andere Kollege zustimmen wird , dass Hessen 
+in der Zeit, in der du als Innenminister die Verantwortung 
+getragen hast, deutlich sicherer geworden ist. Deshalb 
+ist es mir und auch deiner CDU-Fraktion am Ende dieser 
+Debatte ein wichtiges Anliegen, dir für deine erfolgreiche 
+Arbeit für die Sicherheit der Bürgerinnen und Bürger in 
+Hessen herzlich zu danken. 
+
+
+(Anhaltender Beifall CDU und BÜNDNIS 90/DIE 
+GRÜNEN) 
+
+
+Vizepräsident Dr. Ulrich Wilken: 
+
+
+Vielen Dank, Herr Bauer.  Meine Damen und Herren, wir 
+sind am Ende der Aussprache angekommen. 
+
+
+Damit ist die Regierungserklärung des Ministers des Innern 
+und für Sport entgegengenommen und besprochen. 
+
+
+Den mit aufgerufenen Dringlichen Antrag der Fraktion der 
+SPD überweisen wir zur weiteren Beratung an den Innenausschuss. 
+
+
+Ich rufe Tagesordnungspunkt 13 auf: 
+
+
+Erste LesungGesetzentwurf 
+LandesregierungHessisches Gesetz zum Schutz der elektronischen Verwaltung 
+(Hessisches IT-Sicherheitsgesetz  HITSiG)
+ Drucks. 20/10752  
+
+
+(Unruhe  Glockenzeichen) 
+
+
+Die vereinbarte Redezeit beträgt fünf Minuten. Zur Einbringung 
+erteile ich Herrn Staatsminister Beuth das Wort. 
+
+
+Peter Beuth, Minister des Innern und für Sport: 
+
+
+Herr Präsident, meine sehr geehrten Damen und Herren! 
+Die Nutzungen informationstechnischer Systeme durchdringen 
+Staat, Wirtschaft und Gesellschaft in immer größerem 
+Maße. Informationssicherheit und Datenschutz sind 
+
+
+dabei elementare Voraussetzungen für die weitere erfolgreiche 
+Digitalisierung der Verwaltung. 
+
+
+Die aktuelle Bedrohungslage verdeutlicht die Notwendigkeit 
+zum Handeln. Cyberangriffe auf Universitäten, Kliniken, 
+Energieversorger und Kommunen zeigen, dass auch 
+staatliche Institutionen zunehmend im Fokus von Cyberkriminellen 
+stehen. Seit dem Ukraine-Krieg hat sich die 
+Bedrohungslage nochmals verschärft, sie ist so hoch wie 
+nie zuvor. 
+
+
+Die Landesregierung hat früh auf diese Entwicklung reagiert 
+und 2019 mit dem Hessen CyberCompetenceCenter, 
+Hessen3C, eine zentrale Stelle eingerichtet, um neue 
+Fähigkeiten zum Schutz der eigenen IT-Infrastruktur, die 
+hierfür erforderliche Technik und starke Cyberexpertisen 
+zu bündeln. 
+
+
+Das Hessen3C ist bundesweit führend bei den Cybersicherheitsorganisationen 
+der Länder und dient anderen Ländern 
+als Vorbild für eigene Instanzen. Nun ist beabsichtigt, 
+das Hessen3C als Zentrum für Informationssicherheit 
+weiterzuentwickeln. Das Zentrum soll zur Erhöhung der 
+Informationssicherheit in der Landesverwaltung und zur 
+Abwehr von Gefahren für die Informationstechnik des 
+Landes eigenständig, also ohne Amtshilfeersuchen anderer 
+Landesbehörden, operativ tätig werden. 
+
+
+Mit dem Hessischen IT-Sicherheitsgesetz, das ich heute 
+einbringen darf, sollen die Rechtsgrundlagen geschaffen 
+werden, die für den vollständigen Betrieb eines solchen 
+Zentrums zum Schutz der Informationstechnik in der Verwaltung 
+vor Angriffen aus dem Cyberraum erforderlich 
+sind. Mit der gesetzlichen Verankerung des zentralen Informationssicherheitsbeauftragten 
+der Landesverwaltung wird 
+zudem die Position des CISO gestärkt. Seine vordringlichste 
+Aufgabe ist die Steigerung der Informationssicherheit 
+in der Landesverwaltung. In ressortübergreifenden 
+Fällen steuert er das IT-Krisenmanagement der Verwaltung. 
+
+
+Meine Damen und Herren, die Informationssicherheit in 
+Kommunen gewinnt in hoher Dynamik an Bedeutung. In 
+Hessen hat es zuletzt die Stadt Rodgau drastisch getroffen. 
+Mit dem HITSiG leisten wir auch einen wichtigen Beitrag 
+zur Unterstützung kommunaler Stellen. Die Kommunen 
+können umfangreich auf das breite Beratungs- und Unterstützungsangebot 
+des Hessen3C zugreifen. Bei akuten Sicherheitsvorfällen 
+wird eine mobile Spezialisteneinheit vor 
+Ort zur Verfügung gestellt, um in Notfällen zu beraten und 
+forensische Untersuchungen vorzunehmen. Die umfangreichen 
+Angebote des Hessen3C unterstützen kommunale 
+Stellen schon jetzt bei der stetigen Erhöhung ihres Cybersicherheitsniveaus. 
+Zur konkreten Vorfallsbearbeitung berät 
+und unterstützt Hessen3C rund um die Uhr. 
+
+
+Mit dem Hessen Leak Checker steht ein Service zur automatisierten 
+Datenlecküberprüfung bereit. Der Warn- und 
+Informationsdienst liefert regelmäßig wichtige Inhalte zu 
+Schwachstellen und Bedrohungen. 
+
+
+Meine Damen und Herren, mit dem Hessischen Cyberabwehrausbildungszentrum 
+stellen wir zudem ein Ausbildungsangebot 
+zur Resilienzsteigerung für kommunale Stellen 
+zur Verfügung. Das Kommunale Dienstleistungszentrum 
+Cybersicherheit macht dazu Angebote: von Vor-Ort-
+Beratungen über Sicherheitsbetrachtungen bis hin zu Zertifizierungen. 
+Alle Angebote sind für die kommunalen 
+Stellen kostenfrei und unverbindlich und werden es auch 
+weiterhin bleiben. 
+

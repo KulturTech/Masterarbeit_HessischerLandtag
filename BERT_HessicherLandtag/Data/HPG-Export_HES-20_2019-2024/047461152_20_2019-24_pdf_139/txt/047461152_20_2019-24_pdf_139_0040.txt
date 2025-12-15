@@ -1,0 +1,170 @@
+11504 
+Hessischer Landtag · 20. Wahlperiode · 139. Sitzung · 18. Juli 2023 
+
+
+Ein nettes Frontend, also ein Formular zum Ausfüllen, das 
+am Ende als PDF im E-Mail-Eingang landet, ausgedruckt 
+wird und zu den Akten gelegt oder in einer Drittsoftware 
+abgetippt wird, ist nicht durchgängig digital und trägt auch 
+nicht zur Entbürokratisierung bei, liebe Kolleginnen und 
+Kollegen. 
+
+
+(Beifall SPD) 
+
+
+Es braucht Schnittstellen, durchgängige Workflows und 
+eine ganzheitliche Betrachtung im Backend. Die von uns 
+eingebrachte Regelung der E-Akte und der Evaluierung der 
+Verwaltungsabläufe können laut Bitkom die erforderliche 
+Backend-Digitalisierung beschleunigen. 
+
+
+OZG und E-Government müssen zusammen und ganzheitlich 
+gedacht werden. Diese Kompetenz fehlt im Digitalisierungsministerium 
+allerdings gänzlich. 
+
+
+(Beifall SPD) 
+
+
+Vizepräsident Dr. Ulrich Wilken: 
+
+
+Kommen Sie bitte zum Schluss, Herr Schneider. 
+
+
+Florian Schneider (SPD): 
+
+
+Ich komme zum Schluss.  Mit unserem eGovernmentBooster-
+Gesetz gehen wir einen echten Schritt nach vorne 
+und pushen die Verwaltungsdigitalisierung in die aktuelle 
+Zeit. Wir freuen uns auf tolle Debatten im Ausschuss und 
+auf die Zustimmung im späteren Verlauf.  Vielen Dank. 
+
+
+(Beifall SPD) 
+
+
+Vizepräsident Dr. Ulrich Wilken: 
+
+
+Danke, Herr Schneider.  Für die Fraktion DIE LINKE hat 
+sich Herr Felstehausen zu Wort gemeldet. 
+
+
+Torsten Felstehausen (DIE LINKE): 
+
+
+Sehr geehrter Herr Präsident, meine Damen und Herren! 
+Ich glaube, das, was die SPD heute eingebracht hat, ist tatsächlich 
+etwas, was wir hier brauchen, was wir diskutieren 
+müssen und wo wir schauen müssen: Wie bekommen wir 
+Digitalisierung nach vorne? 
+
+
+(Tobias Eckert (SPD): Ist ein gutes Gesetz! Gute 
+Rede!) 
+
+
+Denn, obwohl es immer wieder die tollsten Anträge der regierungstragenden 
+Fraktionen gibt, die sich selbst beweihräuchern, 
+müssen wir, wenn wir einmal nüchtern auf die 
+Situation der Digitalisierung in Deutschland schauen, doch 
+feststellen: Deutschland liegt ziemlich weit hinten. 
+
+
+(Vereinzelter Beifall Freie Demokraten) 
+
+
+Genauer gesagt, liegt Deutschland im europäischen Vergleich 
+auf Platz 20. Das ist die Ausgangsposition, und 
+da ist auch Hessen innerhalb der Bundesländer keine wirkliche 
+Ausnahme. 575 definierte Onlineangebote sollte es 
+eigentlich geben. Bundesweit sind tatsächlich derzeit 127 
+verfügbar. Das sind gerade einmal 22 % dessen, was bis 
+Ende 2022 am Start sein sollte. In Hessen, muss man sagen, 
+ist es etwas besser. Es sind immerhin 205 Onlineangebote, 
+die die Bürgerinnen und Bürger in den Verwaltungen 
+herunterladen und bearbeiten können. Aber immer noch 
+
+
+weit gefehlt: Es sind eben weniger als die Hälfte der Angebote, 
+die eigentlich da sein sollten. 
+
+
+Wenn ich mir jetzt den Gesetzentwurf im Einzelnen anschaue, 
+der hier von der SPD vorgelegt worden ist, dann, 
+muss ich fast schon sagen, sind es doch schlicht und ergreifend 
+Selbstverständlichkeiten. Da wird gefordert, dass in 
+Anträgen dort, wo es nicht notwendig ist, zukünftig kein 
+Unterschriftsfeld mehr eingefügt werden soll. Ja, ich bitte 
+Sie, worüber muss man eigentlich dort reden, wenn daran 
+die Digitalisierung in Deutschland tatsächlich zu scheitern 
+droht? Dann, glaube ich, müssen wir uns ganz andere Gedanken 
+machen. 
+
+
+Wenn die SPD beantragt, dass zukünftig Daten aus Nutzerkonten 
+auch im Backoffice verarbeitet werden dürfen, um 
+sie dann wieder zum Nutzerkonto hinzuzufügen: Meine 
+Damen und Herren, an einer solchen Forderung darf die 
+Digitalisierung in Deutschland und in Hessen doch nicht 
+scheitern. 
+
+
+Es heißt im Gesetzentwurf zwar, dass die Datenverarbeitung 
+innerhalb der Nutzerkonten stattfinden soll; aber jeder, 
+der ein bisschen Ahnung von Digitalisierung hat und 
+davon, wie ein solcher Workflow funktioniert, weiß doch, 
+dass das nicht funktionieren kann. Nein, die Daten, die ich 
+im Frontend eingebe, werden außerhalb des Nutzerkontos 
+bearbeitet und dann wieder zurückgespielt. Insofern ist das, 
+was die SPD in ihrem Antrag fordert, wirklich nicht mehr 
+als selbstverständlich. 
+
+
+Ich komme zu einem weiteren Punkt, den die SPD in ihrem 
+Gesetzentwurf drin hat, wo ich auch gar nicht wüsste, 
+was meine Nachrednerinnen und Nachredner an der Stelle 
+eigentlich auszusetzen hätten. Die SPD fordert  vollkommen 
+selbstverständlich  Regelungen für Fortbildung; 
+denn nur mit Aus-und Fortbildung der Kolleginnen und 
+Kollegen, die im öffentlichen Dienst mit diesen Portalen 
+arbeiten, erreichen wir eine Nutzerakzeptanz. Die Voraussetzung 
+dafür ist, dass es im Bereich der Digitalisierung 
+überhaupt vorangehen kann. Es ist wirklich peinlich  das 
+muss ich sagen , dass man das ins Stammbuch der regierungstragenden 
+Fraktionen schreiben muss. 
+
+
+(Vereinzelter Beifall DIE LINKE  Jürgen Frömmrich 
+(BÜNDNIS 90/DIE GRÜNEN): Vereinzelter 
+Beifall!) 
+
+
+Last, but not least: Das, was hier als Gesetzentwurf eingebracht 
+worden ist, ist eine sehr gute Diskussionsgrundlage. 
+Uns als LINKEN fallen da noch drei, vier Punkte ein, die 
+auch noch in ein solches Gesetz könnten; denn das, was 
+wir bisher als E-Government erleben  nicht nur wir, sondern 
+vor allem die Bürgerinnen und Bürger in Hessen , ist 
+weit entfernt von dem, was uns andere Bundesländer, und 
+vor allem noch weiter entfernt von dem, was uns andere 
+Länder innerhalb von Europa vormachen. 
+
+
+Wenn man sich einmal an den nordischen Ländern orientiert, 
+wenn man einmal ins Baltikum schaut: Das ist 
+das, was man sich als Digitalisierung tatsächlich vorstellen 
+könnte. Die CDU und ihre Ministerin verfangen sich hier 
+wirklich im Klein-Klein. Insofern ist ein Booster an der 
+Stelle notwendig, wenn wir die Verwaltung wirklich ins 
+
+
+21. Jahrhundert katapultieren sollten und wollten. Insofern 
+ist dies ein guter Anlass, darüber zu diskutieren.  Vielen 
+Dank. 
+(Beifall DIE LINKE) 
+

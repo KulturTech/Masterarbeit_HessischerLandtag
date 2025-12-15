@@ -1,0 +1,168 @@
+Hessischer Landtag · 20. Wahlperiode · 127. Sitzung · 14. Februar 2023 
+10375 
+
+
+Präsidentin Astrid Wallmann: 
+
+
+Vielen Dank.  Es gibt eine erneute Nachfrage von Herrn 
+Schalauske. Sie haben das Wort. 
+
+
+Jan Schalauske (DIE LINKE): 
+
+
+Vielen Dank für die Antwort.  Es ist klar, dass es jetzt 
+noch nicht stattfindet. Aber Sie können  so habe ich Ihre 
+Antwort interpretiert  noch über keine Ergebnisse der 
+teilweisen Überprüfung berichten, Stand jetzt? Dann würde 
+ich gerne zum Abschluss wissen, bis wann Sie denn mit 
+Ergebnissen der teilweisen Überprüfung rechnen und ob 
+Sie etwas dazu sagen können, welche Maßnahmen in Abhängigkeit 
+vom Ergebnis der Prüfung dann denkbar wären. 
+
+
+Präsidentin Astrid Wallmann: 
+
+
+Vielen Dank.  Herr Staatsminister, Sie haben das Wort. 
+
+
+Tarek Al-Wazir, Minister für Wirtschaft, Energie, Verkehr 
+und Wohnen: 
+
+
+Dazu müsste man ja das Ergebnis haben, bevor man über 
+die Maßnahmen berichten kann, die dann notwendig werden 
+oder eben auch nicht. Bis wann muss das sozusagen 
+sein? Logischerweise rechtzeitig vor Inbetriebnahme. 
+
+
+Präsidentin Astrid Wallmann: 
+
+
+Vielen Dank.  Es gibt keine weiteren Nachfragen. 
+
+
+Dann rufe ich Frage 829 
+auf und darf Herrn Abg. Kaffenberger 
+von der SPD-Fraktion das Wort geben. 
+
+
+Bijan Kaffenberger (SPD): 
+
+
+Ich frage die Landesregierung: 
+
+
+Hat sie vor Einführung des Gotham-Systems der Firma 
+Palantir bei der hessischen Polizei eine Überprüfung des 
+Quellcodes auf mögliche Sicherheitslücken durch eine neutrale 
+externe Stelle durchführen lassen? 
+
+
+Präsidentin Astrid Wallmann: 
+
+
+Vielen Dank.  Herr Minister Beuth, Sie haben das Wort. 
+
+
+Peter Beuth, Minister des Innern und für Sport: 
+
+
+Sehr geehrter Herr Abg. Kaffenberger, die hessische Polizei 
+hat mit Einführung der Analyseplattform ein umfassendes 
+Maßnahmenpaket zur Gewährleistung der Sicherheit 
+der Daten und der IT-Systeme umgesetzt. Eine Quellcodeüberprüfung 
+als Einzelmaßnahme wurde nicht durchgeführt. 
+Durch eine Vielzahl an technischen Sicherungsmechanismen, 
+welche ineinandergreifen und sich gegenseitig 
+komplementieren, werden seit Anbeginn und im Rahmen 
+eines fortlaufenden Prozesses die Sicherheitsinteressen des 
+Landes gewahrt. 
+
+
+Die Daten befinden sich auf Servern der hessischen Polizei, 
+welche in landeseigenen Hochsicherheitsrechenzentren 
+betrieben werden und für die strikte Zutritts- und Zugriffsregelungen 
+bestehen. Die Datensicherheit begründet sich 
+hierbei auf vertraglichen Regelungen, welche der Polizei 
+
+
+schadstofffreie Produkte garantieren und keinesfalls den 
+Sicherheitsinteressen des Landes Hessen zuwiderlaufen 
+dürfen. Darüber hinaus sind umfassende organisatorische 
+Maßnahmen, beispielsweise das Monitoring der Instanz 
+durch IT-Spezialisten der hessischen Polizei umgesetzt. 
+Jegliche Zugriffe auf polizeiliche Anwendungen werden 
+systemimmanent protokolliert und revisionssicher gespeichert. 
+
+
+Alle Prozesse wurden im Zuge einer umfangreichen Sicherheitsanalyse 
+nach dem BSI-Standard durch einen externen 
+Spezialisten geprüft. Dieser bestätigte einen sehr 
+guten Zustand der Sicherheit der IT-Systeme.  So weit 
+meine Antwort. 
+
+
+Präsidentin Astrid Wallmann: 
+
+
+Vielen Dank.  Es gibt eine Nachfrage. Herr Kaffenberger, 
+Sie haben das Wort. 
+
+
+Bijan Kaffenberger (SPD): 
+
+
+Vielen Dank, Herr Minister, für Ihre Ausführungen.  Wie 
+bewerten Sie Ihre Ausführungen vor dem Hintergrund, 
+dass die Kolleginnen und Kollegen in Bayern vor der Einführung 
+dieses Systems jetzt aktuell eine Prüfung durchführen, 
+die immer noch andauert? Offensichtlich gibt es 
+eine Notwendigkeit dafür. 
+
+
+Präsidentin Astrid Wallmann: 
+
+
+Vielen Dank.  Herr Staatsminister, Sie haben das Wort. 
+
+
+Peter Beuth, Minister des Innern und für Sport: 
+
+
+Zunächst einmal will ich meine Freude darüber zum Ausdruck 
+bringen, dass die Kollegen in Bayern ebenfalls ein 
+solches Datenanalysetool für die Bundesländer insgesamt 
+angeschafft haben, dafür eine umfangreiche Ausschreibung 
+gemacht haben und sich das bestätigt hat, was wir hier 
+in Hessen auch schon festgestellt haben, nämlich, dass 
+sich dieses System für das Ziel, das mit der Anwendung 
+verbunden wird, ganz offensichtlich bewährt bzw. bei einer 
+Ausschreibung auch entsprechend durchgesetzt hat. 
+
+
+Dass über die Vorgaben hinaus, die wir bei uns in unseren 
+Sicherungskonzepten haben, die Kollegen in Bayern jetzt 
+für alle anderen Bundesländer noch einmal zusätzlich eine 
+solche Prüfung durchgeführt haben, ist eher zu begrüßen, 
+als dass ich das zu kritisieren hätte. Ich freue mich, wenn 
+die hessische Polizei von den Ergebnissen, die dort hervorgebracht 
+werden, am Ende auch profitieren könnte. 
+
+
+Präsidentin Astrid Wallmann: 
+
+
+Vielen Dank.  Es gibt eine erneute Nachfrage von Herrn 
+Kaffenberger. Sie haben das Wort. 
+
+
+Bijan Kaffenberger (SPD): 
+
+
+Vielen Dank, Herr Staatsminister, für Ihre Ausführungen, 
+denen ich entnehme, dass aus dieser Prüfung ein zusätzlicher 
+Gewinn an Sicherheit der verwendeten Software resultiert. 
+

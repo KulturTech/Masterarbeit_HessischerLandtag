@@ -1,0 +1,165 @@
+Hessischer Landtag · 20. Wahlperiode · 132. Sitzung · 23. März 2023 
+10899 
+
+
+Vizepräsidentin Heike Hofmann: 
+
+
+Für die CDU-Fraktion bitte ich nun Herrn Flatten ans Rednerpult. 
+
+
+Marvin Flatten (CDU): 
+
+
+Frau Präsidentin, meine sehr verehrten Kolleginnen und 
+Kollegen! Open Data ist eine Idee, die uns in die Zukunft 
+führt. Die Verfügbarkeit von offenen Daten ist zunehmend 
+ein ausschlaggebender Wirtschafts- und Infrastrukturfaktor. 
+Daten, die wir heute in öffentlichen Verwaltungen erheben, 
+dienen nicht mehr ausschließlich der Erfüllung eigener 
+Aufgaben, sondern können für die unterschiedlichsten 
+Zwecke genutzt werden, insbesondere im Bereich unserer 
+innovativen Gründerszene und im Bereich der Forschung. 
+
+
+Landes- und Bundesgesetze, die einen rechtlichen Rahmen 
+für die offene Bereitstellung von Verwaltungsdaten vorgeben, 
+existieren bereits. Unser Gesetzentwurf hat diese 
+Vorlage für Hessen optimiert. Die Behörden des Landes 
+sollen ihre Daten bereitstellen, während die kommunalen 
+Behörden es können. Hinter dieser Vorgabe stehen wir 
+nach wie vor. 
+
+
+(Beifall CDU und BÜNDNIS 90/DIE GRÜNEN) 
+
+
+Unsere Regelung muss die kommunale Selbstverwaltung 
+achten. Wir können die Arbeit der Kommunen nicht kleinteilig 
+in ihrer Organisationshoheit einschränken, und auch 
+die Kapazität der Kommunen muss hier realistisch eingeschätzt 
+werden. Viele Städte und Gemeinden kämpfen bereits 
+heute damit, die Grundaufgaben der Daseinsfürsorge 
+zu erfüllen. Mehr können wir unserer kommunalen Familie 
+an der Stelle nicht zumuten. Das Gesetz ist daher ein 
+Angebot für die Kommunen. Sofern diese ihre Daten bereitstellen 
+können und wollen, partizipieren sie an dem 
+Angebot des Metadatenportals. 
+
+
+Auch die personellen Kapazitäten der Behörden sind begrenzt. 
+Daher folgen wir mit der Festlegung des zeitlichen 
+Rahmens einer realistischen und seriösen Planung. Die 
+Fristen sind das Ergebnis einer Analyse der vorhandenen 
+Daten und der Umsetzungsmöglichkeiten in der hessischen 
+Landesverwaltung. 
+
+
+Daten sind ein sensibles Gut, mit dem wir verantwortungsbewusst 
+und sorgsam umgehen müssen. Daher sind alle 
+personenbezogenen Daten nicht erfasst. Auch Daten der 
+internen Verwaltungssteuerung und Daten, die aus einem 
+berechtigten übergeordneten Interesse nicht zur offenen 
+Bereitstellung geeignet sind, werden nicht erfasst. 
+
+
+Weiterhin sind Daten von bestimmten Behörden aus bestimmten 
+Arbeitsbereichen aus diesem Grund aus dem Anwendungsbereich 
+des Gesetzes ausgeklammert. Diese Ausnahmen 
+sind begründet und schränken den Wirkungsradius 
+des Gesetzes nicht ein. Letztendlich ist entscheidend, dass 
+die für die Gesellschaft und Wirtschaft relevanten Daten 
+bereitgestellt werden. Dies sind vor allem Rohdaten aus 
+den Bereichen Geologie, Wetter, Umwelt, Mobilität und 
+Wirtschaft. 
+
+
+Mit unserem Änderungsantrag folgen wir zwei redaktionellen 
+Hinweisen unseres Hessischen Beauftragten für Datenschutz 
+und Informationsfreiheit, welche wir als sinnvoll 
+erachten. Auch Fragen des Datenschutzes und der rechtlichen 
+Rahmenbedingungen der EU waren noch offen und 
+wurden mit diesem Gesetz geprüft und ausgeräumt. 
+
+
+Die Regelungen dieses Gesetzes sind datenschutzrechtlich 
+unbedenklich. Die Gesetzesvorlage berücksichtigt die Bedürfnisse 
+der verschiedenen Behörden und insbesondere 
+der hessischen Kommunen, die ein wesentlicher Dreh- und 
+Angelpunkt des Gesetzesvorhabens sind. Diese von Beginn 
+an einzubeziehen und ein Gesetz auf den Weg zu bringen, 
+welches ihnen Handlungsspielraum gibt und uns gleichzeitig 
+mit Open Data in die Zukunft führt, ist uns mit dieser 
+Vorlage gelungen.  Vielen Dank für Ihre Aufmerksamkeit. 
+
+
+(Lebhafter Beifall CDU und BÜNDNIS 90/DIEGRÜNEN) 
+
+
+Vizepräsidentin Heike Hofmann: 
+
+
+Meine Damen und Herren, man hat es vielleicht schon an 
+dem Applaus der Kollegen gehört. Das war die erste Rede 
+des Kollegen Flatten. Herzlichen Glückwunsch dazu. 
+
+
+(Allgemeiner Beifall) 
+
+
+Für die Landesregierung erteile ich nun Frau Prof. Sinemus 
+das Wort. 
+
+
+Prof. Dr. Kristina Sinemus, Ministerin für DigitaleStrategie und Entwicklung: 
+
+
+Sehr geehrte Frau Präsidentin, meine Damen und Herren! 
+Wir tun es und bringen in zweiter Lesung das Open-Data-
+Gesetz ein. Bereits im Januar haben wir über die vorgelegte 
+Gesetzesinitiative und die Bedeutung von Rohdaten 
+des öffentlichen Sektors debattiert. Bereiche wie Geologie, 
+Umwelt, Wetter, Energie, Statistik, Mobilität und Wirtschaft 
+zeigen praktische Anwendungsfälle auf. Es besteht 
+kein Mangel an zahlreichen Beispielen, wie In- und Ausland 
+zeigen. 
+
+
+Ganz gleich, ob es sich dabei um offene Geodaten, um 
+Echtzeiten des öffentlichen Personennahverkehrs oder um 
+andere Anwendungsfälle handelt, offene Daten sind eine 
+wertvolle Ressource für Gesellschaft und Unternehmen 
+mit einem hohen Innovations- und vor allen Dingen Wertschöpfungspotenzial. 
+
+
+Auf europäischer Ebene wurde dieses Potenzial bereits 
+erkannt. Die EU-Kommission rechnet mit einem erheblichen 
+Anstieg insbesondere der Neugründungen infolge von 
+Open Data. Durch das vorliegende Gesetz wird dieser 
+Ansatz nun auch in hessisches Landesrecht transportiert. 
+Kernanliegen ist es dabei, dass die Behörden des Landes 
+ihre Rohdaten bereitstellen sollen, aber auch die Kommunen 
+die Möglichkeit haben, dies mit Unterstützung des 
+Landes zu tun. 
+
+
+Das Gesetz definiert verbindliche Standards für einen barrierefreien 
+und digitalen Abruf von Daten mit dem Ergebnis, 
+dass dies zu einer offenen Bereitstellung all derjenigen 
+Daten führt, an deren Verfügbarkeit ein berechtigtes öffentliches 
+und wirtschaftliches Interesse besteht. 
+
+
+(Beifall CDU und BÜNDNIS 90/DIE GRÜNEN) 
+
+
+Zwei weitere Aspekte wurden bereits genannt. Mithilfe 
+eines Metadatenportals werden die Daten leicht auffindbar 
+sein. Eine zentrale Stelle wird die Dienststellen bei der 
+anspruchsvollen Aufgabe, ihre Rohdaten bereitzustellen, 
+mit Rat und Tat unterstützen. 
+
+
+Das Gesetz war Gegenstand einer Anhörung, in deren Verlauf 
+elf Stellungnahmen eingegangen sind. Für die erkennt
+

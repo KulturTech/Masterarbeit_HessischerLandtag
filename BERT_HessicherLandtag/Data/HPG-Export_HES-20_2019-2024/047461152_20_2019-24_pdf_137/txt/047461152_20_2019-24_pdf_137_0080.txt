@@ -1,0 +1,176 @@
+11330 
+Hessischer Landtag · 20. Wahlperiode · 137. Sitzung · 28. Juni 2023 
+
+
+Das·HITSiG statuiert für hessische Gemeinden und 
+Gemeindeverbände keine Verpflichtungen, die über 
+die bereits bestehenden Verpflichtungen zur IT-Sicherheit 
+hinausgehen. 
+
+
+Hintergrund ist natürlich die kommunale Selbstverwaltung, 
+die völlig zu Recht ein hohes Gut und ein wichtiger Grundsatz 
+unserer staatlichen Ordnung ist. Aber, meine Damen 
+und Herren, ist es nicht reichlich sinnlos, wenn viele andere 
+Gesetze und konkretes Regierungshandeln die Kommune 
+letztlich in ihrer Entscheidungsfreiheit, sowohl de jure 
+als auch de facto, derart einschränken, dass diese kommunale 
+Selbstverwaltung kaum noch etwas wert ist? 
+
+
+Ich gebe Ihnen ein Beispiel, das jeder verstehen wird. 
+Die Bundesregierung bricht mit jedem Tag der offenen 
+Grenzen Art. 16a des Grundgesetzes und § 18 Abs. 2 des 
+Asylgesetzes. Die Ergebnisse sind bekannt. Die verzweifelten 
+Brandbriefe der Landkreise und Kommunen sind es 
+ebenfalls. Aber die Landesregierung interessiert sich nur 
+insoweit dafür, als es für den Wahlkampf verwertbar ist. 
+
+
+(Beifall AfD) 
+
+
+Der institutionelle Rechtsbruch an Deutschlands Grenzen 
+hat Sie nämlich nicht interessiert, solange es CSU-und 
+CDU-Innenminister im Bund gab. Jetzt, passend zum 
+Wahlkampf und zur Spitzenkandidatin der SPD, entdeckt 
+die CDU das Thema. 
+
+
+(Marius Weiß (SPD): Zum Thema!) 
+
+
+ Ich spreche zum Thema der Überlastung der Kommunen; 
+und wie ich das mache, ist allein meine Entscheidung. 
+(Beifall AfD  Marius Weiß (SPD): Kommen Sie 
+doch einmal zum Thema!) 
+
+
+Nun soll ausgerechnet beim Thema der IT-Sicherheit und 
+angesichts all der hoch problematischen Auswirkungen, 
+wenn sie nicht hinreichend gut umgesetzt werden kann, 
+das Hohelied der kommunalen Selbstverwaltung gesungen 
+werden; und man wagt es nicht, den Kommunen mehr 
+Vorgaben zu machen. Meine Damen und Herren, ist das 
+wirklich Ihr Ernst? Meine Prognose lautet: Die normative 
+Kraft des Faktischen wird dafür sorgen, dass wir dort dringend 
+grundsätzliche Veränderungen brauchen. 
+
+
+(Beifall AfD) 
+
+
+Aber es wäre eine grobe Unsportlichkeit, so zu tun, als 
+würde den Kommunen gar keine Unterstützung zuteilwerden. 
+Nein, ich zitiere: 
+
+
+Für Kommunen und sonstige Stellen kann das Zentrum 
+für Informationstechnik im Wege der Auftragsverarbeitung 
+entsprechende Dienstleistungen 
+
+
+ jetzt kommt es  
+
+
+(je nach Kapazitäten) erbringen. 
+
+
+Uns ist das zu wenig. Wie eine Lösung tatsächlich aussehen 
+könnte, können wir aufgrund der Zeit nicht skizzieren. 
+Aber wie es nicht geht, zeigt uns die SPD mit ihrem Änderungsantrag. 
+Dort sollen nämlich die Kommunen im neuen 
+§ 15 zur Erstellung einer Informationssicherheitsleitlinie 
+verpflichtet werden. 
+
+
+Meine Damen und Herren, ganz grundsätzlich: Sicherheit 
+ist immer und überall ein Prozess  kein Produkt, kein 
+Zustand, sondern ein Prozess. Dieser braucht einen konzeptionellen 
+Rahmen. Insofern ist es inhaltlich richtig, was 
+
+
+die SPD fordert. Aber diese Verpflichtung der Kommunen 
+ausgerechnet in einem Gesetzentwurf unterzubringen, der 
+gemäß § 1 ganz explizit an die Behörden und  Stellen 
+des Landes gerichtet ist, das ist aus unserer Sicht der 
+falsche Weg. 
+
+
+(Beifall AfD) 
+
+
+Damit komme ich zum Schluss. Den Änderungsantrag der 
+SPD lehnen wir daher ab. Da das Gesetz in Gänze aber 
+gute Elemente enthält und in vielen Punkten Fortschritte 
+bietet, werden wir uns dem nicht entgegenstellen und uns 
+enthalten.  Vielen Dank. 
+
+
+(Beifall AfD) 
+
+
+Vizepräsidentin Heike Hofmann: 
+
+
+Für die CDU hat Herr Steinraths nun das Wort. 
+
+
+Frank Steinraths (CDU): 
+
+
+Sehr geehrte Frau Präsidentin, sehr geehrte Damen und 
+Herren! In einer zunehmend digitalisierten Welt sind Cyberangriffe 
+zu einer allgegenwärtigen Bedrohung geworden. 
+Diese Bedrohung macht auch vor Deutschland und 
+Hessen nicht halt. Immer öfter werden Unternehmen, Organisationen, 
+aber auch die öffentliche Verwaltung Opfer 
+von Cyberangriffen. 
+
+
+Der aktuelle Bericht des Bundesamtes für Sicherheit in 
+der Informationstechnik, BSI, zur Lage der IT-Sicherheit 
+in Deutschland bewertet diese Bedrohung als so hoch wie 
+noch nie. Seit dem letzten Jahr hat das BSI sogar eine erhöhte 
+Bedrohungslage für Deutschland im Zusammenhang 
+mit dem Krieg in der Ukraine festgestellt, was auf eine 
+bereits angespannte Gesamtbedrohungslage trifft. 
+
+
+Meine Damen und Herren, die Bedrohung durch Cyberkriminalität 
+ist sehr real, und die Auswirkungen können 
+verheerend sein. Dies betrifft staatliche Institutionen, Unternehmen 
+und auch Einzelpersonen, da Cybersicherheit 
+letztendlich uns alle betrifft. Egal, ob es um Onlinebanking, 
+E-Mails oder Social Media geht, es geht immer um 
+dieselben sensiblen Daten und Informationen, die gestohlen 
+werden können. 
+
+
+Aus diesem Grunde wollen wir unsere Maßnahmen weiter 
+verbessern. Mit Hessen3C haben wir in Hessen bereits eine 
+zentrale Einrichtung geschaffen, die starke Cyberexpertise 
+bündelt und alle öffentlichen Stellen unterstützt. Hessen 
+hat bereits vor vielen Jahren erkannt, wie essenziell die 
+Verstetigung der Cybersicherheit in einer digitalen Gesellschaft 
+ist. Die hessische Cybersicherheitsarchitektur ist bereits 
+jetzt auf einem sehr hohen Stand und macht unser 
+Land zu einem Vorreiter in diesem wichtigen Bereich, was 
+allerdings nicht heißt, dass wir stehen bleiben. 
+
+
+(Vereinzelter Beifall CDU) 
+
+
+Dieses Engagement möchten wir nun mit dem Hessischen 
+IT-Sicherheitsgesetz weiter ausbauen. Das HITSiG schafft 
+die gesetzliche Grundlage dafür, dass Hessen3C und der 
+CISO im vollen Umfang einsatzfähig sind und Datenverarbeitung 
+im Bereich Cyber- und IT-Sicherheit durchführen 
+können. 
+
+
+Insbesondere im Hinblick auf die ressortübergreifende Koordination 
+und Anforderungsbefugnisse im Fall von IT-
+Krisen ist dies sehr sinnvoll. Der Gesetzentwurf verleiht 
+
