@@ -1,0 +1,168 @@
+4204 
+Hessischer Landtag · 20. Wahlperiode · 55. Sitzung · 1. Oktober 2020 
+
+
+(Zuruf Freie Demokraten: Aha!) 
+
+
+d. h. nutzbar für Tablets und Smartphones. Im Jahr 2020 ist 
+das wirklich ein Schritt, der hier gegangen wird. 
+(Heiterkeit und Beifall Freie Demokraten) 
+
+
+Es wurde auch ein Zugriff auf die wachsende Zahl von 
+Ressourcen in Hessen, Deutschland und Europa angekündigt. 
+
+
+(Andreas Lichert (AfD) pfeift.) 
+
+
+Hoffentlich verbirgt sich dahinter ein umfassendes Geodatenkonzept, 
+wie in unserem Antrag gefordert. Es ist 2020. 
+In diesem Sinne: Herr Minister, übernehmen Sie. 
+
+
+(Beifall Freie Demokraten) 
+
+
+Vizepräsidentin Heike Hofmann: 
+
+
+Bevor der Minister übernimmt, darf ich nun Herrn Lichert 
+von der AfD ans Rednerpult bitten. 
+
+
+Andreas Lichert (AfD): 
+
+
+Danke sehr, Frau Präsidentin.  Es liegt in der Natur der 
+Sache, dass wir beim Thema Geodaten nicht annähernd die 
+Emotionalität der letzten Debatte erreichen werden. Das ist 
+natürlich auch gut so. 
+
+
+Aber Geodaten sind ein durchaus spannendes Thema. Ich 
+meine das tatsächlich völlig ironiefrei; denn für nicht Eingeweihte 
+ist es tatsächlich regelmäßig höchst verblüffend, 
+mit welcher Vielfalt an Datenformaten, Referenzierungsverfahren 
+und Modellen der Erde man es zu tun bekommen 
+kann, sobald man sich mit Geodaten auseinandersetzt. 
+
+
+Als ich vor 17 Jahren mein Unternehmen gegründet habe, 
+habe ich genau das getan. Ich habe meinen Zeh ins Wasser 
+der Geodaten gehalten; denn mein erstes Produkt war ein 
+GPS-basiertes Fuhrparkcontrollingsystem. Das heißt, damals 
+ging es natürlich auch um die Erfassung, Verarbeitung, 
+Auswertung und Visualisierung von Geodaten. 
+
+
+Heute sind wir natürlich ein bisschen weiter. Was auch mit 
+den Themen Open Data usw. referenziert, ist nicht nur, 
+dass dadurch Geschäftsmodelle ermöglicht werden, sondern 
+vor allen Dingen, dass es eine ganz große Vielfalt an 
+Open-Source-Initiativen geben kann. Das heißt, dass Leute 
+bereit sind, sehr viel Zeit und Energie dafür zu investieren, 
+ein frei verfügbares, also gerade eben nicht kommerzielles, 
+Produkt zu erstellen. Auch diese Initiativen sind der Unterstützung 
+durch die Politik absolut wert. 
+
+
+(Beifall AfD) 
+
+
+ Danke schön.  Wie gesagt, ich kann hierbei aus eigener 
+Erfahrung schöpfen. Das ist auch hilfreich, wenn man sich 
+die Grundlagen für weitere datengetriebene Geschäftsmodelle 
+überlegt. 
+Die Rohdaten sind nämlich notwendig, aber sie sind nicht 
+hinreichend. Ich will hier jetzt nicht die technischen Aspekte 
+überstrapazieren, aber im Grunde genommen sind 
+diese Rohdaten bestenfalls Halbzeug. Es bedarf eigentlich 
+fast immer eines Intermediärs, nennen wir ihn den Daten-
+intermediär, der diese Rohdaten so aufbereitet, dass sie 
+überhaupt für die Vielzahl der Nutzer in irgendeinem sinnvollen 
+Zusammenhang anwendbar sind. 
+
+
+Ich möchte ein Beispiel geben, das mit Sicherheit viele 
+hier kennen, und zwar statista.com. Soweit ich weiß, produziert 
+Statista selbst gar keine eigenen Daten. Alle Rohdaten 
+kommen aus anderen Quellen und sind in der Regel 
+öffentlich zugänglich. Die wesentliche Leistung von Statista 
+besteht darin, eine Plattform zu bieten, die zum einen 
+den Zugriff auf diese Daten erlaubt und es zum anderen relativ 
+unbedarften Nutzern ermöglicht, durchaus ansehnliche 
+Diagramme und Tabellen zu zaubern. 
+
+
+Aber hier geht es darum, öffentliche Daten öffentlich verfügbar 
+zu machen. Der Kern des Antrags besteht vor allem 
+in der kostenlosen Verfügbarmachung von Geodaten. An 
+der Stelle wäre es durchaus interessant gewesen, vielleicht 
+im Vorfeld des Antrags zu erheben, wie viel  nennen wir 
+es mal  Geodatenumsatz überhaupt zusammenkommt. Ich 
+gehe davon aus, dass es sich im Grunde genommen kaum 
+lohnt und dass das bestenfalls ein kleiner Beifang ist und 
+mit Sicherheit keinen nennenswerten Beitrag zur Deckung 
+der Kosten leistet. 
+
+
+(Beifall AfD) 
+
+
+Ebenfalls wünschenswert wäre ein kleiner Rekurs auf den 
+herrschenden gesetzlichen Rahmen gewesen. Denn immerhin 
+seit 2009 gibt es ein Geodatenzugangsgesetz des Bundes. 
+Auch einige Länder haben da nachgezogen. Wir haben 
+in Hessen immerhin das Hessische Vermessungs- und Geoinformationsgesetz, 
+das mit Sicherheit ganz interessante 
+Dinge enthält. Aber darauf müssen wir jetzt nicht wirklich 
+eingehen. 
+
+
+Grundsätzlich sind wir der Meinung, dass dieser Antrag 
+unterstützenswert ist. Wir werden unsere Unterstützung 
+auch zum Ausdruck bringen. Aber unseres Erachtens kann 
+das nur ein Anfang sein. 
+
+
+Meine Damen und Herren, Sie alle haben das Stichwort 
+Onlinezugangsgesetz schon einmal gehört. Die Digitalministerin 
+hat uns leider verlassen. Sie saß eben noch auf der 
+Tribüne. Das ist sehr schade; denn ich bin, ehrlich gesagt, 
+nicht überzeugt, dass die Digitalministerin, Frau Prof. Sinemus, 
+in Sachen Onlinezugangsgesetz die richtigen Prioritäten 
+setzt. 
+
+
+Ich denke an den Berichtsantrag der FDP zum Thema IT-
+Personal in der Landesverwaltung. Da das in öffentlicher 
+Sitzung war, darf ich berichten. Die Frau Ministerin war 
+nicht in der Lage, auch nur irgendeine grob qualitative 
+Aussage zum Umfang des Einsatzes externen IT-Personals 
+zu treffen. Meine Damen und Herren, es gehört nun nicht 
+wirklich viel Fantasie dazu, sich vorzustellen, dass der Bedarf 
+der Landesverwaltung bei der Umsetzung des Onlinezugangsgesetzes 
+immens sein muss. Dass die Frau Ministerin 
+nicht in der Lage ist, wenigstens eine grobe Einschätzung 
+zu geben, zeigt mir, dass sie dem Thema offenbar 
+nicht die hinreichende Bedeutung beimisst. 
+
+
+(Beifall AfD) 
+
+
+Das ist außerordentlich schade; ich formuliere das vorsichtig. 
+Denn die Umsetzung des Onlinezugangsgesetzes bietet 
+immense Chancen. 
+
+
+Ich gehe davon aus  da die Ministerin diese Aussage nicht 
+treffen konnte, weiß ich es nicht , dass zurzeit Heerscharen 
+von Beratern unterwegs sind, die wahrscheinlich jede 
+Menge UML-Diagramme zeichnen, sich mit Datenstrukturen 
+befassen etc., um vor allen Dingen eine explizite Beschreibung 
+von Verwaltungsverfahren und bestehenden IT-
+Prozessen zu leisten. Ob das agil und in Sprints erfolgt, ist 
+

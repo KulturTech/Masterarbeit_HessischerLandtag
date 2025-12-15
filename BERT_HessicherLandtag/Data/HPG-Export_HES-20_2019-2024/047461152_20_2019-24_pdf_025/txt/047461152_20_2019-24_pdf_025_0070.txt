@@ -1,0 +1,167 @@
+1898 
+Hessischer Landtag · 20. Wahlperiode · 25. Sitzung · 31. Oktober 2019 
+
+
+Daten und nicht über Echtzeitdaten , ist ein erster Schritt 
+in die richtige Richtung. 
+
+
+(Beifall BÜNDNIS 90/DIE GRÜNEN) 
+
+
+Aber die Verkehrsverbünde sind auch nicht untätig. Ich 
+will ein paar Beispiele nennen. 
+
+
+Da wäre die Interoperable Produkt-Service-Schnittstelle, 
+kurz IPSI. Hier können Verkehrsunternehmen aus ganz 
+Deutschland ihre Tarife untereinander als Handy-Ticket 
+anbieten. Das funktioniert auch schon. Die Menschen brauchen 
+nicht mehr in jedem Verkehrsverbund eine eigene 
+App, die sogenannte Insellösung, sondern sie können in 
+quasi vertrauter Umgebung ihr Handy-Ticket auch am 
+Zielort kaufen. Eine Zusammenarbeit gibt es hier z. B. 
+zwischen den Kölner Verkehrsversbetrieben und unserem 
+hessischen Verkehrsverbund, dem RMV. 
+
+
+Ich weiß, sich im Zielort eine eigene App herunterzuladen, 
+wobei man sich vielleicht noch registrieren muss, ist extrem 
+nervig und zeitraubend. Das macht wahrscheinlich 
+kaum jemand. Deswegen ist IPSI ein sinnvoller Weg. 
+
+
+Ein anderer ist Mobility inside. Ich zitiere die Homepage: 
+
+
+Der gesamte öffentliche Verkehr vereint in einer gemeinsamen 
+Plattform. Ein Ticket, eine Anmeldung, 
+alle Angebote: Mobility inside vereint den gesamten 
+öffentlichen Verkehr in einer intermodalen Plattform, 
+von der Verbraucher und Anbieter nachhaltig 
+profitieren. 
+
+
+Dieses Angebot des Verbands Deutscher Verkehrsunternehmen 
+schafft eine gemeinsame Plattform, die bundesweit 
+eine Vernetzung der unterschiedlichen Tarife, Tickets 
+und Fahrplaninformationen im öffentlichen Nah- und Fernverkehr 
+möglich macht. 
+
+
+Dazu gab es erst gestern in der Süddeutschen Zeitung einen 
+etwas längeren Bericht. Ausdrücklich als Teilnehmer 
+genannt wurden in diesem Bericht die Deutsche Bahn, die 
+Münchner Verkehrsbetriebe und der RMV. Also sind wir 
+damit in Hessen wohl doch nicht so schlecht. 
+
+
+(Beifall BÜNDNIS 90/DIE GRÜNEN) 
+
+
+Mobility inside geht jetzt in eine Testphase. Dafür werden 
+sogar noch Leute gesucht. Also, wenn Sie an der Zukunft 
+mitarbeiten wollen: Handy zücken, sich anmelden. Vielleicht 
+haben Sie Glück und können teilnehmen. 
+
+
+Noch ein Blick in die direkte Nähe: Ein paar Kilometer 
+östlich von hier gibt es das House of Logistics & Mobility. 
+Dort können Expertinnen und Experten aus verschiedenen 
+Bereichen an den Innovationen für den öffentlichen Nahverkehr 
+der Zukunft arbeiten. Seit Anfang 2019 ist es hier 
+erstmalig in Deutschland möglich, unternehmensübergreifend 
+Konzepte und Geschäftsmodelle im Bereich des öffentlichen 
+Nahverkehrs zu entwickeln. 
+
+
+Zu Beginn habe ich bereits den Bund erwähnt. Dort ist 
+man auch nicht untätig. Ich komme noch einmal auf die 
+Richtlinie 2017/1926, die ich erwähnt habe, und auf den 
+Stichtag 1. Dezember 2019 zurück. Hierzu hat das Bundesministerium 
+für Verkehr und digitale Infrastruktur klargemacht, 
+dass es bis Ende des Jahres einen Tätigkeitsbericht 
+haben will, damit wir in diesem Bereich vorankommen und 
+Entwicklungen nicht verschlafen. Gleichzeitig wird vom 
+selben Ministerium geprüft, ob man Verkehrsunternehmen 
+zur Zusammenarbeit für multimodale Apps verpflichten 
+kann. In Finnland ist dies z. B. gesetzlich geregelt. Man 
+
+
+schaut sich beim BMVI gerade ganz genau an, ob dies 
+nicht auch ein Modell für Deutschland wäre. 
+
+
+Kurz zusammengefasst: Aktuell wird auf verschiedenen 
+Ebenen von der EU bis auf die Landesebene an dem Thema 
+Mobility as a Service gearbeitet. Wir brauchen daher 
+kein Open-Data-Gesetz, damit die hessischen Verkehrsverbünde 
+nicht personenbezogene Echtzeitmobilitätsdaten an 
+Mobilitätsplattformen weiterleiten dürfen. 
+
+
+(Beifall BÜNDNIS 90/DIE GRÜNEN und Michael 
+Boddenberg (CDU)) 
+
+
+Ich weiß, bei der antragstellenden Fraktion, der FDP, heißt 
+es: Digitalisierung first, Bedenken second. Aber so etwas 
+kann man halt als Oppositionspartei fordern; als regierungstragende 
+Fraktion muss man sich auch um die Rahmenbedingungen 
+und die Folgen kümmern. Ich sage es 
+ganz klar: Den heute dominierenden Plattformen, über deren 
+Zerschlagung man mittlerweile selbst in den USA 
+ernsthaft und intensiv diskutiert, weitere Daten zur Verfügung 
+zu stellen, ihnen ein weiteres Standbein zu geben, mit 
+dem sie arbeiten können, ist für mich kein Weg, den wir 
+gehen sollten, vor allem, da wir  das habe ich ausgeführt  
+bereits selbst im Begriff sind, Modelle aufzubauen. 
+
+
+(Beifall BÜNDNIS 90/DIE GRÜNEN  Zuruf Dr. 
+Stefan Naas (Freie Demokraten)) 
+
+
+ Wenn man zugehört hat: Mobility inside ist ein deutschlandweites 
+Konzept. 
+Sie erwähnen in Ihrem Antrag, wie gut die Freigabe dieser 
+Daten für IT-Entwickler und Start-ups wäre, und haben es 
+auch in der Rede noch einmal erwähnt. Diese Plattformen, 
+über die wir reden, die Googles und Facebooks dieser 
+Welt, werden von zwei Effekten getragen, einmal vom 
+Netzwerkeffekt und einmal vom Lock-in-Effekt, der die 
+Netzwerke immer stärker macht. Was würde denn passieren, 
+wenn wir die Daten freigäben? Durch diese zwei Effekte 
+stärkten wir nur wieder diese großen Player. Ich sähe 
+dann wirklich kaum Chancen für Start-ups aus Kassel, 
+Frankfurt, Darmstadt usw., sich dort anzuhängen und Geschäftsmodelle 
+zu entwickeln. Ganz im Gegenteil. Es ist ja 
+so, dass unsere Verkehrsverbünde  jetzt erwähne ich auch 
+einmal den anderen, nämlich den Nordhessischen Verkehrsverbund 
+ jetzt schon Schnittstellen auf Anfrage und 
+Prüfung anbieten können. 
+
+
+(Lebhafter Beifall BÜNDNIS 90/DIE GRÜNEN, 
+Michael Boddenberg (CDU) und Torsten Felstehausen 
+(DIE LINKE)  Minister Tarek Al-Wazir: 
+Was haben wir für Nordhessen bei den GRÜNEN! 
+Mein lieber Mann!  Gegenruf Jürgen Frömmrich 
+(BÜNDNIS 90/DIE GRÜNEN  Heiterkeit)) 
+
+
+ Die Herren können das Gespräch gerne   Danke. 
+Ich denke, ich habe deutlich gemacht, aus welchen Gründen 
+wir Ihrem Antrag nicht werden zustimmen können.  
+Ich bedanke mich für Ihre Aufmerksamkeit. 
+
+
+(Beifall BÜNDNIS 90/DIE GRÜNEN und vereinzelt 
+CDU) 
+
+
+Vizepräsidentin Heike Hofmann: 
+
+
+Nächster auf der Rednerliste ist Herr Eckert von der SPD. 
+

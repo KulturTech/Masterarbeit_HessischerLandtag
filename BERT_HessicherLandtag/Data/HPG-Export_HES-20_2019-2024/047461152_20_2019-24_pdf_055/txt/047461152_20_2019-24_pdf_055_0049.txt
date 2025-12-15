@@ -1,0 +1,171 @@
+Hessischer Landtag · 20. Wahlperiode · 55. Sitzung · 1. Oktober 2020 
+4203 
+
+
+Das gefällt mir schon viel besser, meine sehr geehrten Damen 
+und Herren. 
+
+
+(Beifall Freie Demokraten  Zurufe Torsten Leveringhaus 
+und Karin Müller (Kassel) (BÜNDNIS 90/
+DIE GRÜNEN)) 
+
+
+Geodaten sind, einfach gesagt, Daten mit Raumbezug, 
+
+
+z. B. Informationen über Landschaften und Liegenschaften, 
+Luftbilder oder topografische Karten. 
+Wir wollen, dass alle geeigneten Geodaten, die von der 
+Landesverwaltung mit öffentlichen Mitteln erhoben werden, 
+als Open Data veröffentlich werden, d. h. unentgeltlich, 
+unter einer offenen Lizenz für die kommerzielle und 
+nicht kommerzielle Nachnutzung, einfach und dauerhaft 
+zugänglich und am besten maschinenlesbar. 
+
+
+Vom Open-Data-Prinzip sind Informationen mit Personenbezug 
+und andere schützenswerte Informationen natürlich 
+ausgenommen, z. B. bei Liegenschaftsdaten die persönlichen 
+Daten der Eigentümer. Datenschutz ist uns als Freien 
+Demokraten wichtig. 
+
+
+Aber warum ist es so wichtig, dass amtliche Geodaten offen 
+und kostenfrei zur Verfügung gestellt werden?  Das 
+möchte ich Ihnen an einem Beispiel deutlich machen, nämlich 
+am Beispiel der Landwirtschaft. Die Kollegin Knell 
+hat mir beigebracht, dass die Landwirtschaft eine der 
+durchdigitalisiertesten Branchen ist. Es ist unglaublich, 
+was dort an Digitalisierung teilweise schon funktioniert. 
+Geodaten haben dabei schon heute eine zentrale Bedeutung 
+und werden in Zukunft immer wichtiger werden. Smarte 
+Technologien und Applikationen ermöglichen es den 
+Landwirten, ressourcenschonend zu düngen und die gesetzlichen 
+Abstandsauflagen präzise einzuhalten. Mit einer 
+mobilen App können Landwirte z. B. ihr Feld in Zonen 
+aufteilen und die jeweils optimale Düngemenge berechnen, 
+ganz im Sinne von Nachhaltigkeit und Umwelt. 
+
+
+(Beifall Freie Demokraten) 
+
+
+Die App kommuniziert dann direkt mit dem Traktor, damit 
+kein Gramm zu viel davon aufs Feld gelangt. Dies gelingt 
+allerdings nur, wenn die Landwirte auch über präzise Daten 
+zu ihren Feldgrenzen verfügen, mit denen sie ihre Applikationen 
+füttern können. 
+
+
+Meine sehr geehrten Damen und Herren, das ist in Hessen 
+noch schwierig. Es fehlen Schnittstellen, und Daten können 
+nicht ohne Weiteres für Applikationen weiterverwendet 
+werden. In anderen Bundesländern ist das längst kein 
+Thema mehr. Dort können vergleichbare Geodaten einfach 
+und unentgeltlich genutzt werden. 
+
+
+Herr Minister, NRW z. B. stellt seit 2017 praktisch alle 
+verfügbaren Geodaten der Landesvermessung und des Liegenschaftskatasters 
+offen bereit. Das GEOportal.NRW ist 
+ein echtes Vorbild: übersichtlicher Zugriff auf verschiedene 
+Datenressourcen, ein Open-Data-Download-Client. Dort 
+ist alles sehr vorbildlich gestaltet. 
+
+
+(Beifall Freie Demokraten) 
+
+
+Auch das grün-schwarz regierte Baden-Württemberg und 
+andere Länder bieten Geodaten offen für kommerzielle und 
+nicht kommerzielle Nutzung an. Also: Das geht. 
+
+
+Deshalb sollten wir in Hessen die Standortnachteile für die 
+hessischen Landwirte aufheben. Ermöglichen wir es hessischen 
+Unternehmern, Smart-Farming-Geschäftsmodelle 
+
+
+umzusetzen. Das freut am Ende die Steuerkasse und die 
+Umwelt. 
+
+
+(Beifall Freie Demokraten) 
+
+
+Manche lehnen die kostenfreie Bereitstellung von Daten 
+ab. Aber im Fall von Daten heißt kostenlos nicht wertlos, 
+ganz im Gegenteil: Der Wert von Daten steigt, je 
+mehr Menschen und Unternehmen sie gewinnbringend 
+nutzen. Ja, der Landesverwaltung entgehen Gebühren, 
+wenn sie ihre Geodaten offen kostenlos zur Verfügung 
+stellt. Aber das muss es uns wert sein. Zahlreiche Studien 
+zeigen, dass der gesellschaftliche und wirtschaftliche 
+Mehrwert von Open Data immens ist. Und es spart auch 
+Verwaltungsaufwand. 
+
+
+Ja, die Landesregierung stellt bereits einige Geodaten zur 
+Verfügung, z. B. im Rahmen der europäischen INSPIRE-
+Umsetzung. Aber für wichtige Daten wie Geländemodelle 
+gibt es weiterhin Gebühren, der Zugriff ist nur schwer 
+möglich, oder es fehlen Schnittstellen. Machen wir Open 
+Data zum Standard. Machen wir es den Nutzern einfach. 
+Wir Freie Demokraten sind für einen Staat, der es den 
+Menschen und den Unternehmen einfach macht. Das ist 
+sozusagen unsere DNA. 
+
+
+(Beifall Freie Demokraten  Widerspruch Stephan 
+Grüger (SPD)) 
+
+
+Dann heißt es manchmal, dass sich die internationalen Datenkraken 
+damit bereichern würden. Die brauchen Open 
+Data am wenigsten; denn für die großen Player sind die 
+Gebühren Taschengeld, oder sie erheben die Daten einfach 
+selbst. Aber für die hessischen Start-ups, für den hessischen 
+Landwirt oder für den hessischen Verein sind die 
+Gebühren ein echtes Hindernis. 
+
+
+(Beifall Freie Demokraten und vereinzelt SPD) 
+
+
+ Ich freue mich auch über den Beifall der Sozialdemokraten. 
+(René Rock (Freie Demokraten): Jawohl!  Gegenruf 
+Jürgen Frömmrich (BÜNDNIS 90/DIE GRÜNEN)) 
+
+
+Wir Freie Demokraten haben schon letztes Jahr darauf hingewiesen: 
+Hessen braucht endlich eine Open-Data-Strategie. 
+Fangen wir mit den Geodaten an. Das Potenzial ist immens. 
+Es gibt unzählige Anwendungsbeispiele, etwa folgende: 
+
+
+Die Mobilfunkbetreiber könnten Mobilfunknetze einfacher 
+planen. In NRW ist das dank Open Data möglich. Auch 
+das Geschäftsmodell einer Wander-App mit 3-D-Geländemodellen 
+gibt es in NRW. Digitale Öffentlichkeitsbeteiligung 
+bei Bauvorhaben? Mit offenen Geodaten vielleicht 
+bald auch in Hessen. 
+
+
+Gebühren ersticken solche kreativen Initiativen im Keim. 
+Unterstützen wir Innovationen und Erfindergeist in Unternehmen, 
+Vereinen oder NGOs. 
+
+
+(Beifall Freie Demokraten) 
+
+
+Heute Morgen war das Geoportal des Landes nicht erreichbar. 
+Eben noch, drei Minuten vor Beginn meiner Rede, war 
+das Geoportal des Landes nicht erreichbar. Gestern wurde 
+ein Relaunch angekündigt  passend zum heutigen Tag. 
+
+
+Das Portal soll doch tatsächlich künftig  so heißt es in der 
+Ankündigung  responsiv sein, 
+
