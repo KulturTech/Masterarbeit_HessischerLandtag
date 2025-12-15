@@ -1,0 +1,166 @@
+6396 
+Hessischer Landtag · 20. Wahlperiode · 80. Sitzung · 7. Juli 2021 
+
+
+Analysen, andererseits auch Beratungen und Schulungen 
+anbietet. Die Beratung lässt sich an sieben Reifegraden ablesen. 
+So kann man als Vertreter einer Kommune oder als 
+interessierte Bürgerin bzw. als interessierter Bürger sehr 
+schnell erkennen, wo man aktuell steht und was man eventuell 
+noch machen muss. 
+
+
+Der zweite Bereich, der mir hier wichtig ist, ist die Weiterbildung 
+von Verwaltungsmitarbeiterinnen und Verwaltungsmitarbeitern. 
+Auch hier ist die technische Ausstattung 
+das eine  was wir dringend brauchen , aber das andere 
+ist, dass die Menschen vor Ort mit der Software und der 
+Hardware umgehen können. Mit dem eGov-Campus haben 
+wir genau dafür ein Projekt, bei dem wir bundesweit federführend 
+sind und das auch bundesweit für die entsprechende 
+Qualifikation sorgen soll. 
+
+
+So wollen wir sicherstellen, dass die Möglichkeiten der 
+Programme genutzt werden und auch die Verwaltung letztlich 
+alle Vorteile der Digitalisierung nutzen kann. Mit der 
+dann gewonnenen Zeit kann im analogen Rathaus noch individueller 
+auf die Bedürfnisse der Menschen eingegangen 
+werden, die dorthin kommen und die schwierige Anliegen, 
+die man nicht digital erledigen kann, oder ein individuelles 
+Bedürfnis haben. 
+
+
+(Beifall BÜNDNIS 90/DIE GRÜNEN und vereinzelt 
+CDU) 
+
+
+Last, but not least heißt Digitalisierung und Zukunft 
+auch, sich intensiv mit dem Thema Nachhaltigkeit auseinanderzusetzen. 
+Wir haben in Hessen mit dem DE-CIX als 
+größtem Internetknoten der Welt hervorragende Voraussetzungen 
+für die Digitalwirtschaft. 
+
+
+Resultierend aus dem Brexit ist Frankfurt  die RheinMain-
+Region, müsste man genauer sagen  aktuell der am 
+stärksten wachsende Rechenzentrumsstandort in Europa. 
+Wir haben damit London abgelöst. Beispiele hierfür sind 
+das Neckermann-Gelände oder auch Hanau mit dem riesengroßen 
+Rechenzentrum, das da entstehen soll. Verbrauchen 
+unsere hessischen Rechenzentren aktuell noch ca. 
+420 MW an Strom, so geht eine Studie von CBRE und 
+Borderstep für das Jahr 2025 schon von 1.200 MW aus. 
+
+
+Wir haben bei der Energieeffizienz der Rechenzentren und 
+der Nutzung der Abwärme von Rechenzentren noch viel 
+Potenzial, um dort nachhaltiger zu agieren: Welche haben 
+wir? Welche Server stehen in diesen Rechenzentren bzw. 
+werden da eingebaut? Wie sind diese Server ausgelastet?  
+Dies wollen wir zusammen mit den Betreibern und den 
+Firmen angehen, im Interesse einer nachhaltigen Digitalisierung 
+in Hessen und damit, da dies der wichtigste Standort 
+in Deutschland ist, auch für Gesamtdeutschland. Wir 
+wollen die Entwicklung in diesem Bereich begleiten und 
+die hohe Bedeutung des Standorts Hessen nutzen, um auch 
+mit dem geplanten Rechenzentrumsbüro Vorreiter für 
+Nachhaltigkeit und Energieeffizienz zu werden. 
+
+
+(Beifall BÜNDNIS 90/DIE GRÜNEN und vereinzelt 
+CDU) 
+
+
+Dabei haben wir auch im Blick, dass, was den Bau von Rechenzentren 
+betrifft, der Raum in der Rhein-Main-Region 
+knapp ist und dass wir mit Edge Computing eine neue Entwicklung 
+haben, die es auch ermöglicht, etwas servergenau 
+im ländlichen Raum zu machen: wenn wir den Server in 
+der Firma aufbauen, wenn die Latenz gebraucht wird, aber 
+bestimmte Leistungen  Herr Feidner von Equinix spricht 
+immer gern von Katzenvideos  nicht unbedingt im Re
+
+
+chenzentrum vor Ort gespeichert werden müssen. Vielmehr 
+könnten sie auch in einem Rechenzentrum gespeichert 
+werden, das ein paar Kilometer entfernt liegt und in dem es 
+nicht darauf ankommt, den Abruf in Millisekunden zu haben. 
+
+
+Meine Damen und Herren, Digitalisierung hat viele Facetten, 
+und der ländliche Raum hat viele Facetten. Beides 
+wollen wir zusammen denken und ermöglichen, dass unser 
+Land noch lebenswerter und zukunftsfähiger wird. Diesen 
+Weg gehen wir mit der Strategie Digitales Hessen. Die gibt 
+uns den Rahmen vor für die nächsten Monate und Jahre; 
+und wir werden daraus noch viele Projekte ableiten.  Vielen 
+Dank. 
+
+
+(Beifall BÜNDNIS 90/DIE GRÜNEN und CDU) 
+
+
+Präsident Boris Rhein: 
+
+
+Vielen Dank, Herr Kollege Leveringhaus.  Nächster Redner 
+ist der Kollege Lichert für die Fraktion der AfD. 
+
+
+Andreas Lichert (AfD): 
+
+
+Herr Präsident, meine Damen und Herren, sehr geehrte 
+Abgeordnete! Digitalisierung und Zukunftsfestigkeit des 
+ländlichen Raumes vorantreiben und stärken  so lautet 
+der Untertitel des hier zu behandelnden Entschließungsantrags 
+von CDU und GRÜNinnen. 
+
+
+(Zuruf Holger Bellino (CDU)) 
+
+
+ Herr Bellino, das ist ein fantastischer Titel; Sie haben 
+vollkommen recht.  Es geht Ihnen also offensichtlich um 
+die Dörfer unseres schönen Landes; und das geht am besten 
+mit den Dörfern unseres schönen Landes  auch wenn 
+es in Ihrem Fall leider Potemkinsche Dörfer sind, die Sie 
+hier errichten. 
+(Beifall AfD) 
+
+
+Trotzdem danke ich ausdrücklich für die Fleißarbeit, alle 
+oder zumindest einen großen Teil der Digitalisierungsinitiativen 
+der Landesregierung aufzuzählen. Ich will das gar 
+nicht selbst versuchen, sonst wäre meine Redezeit gleich 
+weg. Aber genau diese notwendige Fleißarbeit illustriert 
+auch das Problem. Der digitale Bauchladen der Landesregierung 
+hat nämlich ein Eigenleben entwickelt. Wir stecken 
+mitten in der Interventionsspirale. Das kann man gerade 
+an dem Thema Digitalisierung prototypisch ablesen. 
+
+
+Und das geht so: Die Landesregierung hat gemerkt, dass 
+man heutzutage irgendetwas mit Digitalisierung machen 
+muss. Also: Digitalisierung ist sexy, her mit dem Digitalisierungsministerium. 
+ Damit der Wumms-Effekt  diese 
+wunderbare Wortschöpfung geht auf den Bundesfinanzminister 
+Scholz zurück  tatsächlich eine entsprechende Ernte 
+in den Medien und an der Wahlurne einbringt, damit man 
+möglichst viele Pressemitteilungen verteilen und rote Bänder 
+durchschneiden kann, ja, dafür muss man natürlich 
+Steuerzahlergeld in die Hand nehmen. 
+
+
+(Beifall AfD) 
+
+
+Diesen großen Investitionsbedarf wird natürlich, gerade 
+beim Thema digitale Infrastruktur, niemand ernsthaft in 
+Abrede stellen. 
+
+
+Jetzt muss aber das ganze Geld auch tatsächlich investiert 
+werden. Es müssen Fördermittel beantragt, Bauanträge ge
+

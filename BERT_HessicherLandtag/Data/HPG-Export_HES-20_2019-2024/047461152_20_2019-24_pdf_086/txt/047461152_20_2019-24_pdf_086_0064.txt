@@ -1,0 +1,163 @@
+6954 
+Hessischer Landtag · 20. Wahlperiode · 86. Sitzung · 9. November 2021 
+
+
+Meiner Ansicht nach ist es sehr wichtig, dass es Open-Data-
+Koordinatoren auf Landesebene und auf kommunaler 
+Ebene gibt, um das gut voranzubringen. Tatsächlich ist 
+auch eine häufigere Evaluation als nur alle drei Jahre wichtig. 
+
+
+Trotz aller Verbesserungsvorschläge, die es da noch gibt, 
+ist dieser Gesetzentwurf für mich ein wichtiger erster 
+Schritt in Richtung Open Data. Von daher werden wir diesen 
+Gesetzentwurf auch annehmen. Es ist einfach wichtig, 
+dass Hessen dort aufholt. Wir sind weit hintendran, wir 
+müssen es aber z. B. mit NRW, Rheinland-Pfalz, Schleswig-
+Holstein, Hamburg aufnehmen und müssen da vorwärtskommen. 
+
+
+(Beifall SPD) 
+
+
+Lassen Sie uns in Hessen das Thema Daten auch als Daseinsvorsorge 
+verstehen und mit verantwortlichen und klaren 
+Regeln den Bürgerinnen und Bürgern zur Verfügung 
+stellen  für die Forschung, für die Innovation und auch für 
+mehr Transparenz.  Vielen Dank. 
+
+
+(Anhaltender Beifall SPD) 
+
+
+Präsident Boris Rhein: 
+
+
+Vielen Dank, Frau Gersberg.  Nächster Redner ist der 
+Abg. Felstehausen für die Fraktion DIE LINKE. 
+
+
+Torsten Felstehausen (DIE LINKE): 
+
+
+Herr Präsident  vielen Dank für das Wort , meine Damen 
+und Herren! Der vorgelegte Gesetzentwurf der FDP weist 
+auf ein weiteres Versäumnis der Landesregierung und der 
+Koalition von Schwarz-Grün hin. Open Data ist und war 
+kein Begriff, mit dem diese Landesregierung irgendetwas 
+anfangen kann, geschweige denn, ihn mit Inhalten füllen 
+könnte. 
+
+
+(Beifall Freie Demokraten) 
+
+
+Open Data steht eben für einen völlig anderen Denkansatz 
+in der Digitalpolitik und vor allem für einen anderen Denkansatz 
+im Staatsverständnis. 
+
+
+(Zuruf Oliver Stirböck (Freie Demokraten)) 
+
+
+ Ja, es geht weiter.  Denn dieser Ansatz bricht mit einem 
+obrigkeitsstaatlichen Gedanken, nach dem der Bürger eben 
+nicht wissen soll, was und zu welchem Anlass der Staat 
+von ihm an Daten erhebt, verarbeitet oder speichert; und er 
+fordert, öffentliche Daten auch in öffentliche Hände zu 
+nehmen. 
+Ich habe einmal nachgeschaut. In einem einzigen Satz im 
+Koalitionsvertrag ist der Begriff Open Data zu finden. Dort 
+heißt es  ich zitiere : 
+
+
+Wir wollen eine Darstellung der wichtigsten Daten 
+des Haushaltsplans in Form eines interaktiven Haushalts 
+mit aussagefähigen Grafiken für jeden zugänglich 
+auf der Homepage des hessischen Finanzministeriums 
+schaffen (Open Data). 
+
+
+Meine Damen und Herren von den regierungstragenden 
+Fraktionen, wenn Sie dies unter Open Data verstehen, dann 
+kann ich nur sagen: Ihnen fehlt jegliches Grundverständnis 
+von Datensouveränität, und Sie sind in der aktuellen netz-
+politischen Diskussion nicht anschlussfähig. 
+
+
+(Beifall DIE LINKE, vereinzelt SPD und Freie Demokraten) 
+
+
+Ich will auch ganz kurz begründen, warum ich zu diesem 
+Schluss gekommen bin. Open Data heißt nämlich nicht, 
+dass Sie festlegen, welche Daten des Haushalts maschinenlesbar 
+veröffentlicht werden. Open Data heißt, alle Daten 
+des Haushalts werden veröffentlicht. Open Data heißt eben 
+nicht, dass Sie festlegen, welche Daten auf Ihrer Homepage 
+interaktiv dargestellt werden, sondern dass diese Daten 
+als Rohdaten allen Unternehmen, Verbänden, Bürgern 
+und der Wissenschaft zur Verfügung gestellt werden und 
+sie die so weiterverarbeiten können, wie es ihren Zielen 
+und ihren Zwecken entspricht, an einem Ort, den sie festlegen. 
+Das ist der große Unterschied zwischen dem Ansatz 
+Open Data, der in dem Gesetzentwurf formuliert wird, und 
+Ihrem Selbstverständnis. 
+
+
+(Beifall DIE LINKE und Oliver Stirböck (Freie Demokraten)) 
+
+
+Daher begrüßen wir als LINKE auch den Gesetzentwurf 
+der FDP, auch wenn er auch uns an vielen Stellen noch 
+nicht weit genug geht. Er fordert die Landesregierung dazu 
+auf, Sorge zu tragen, dass die von ihr erhobenen Daten 
+auch allen Bürgerinnen und Bürgern, der Wissenschaft, 
+Wirtschaftsunternehmen und Verbänden frei zugänglich 
+sein sollen. Dafür braucht es eine Strategie, die das Prinzip 
+der Datensouveränität von Anfang an mitdenkt, sozusagen 
+Open Data by Design, und das von Anfang an. Dieses 
+Prinzip, Open Data by Design, bedeutet, das Prinzip der 
+Transparenz so von Anfang an mitzudenken und so in Datenbanken 
+anzulegen, dass die Daten über standardisierte 
+Schnittstellen abgerufen werden können. Deshalb ist Open 
+Data kein technisches Problem, sondern ein Problem des 
+Selbstverständnisses dieser Landesregierung. 
+
+
+(Beifall DIE LINKE, Stephan Grüger (SPD) und 
+Oliver Stirböck (Freie Demokraten)) 
+
+
+Aber leider werden in diesem Gesetzentwurf die gleichen 
+Fehler gemacht, wie sie schon im Hessischen Datenschutz-
+und Informationsfreiheitsgesetz zu finden sind. Diese 
+Norm adressiert eben nur an die Landesbehörden und 
+klammert die Kommunen leider völlig aus. Aber genaudort liegt der eigentliche Datenschatz. Über 80 % der relevanten 
+Daten liegen auf den Servern der Gemeinden und 
+der Städte. Das sind Daten zu Verkehrsaufkommen und 
+Parkplätzen, das sind Daten zu Flächen und Bauplätzen, 
+das sind Daten zu meteorologischen Ereignissen, die die 
+Landwirtschaft nutzen könnte, und vieles mehr. Wenn diese 
+Datenschätze zugänglich gemacht werden sollen, dann 
+muss das Recht auf Datenfreiheit eben auch für Kommunen 
+gelten. 
+
+
+Sicherlich, das werden insbesondere die kleineren Kommunen 
+nicht selbst stemmen können. Hier ist die Hilfe des 
+Landes ebenso sinnvoll wie erforderlich. Schauen Sie doch 
+einmal, wie viele hessische Kommunen der Aufforderung 
+der Landesregierung nachgekommen sind, sich eine eigene 
+Satzung für Informationsfreiheit zu geben. Das können Sie 
+an einer Hand abzählen. Sie adressieren zwar, das sollen 
+die Kommunen tun; aber es wird letztendlich nicht umgesetzt. 
+Das darf aus der Sicht der LINKEN bei dem Prinzip 
+von Open Data nicht auch passieren. 
+
+
+(Beifall DIE LINKE) 
+
+
+Deshalb fordern wir als LINKE, dass für alle Daten ohne 
+Personenbezug, die von den Behörden erhoben werden, im 
+

@@ -1,0 +1,157 @@
+5632 
+Hessischer Landtag · 20. Wahlperiode · 70. Sitzung · 27. April 2021 
+
+
+Die Herausgabe von personenbezogenen Daten habe ich 
+bereits angesprochen. Zwar sollen sie nach dem vorliegenden 
+Entwurf derart anonymisiert werden, dass daraus keine 
+Rückschlüsse mehr auf Einzelpersonen gezogen werden 
+können. Ich bezweifle jedoch, dass damit dem Datenschutz 
+abschließend Genüge geleistet ist. Diese Frage muss eingehender 
+beleuchtet werden. 
+
+
+Insofern heiße ich den Gesetzentwurf als Impuls für eine 
+Diskussion willkommen, kann ihm aber in dieser Form 
+nicht zustimmen. 
+
+
+Ich möchte meine Perspektive darlegen. Wie Sie merken, 
+bin ich dem Thema nicht grundsätzlich abgeneigt. Nicht 
+umsonst ist dies auch als Leitgedanke in unserem Strategiepapier 
+Digitale Verwaltung Hessen festgehalten: Der 
+Zugang und die Verwendung von Daten im Sinne von 
+Open Data sind wichtige Kernelemente der digitalen Zukunft. 
+Damit die Gesellschaft insgesamt und der Mensch 
+im Einzelnen einen Nutzen aus Open Data ziehen können, 
+müssen faire und transparente Bedingungen und Spielregeln 
+definiert werden. 
+
+
+Soll heißen: Anstatt mit einem undifferenzierten Open-Data-
+Gesetz und erheblichen Kraftanstrengungen eine große 
+Menge Daten zu streuen, um damit auf gut Glück einen 
+Nutzen zu erzeugen, gilt es, konkrete Anwendungsfälle zu 
+nutzen und umzusetzen. 
+
+
+Ein gutes Beispiel dafür ist das Hessische Vermessungsund 
+Geoinformationsgesetz, das sich aktuell in der Novellierung 
+befindet. Nach dem Inkrafttreten werden alle Ämter 
+und Behörden, die Geobasisdaten oder Daten zum Immobilienmarkt 
+erheben, diese öffentlich zugänglich machen. 
+Dieser Fall zeigt, dass die Landesregierung aktiv 
+wird, sobald wir eine konkrete Nachfrage nach und einen 
+konkreten Nutzen aus Open Data erkennen, und zwar fallbezogen, 
+spezifisch, qualitativ. 
+
+
+Darüber hinaus stellen bereits heute zahlreiche Behörden 
+nutzenträchtige Daten kostenfrei zur Verfügung. Beispielhaft 
+möchte ich das Onlineangebot des Statistischen Landesamts, 
+das Solarkataster, mit dem die Solarenergiepotenziale 
+von Dach-und Freiflächen in Hessen abgeschätzt 
+werden können, oder auch das Bodenrichtwertinformationssystem 
+sowie das Amtliche Liegenschaftskatasterinformationssystem 
+nennen. Das Geodatengesetz haben wir bereits 
+angesprochen. Es soll vor dem Sommer eingebracht 
+werden. 
+
+
+Um Open Data im großen Stil zu denken, gilt es, eine Reihe 
+von Fragen zu beantworten, um eine zielgerichtete strategische 
+Ausrichtung sicherzustellen: Wie groß ist der tatsächliche 
+Nutzen dieses enormen Aufwandes? Wir müssen 
+abwägen zwischen dem Aufwand für die Behörden einerseits 
+ im Sinne der Belastung sowohl des Personals als 
+auch des Steuerzahlers  und dem Nutzenpotenzial andererseits. 
+Wie können  ganz grundsätzlich  mit Daten der 
+öffentlichen Hand private Geschäftsmodelle unter fairen 
+Bedingungen entstehen? 
+
+
+Wir wollen unseren Standort stärken. Politik heißt Gestaltung 
+im Sinne der Menschen in diesem Land. Fachlich gut 
+gemacht, kann dies eine gesetzliche Regelung zu Open Data 
+beinhalten, in dieser ungerichteten Form aber nicht. Daher 
+lehne ich den Entwurf der Freien Demokraten ab. 
+
+
+(Beifall CDU und BÜNDNIS 90/DIE GRÜNEN) 
+
+
+Präsident Boris Rhein: 
+
+
+Vielen Dank, Frau Staatsministerin.  Damit sind wir am 
+Ende der Aussprache zu diesem Tagesordnungspunkt angelangt. 
+
+
+Wir überweisen den Gesetzentwurf zur Vorbereitung der 
+zweiten Lesung an den Ausschuss für Digitales und Datenschutz. 
+
+
+Für das Protokoll möchte ich nachtragen, dass wir Tagesordnungspunkt 
+56, den Antrag der SPD betreffend Taxifahrt-
+Kosten zu Impfzentren erstatten, an den Innenausschuss 
+und Tagesordnungspunkt 67, den Antrag der Fraktion 
+DIE LINKE betreffend Bus und Bahn virenfrei machen 
+
+
+ besserer Gesundheitsschutz im öffentlichen Personennahverkehr, 
+an den Wirtschaftsausschuss überweisen. 
+Ich darf nun Tagesordnungspunkt 6 aufrufen: 
+
+
+Erste LesungGesetzentwurf 
+LandesregierungGesetz zur Ausführung des IT-Staatsvertrages Drucks. 20/5527  
+
+
+Wir haben vereinbart, dass nur die Einbringung durch die 
+Landesregierung erfolgt und wir den Tagesordnungspunkt 
+ansonsten ohne Aussprache behandeln.  Frau Staatsministerin, 
+Sie haben das Wort. 
+
+
+Prof. Dr. Kristina Sinemus, Ministerin für DigitaleStrategie und Entwicklung: 
+
+
+Sehr geehrter Herr Präsident, meine sehr geehrten Damen 
+und Herren! Im März 2019 haben der Bund und die Länder 
+gemeinsam eine entscheidende Ergänzung des IT-Staatsvertrags 
+beschlossen, nämlich die Föderale IT-Kooperation, 
+kurz FITKO. Die FITKO wurde auf dieser Grundlage 
+zum 1. Januar 2020 als gemeinsame Anstalt des Bundes 
+und der Länder errichtet. Wir sind stolz darauf, dass sie ihren 
+Sitz in Frankfurt hat und seitdem wichtige Akzente für 
+die Verwaltungsdigitalisierung gesetzt werden konnten. 
+
+
+Hierzu drei Beispiele: Die FITKO verwaltet das Digitalisierungsbudget 
+des Bundes und der Länder mit einem Umfang 
+von 180 Millionen  allein für die Jahre 2020 bis 
+2022. Sie steuert die zielgerichtete Verwendung dieses 
+Budgets für einen bürgerfreundlichen digitalen Service der 
+Verwaltung auf allen Ebenen. Hat ein Land ein digitales 
+Verwaltungsprodukt entwickelt, kann dieses mithilfe der 
+FITKO durch andere Länder erworben werden. Der FIT-
+Store ermöglicht eine Nutzung ohne vergaberechtliche 
+Hürden nach dem sogenannten EfA-Prinzip: Einer für Alle. 
+Gute Lösungen müssen so nur noch einmal erfunden 
+und können anschließend durch viele genutzt werden. 
+
+
+Digitale Exzellenz in der Verwaltung erfordert schließlich 
+auch eine Effizienzsteigerung und Entlastung innerhalb der 
+Behörden. Um dieses Ziel zu erreichen, entwickelt die FITKO 
+aktuell eine föderale IT-Architektur. Diese ermöglicht 
+eine zügige, zugleich aber auch wirtschaftliche Umsetzung 
+der vielen Verpflichtungen nach dem Onlinezugangsgesetz. 
+
+
+Trotz ihrer erfolgreichen Arbeit ist der personelle und organisatorische 
+Aufbau der FITKO noch nicht vollständig 
+abgeschlossen. Der IT-Staatsvertrag enthält hierzu spezifische 
+Vorgaben und regelt, dass der Betrieb der FITKO 
+weitgehend nach hessischem Landesrecht erfolgt. Der vor
+

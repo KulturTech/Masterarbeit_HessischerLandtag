@@ -1,0 +1,160 @@
+Hessischer Landtag · 20. Wahlperiode · 106. Sitzung · 1. Juni 2022 
+8449 
+
+
+Viertens erwähne ich die Planung des AI Quality & Testing 
+Hubs, die das Thema KI-Qualität und eine Art von 
+Normung vorsieht. Hierbei kooperieren wir mit dem VDEund mit dem TÜV. 
+
+
+Gemeinsam mit dem federführenden Wissenschaftsressort 
+und mit dem Wirtschaftsministerium haben wir weiterhin 
+das Hessische Zentrum für Künstliche Intelligenz, hessi-
+an.AI, ins Leben gerufen. Hier investiert das Land 38 Millionen 
+. Dieses Zentrum wird der Kristallisationspunkt für 
+KI made in Hessen sein; es wird konsequent weiterentwickelt. 
+
+
+Darüber hinaus entstehen aktuell weitere KI-Maßnahmen 
+des Landes, so unter Federführung des Wissenschaftsministeriums 
+ein DFKI-Labor in Darmstadt sowie unter Federführung 
+des Wirtschaftsressorts eine Gründungs-und 
+Transferstruktur mit dem Schwerpunkt KI. Allein aus dem 
+Förderprogramm Distr@l im Bereich der Ministerin für 
+Digitale Strategie und Entwicklung haben wir derzeit 42 
+Projekte aus dem Bereich der KI gefördert. Damit haben 
+mehr als die Hälfte der aktuell bewilligten 77 Projekte aus 
+dem Programm einen direkten Bezug zu KI. Das entspricht 
+einem Volumen von 22 Millionen . 
+
+
+Ein aktuelles Beispiel hierfür ist möglicherweise, um das 
+Ganze etwas transparenter zu machen, dass wir in eine KI-
+basierte Diagnostikmethode bei Herzuntersuchungen der 
+Technischen Hochschule Mittelhessen und in eine automatisierte 
+EKG-Aufnahme an der Justus-Liebig-Universität 
+Gießen investieren, die mithilfe von KI präzise Erkennungen 
+vornehmen und hierbei gewonnene Informationen den 
+Anwendern zur Verfügung stellen kann. 
+
+
+(Stephan Grüger (SPD): In Mittelhessen!) 
+
+
+Auch bei der Förderung smarter Kommunen und Regionen 
+im Programm Starke Heimat weisen zahlreiche Projekte 
+entweder einen KI-Ansatz aus oder bedienen sich verschiedenster 
+weiterer innovativer Technologien wie LoRaWAN 
+oder Internet of Things. All das wollen wir zur Stärkung 
+des Standortes in Zukunft weiterentwickeln und KI made 
+in Hessen als starkes Markenzeichen in Hessen sowie von 
+Hessen über den Bund nach Europa transportieren. 
+
+
+Präsidentin Astrid Wallmann: 
+
+
+Vielen Dank.  Ich sehe keine weiteren Nachfragen. 
+
+
+(Wortmeldung Hartmut Honka (CDU)) 
+
+
+ Ah, lieber Hartmut, du hast das Wort. 
+Hartmut Honka (CDU): 
+
+
+Vielen Dank, Frau Präsidentin.  Da die Frage schon bei 
+meinen Sitznachbarn große Begeisterung ausgelöst hat, 
+möchte ich fragen, welche Projekte in diesem Bereich noch 
+für die Zukunft geplant sind. 
+
+
+Prof. Dr. Kristina Sinemus, Ministerin für DigitaleStrategie und Entwicklung: 
+
+
+Das eine ist das, was ich eben auch schon in einem Nebensatz 
+erwähnt habe, nämlich, dass wir den AI Quality 
+& Testing Hub hier in Hessen mit Standort Frankfurt 
+und in Kooperation mit VDE sowie dem TÜV einrichten 
+möchten. Dabei wird es darum gehen, dass wir einerseits 
+Serviceangebote machen, zum anderen aber auch die Mög
+
+
+lichkeit bieten, durch das Investment in die Recheninfrastruktur 
+beispielsweise neuronale Netze zu simulieren, um 
+damit Anwendungsoptionen für Start-ups sowie für kleine 
+und mittelständische Unternehmen zur Verprobung von zukünftigen 
+Produkten anzubieten. 
+
+
+Präsidentin Astrid Wallmann: 
+
+
+Jetzt muss ich fragen: Es gibt eine Nachfrage von Herrn 
+Dr. Naas, richtig? 
+
+
+(Zustimmung Dr. Stefan Naas (Freie Demokraten)) 
+
+
+ Dann bitte. 
+Dr. Stefan Naas (Freie Demokraten): 
+
+
+Vielen Dank, Frau Präsidentin.  Ich frage die Landesregierung: 
+Warum informiert sie die sie tragenden Fraktionen 
+so schlecht, dass deren Abgeordnete solche Fragen stellen 
+müssen? 
+
+
+(Heiterkeit und Beifall Freie Demokraten, SPD und 
+DIE LINKE  Zurufe CDU und BÜNDNIS 90/DIEGRÜNEN: Oh!  Stefan Müller (Heidenrod) (Freie 
+Demokraten): Wenn sich nicht mal die Fachsprecher 
+auskennen, ist das ein Drama!  Gegenruf Hartmut 
+Honka (CDU)  Jürgen Frömmrich (BÜNDNIS 90/ 
+DIE GRÜNEN): Das ist der Bildungsauftrag der 
+Landesregierung!  Holger Bellino (CDU): Damit 
+Sie auch noch etwas lernen!  Weitere Zurufe) 
+
+
+Prof. Dr. Kristina Sinemus, Ministerin für DigitaleStrategie und Entwicklung: 
+
+
+Herr Naas, es ist doch schön, wenn so eine Frage gestellt 
+wird, damit Sie jetzt zuhören und das dann als Information 
+weitertragen können. 
+
+
+(Beifall CDU und BÜNDNIS 90/DIE GRÜNEN) 
+
+
+Präsidentin Astrid Wallmann: 
+
+
+Herr Dr. Naas. 
+
+
+Dr. Stefan Naas (Freie Demokraten): 
+
+
+Vielen Dank, Frau Ministerin.  Darf ich davon ausgehen, 
+dass das jetzt auch die Regierungserklärung Ihrerseits zu 
+KI in Hessen war? 
+
+
+(Holger Bellino (CDU): Die ist länger!) 
+
+
+Prof. Dr. Kristina Sinemus, Ministerin für DigitaleStrategie und Entwicklung: 
+
+
+Ich glaube, da hätte ich ein bisschen mehr Zeit zur Verfügung, 
+würde vielleicht noch ein paar mehr Informationen 
+geben, die dann auch den Wissenshorizont von Ihnen erweitern. 
+
+
+(Beifall CDU und BÜNDNIS 90/DIE GRÜNEN  
+Stephan Grüger (SPD): Irgendwann in der Zukunft 
+kommt die Regierungserklärung!) 
+

@@ -1,0 +1,167 @@
+Hessischer Landtag · 20. Wahlperiode · 112. Sitzung · 20. September 2022 
+8953 
+
+
+(Zurufe) 
+
+
+Vizepräsident Frank Lortz: 
+
+
+Vielen Dank, Herr Minister.  Es gibt eine Zusatzfrage des 
+Kollegen Dr. Grobe, AfD-Fraktion. 
+
+
+Dr. Frank Grobe (AfD): 
+
+
+Ich frage die Landesregierung: In welchem Umfang kam 
+es durch Impfungen von Lehrkräften gegen COVID im 
+letzten Jahr zu Unterrichtsausfällen? 
+
+
+(Zurufe) 
+
+
+Vizepräsident Frank Lortz: 
+
+
+Herr Minister. 
+
+
+Prof. Dr. R. Alexander Lorz, Kultusminister: 
+
+
+Herr Abg. Dr. Grobe, wir haben keine Meldungen dieser 
+Art über Impfreaktionen. Ich kann Ihnen aber sagen, dass 
+beispielsweise in der Kalenderwoche 36 bei den Beschäftigten 
+in Schulen 717 Infektionen mit dem SARS-CoV-2Virus 
+und in der Kalenderwoche 37 748 Infektionen bekannt 
+wurden. 
+
+
+Vizepräsident Frank Lortz: 
+
+
+Vielen Dank, Herr Minister.  Kollege Christoph Degen. 
+
+
+Christoph Degen (SPD): 
+
+
+Herr Kultusminister, wir werden im Laufe des Tages noch 
+über die Verantwortung für Bildung sprechen. Deswegen 
+frage ich Sie: Fühlen Sie sich nach wie vor nicht dafür 
+verantwortlich, sich in solchen Fällen um das Ausmaß des 
+Unterrichtsausfalls zu bemühen? 
+
+
+Vizepräsident Frank Lortz: 
+
+
+Herr Minister. 
+
+
+Prof. Dr. R. Alexander Lorz, Kultusminister: 
+
+
+Lieber Kollege Degen, ich wiederhole gerne die Antwort, 
+die ich Ihnen im Februar-Plenum gegeben habe. Das ist 
+alles in Arbeit. 
+
+
+(Heiterkeit) 
+
+
+Ich habe Ihnen im Februar-Plenum den Zeitplan für diese 
+Projekte vorgestellt. Darauf bezog sich auch meine erste 
+Antwort auf Ihre Hauptfrage, dass nämlich der Zeitplan 
+nach wie vor aktuell ist. 
+
+
+Gerne noch einmal im Detail: Die letzten Jahre wurden 
+genutzt, um die weitere Bearbeitung der Erfassung von 
+Fehlzeiten voranzutreiben, obwohl die Pandemie sicherlich 
+genügend anderweitige Herausforderungen für die gesamte 
+Bildungsverwaltung hervorgebracht hat. 
+
+
+Aktuell ist die Entwicklung einer IT-Anwendung, die die 
+Fehlzeiten von Lehrkräften in Schule  kurz: FLiS  automatisiert 
+und in einem personalwirtschaftlichen SAP-Sys
+
+
+tem erfasst, auf der Zielgeraden. Es ist nun einmal eine 
+etwas komplexere Geschichte, so etwas einzurichten. Die 
+Anwendung wird systemgestützt eine benutzerfreundliche 
+Erfassung, die entsprechende Weiterleitung an das zuständige 
+Staatliche Schulamt sowie deren anonymisierte Auswertung 
+ermöglichen. Die Entwicklung dieser IT-Anwendung 
+startete im Frühjahr 2020 und wurde nach Entwicklungsschluss 
+im Rahmen einer Pilotphase im Juni 2021 in 
+zwei Staatlichen Schulämtern mit insgesamt neun Schulen 
+erprobt. Dabei hat die Pandemie zwischenzeitlich zu einigen 
+Verzögerungen geführt. Sonst hätten wir einen anderen 
+Zeitplan gehabt. Die an der Pilotphase Beteiligten haben 
+das Projekt als perspektivische Verbesserung der Verwaltungsabläufe 
+bezeichnet. 
+
+
+Da das Ganze eine mitwirkungspflichtige Angelegenheit 
+nach dem Personalvertretungsrecht ist, müssen wir das Beteiligungsverfahren 
+mit dem Hauptpersonalrat Schule noch 
+zum Abschluss bringen. Wir haben intensive Gespräche 
+mit dem Hauptpersonalrat Schule geführt. Insofern gibt es 
+tatsächlich eine Veränderung gegenüber der Antwort vom 
+Februar-Plenum. 
+
+
+Im Februar-Plenum habe ich Ihnen gesagt: Wir wollen 
+sieben Abwesenheitsgründe erfassen.  Nach den Gesprächen 
+mit dem Hauptpersonalrat wird die Erfassung auf 
+drei Abwesenheitsgründe reduziert: das Fehlen aufgrund 
+der Erkrankung eines Kindes, eine eigene Erkrankung mit/ 
+ohne Attest und unerlaubtes Fernbleiben vom Dienst. Die 
+vier Gründe, die wir nach Absprache mit dem Hauptpersonalrat 
+herausgenommen haben, sind: Dienst- oder Arbeitsbefreiung 
+und Sonderurlaub, die Teilnahme an einer Klassenfahrt, 
+Praktikumsbesuche und die Teilnahme an Fortbildungen. 
+
+
+Im Rahmen der Zusammenarbeit mit dem Hauptpersonalrat 
+Schule wurde auf die Erfassung dieser vier Abwesenheitsgründe 
+verzichtet, da es sich streng genommen nicht 
+um Fehlzeiten handelt. Damit sind es auch keine steuerungsrelevanten 
+Daten, die wir auf der Ebene der Staatlichen 
+Schulämter erheben könnten. Sie sind auch nicht 
+vergütungs- bzw. besoldungsrelevant. Deswegen, und um 
+den Verwaltungsaufwand für die Schulen so gering wie 
+möglich zu halten, werden diese vier Abwesenheitsgründe 
+
+
+ anders, als ursprünglich geplant  nicht in FLiS erfasst. 
+Das Ziel von FLiS ist nämlich der Aufbau einer Krankenstatistik 
+ und keine Klassenfahrtenstatistik in dem Sinne, 
+dass erfasst wird, wie häufig eine Lehrkraft pro Schuljahr 
+eine Klassenfahrt begleitet. 
+Da diese Gespräche jetzt zu einem guten Abschluss gekommen 
+sind, gehe ich, optimistisch gestimmt, davon aus, 
+dass der Hauptpersonalrat Schule übermorgen der Produktivsetzung 
+dieses Systems zustimmen wird. Dann werden 
+wir das so schnell wie möglich  noch vor den Herbstferien 
+ an den Schulen produktiv setzen, sodass die ersten 
+Zahlen zu krankheitsbedingten Fehlzeiten von Lehrkräften 
+aller Voraussicht nach Mitte November mitgeteilt werden 
+können. Dann sind Sie herzlich dazu eingeladen, wieder 
+nachzufragen. 
+
+
+(Zurufe DIE LINKE) 
+
+
+Vizepräsident Frank Lortz: 
+
+
+Vielen Dank, Herr Minister.  Eine weitere Zusatzfrage, 
+der Kollege Stefan Naas. 
+

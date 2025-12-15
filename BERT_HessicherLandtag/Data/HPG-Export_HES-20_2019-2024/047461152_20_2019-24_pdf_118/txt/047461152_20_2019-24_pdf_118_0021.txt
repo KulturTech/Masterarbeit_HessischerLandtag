@@ -1,0 +1,166 @@
+Hessischer Landtag · 20. Wahlperiode · 118. Sitzung · 15. November 2022 
+9501 
+
+
+den Abbau von Digitalisierungshindernissen schaffen. Diese 
+Experimentierklausel wurde im Übrigen bei der Regierungs- 
+und Verbandsanhörung sehr begrüßt. 
+
+
+Meine sehr geehrten Damen und Herren, der äußere Anlass 
+für die Novelle ist das Onlinezugangsgesetz. Danach sind 
+der Bund und die Länder verpflichtet, ihre Verwaltungsleistungen 
+elektronisch über Verwaltungsportale zur Verfügung 
+zu stellen. Für die Leistungen im Portalverbund nach 
+Landesrecht sind zwingend landesrechtliche Grundlagen 
+erforderlich. Dazu wird der elektronische Zugang zu Landesbehörden 
+erweitert, z. B. durch elektronische Behördenpostfächer, 
+Nutzerkonten und gleichwertig verschlüsselte 
+Lösungen. 
+
+
+Damit die Nutzerkonten im Portalverbund mit den Diensten 
+des Bundes und der anderen Länder interoperabel kommunizieren 
+können, wurde eine landesrechtliche Grundlage 
+für die Datenverarbeitung geschaffen, und zwar für Hin-
+und Rückkanal. Ergänzt wird dies durch eine landesrechtliche 
+Grundlage für die Bekanntgabe von Verwaltungsakten 
+in den Postfächern der Nutzer  also ein praktischer 
+Nutzen für die Bürgerinnen und Bürger wie auch für Unternehmen. 
+
+
+Beispiel. Stellen Sie sich vor, Sie möchten einen Elterngeldantrag 
+über Ihr Nutzerkonto stellen. Dieser richtet sich 
+nach Bundesrecht. Der dazugehörige Elternbescheid kann 
+Ihnen aufgrund der Regelungen im OZG auch über Ihr 
+Nutzerkonto bekannt gegeben werden. Anders verhält es 
+sich mit einer Leistung nach hessischem Recht. Nehmen 
+wir das Beispiel einer Baugenehmigung. Sie können die 
+Leistung zwar über Ihr Nutzerkonto beantragen. Die Behörde 
+könnte Ihnen den Bescheid, also die Baugenehmigung, 
+aber nicht digital bekannt geben. Dafür brauchen wir 
+die Verfahrensregelung zum Nutzerkonto im Hessischen 
+E-Government-Gesetz, damit hessische Leistungen digital 
+über Nutzerkonten bei hessischen Bürgerinnen und Bürgern 
+sowie Unternehmen ankommen. 
+
+
+Ohne Standardisierung keine Digitalisierung  diesem 
+Grundsatz folgt ebenfalls eine neu eingeführte Regelung, 
+die sogenannte FIM-Methodik. Danach stellen die obersten 
+Landesbehörden mithilfe einer zentralen Redaktion standardisierte 
+Informationen zu Verwaltungsleistungen bereit. 
+Auch diese Regelung geht letztlich auf das OZG zurück; 
+denn nur auf der Grundlage standardisierter Leistungsinformationen 
+ist eine erfolgreiche Anwendung des Verwaltungsportals 
+möglich. 
+
+
+Vielleicht so weit, meine Damen und Herren, um Ihnen 
+einen Einblick in die neue Regelung zu geben. Digitalcheck, 
+Experimentierklausel und Standardisierung  das 
+sind wesentliche Neuigkeiten. Mit dem vorliegenden Gesetz 
+macht das Land Hessen somit einen weiteren Schritt 
+in Richtung bürger- und unternehmensfreundliche Verwaltungsdigitalisierung. 
+Zugleich erreichen wir Rechtssicherheit 
+für die Umsetzung zentraler OZG-Vorgaben, die ohne 
+diesen Schritt nicht möglich wäre.  Herzlichen Dank. 
+
+
+(Beifall CDU und BÜNDNIS 90/DIE GRÜNEN) 
+
+
+Präsidentin Astrid Wallmann: 
+
+
+Vielen Dank.  Ich darf als Nächstem Herrn Abg. Schneider 
+von der SPD das Wort geben. 
+
+
+Florian Schneider (SPD): 
+
+
+Sehr geehrte Frau Präsidentin, liebe Kolleginnen und Kollegen! 
+Im Grunde geht es im vorgelegten Gesetzentwurf 
+nur um redaktionelle Änderungen, die notwendig geworden 
+sind. Wenn es das aber schon wäre, dann müssten wir 
+heute nicht dazu sprechen, meine sehr verehrten Damen 
+und Herren Kollegen. 
+
+
+(Jürgen Frömmrich (BÜNDNIS 90/DIE GRÜNEN): 
+Und -innen!) 
+
+
+Diese Gesetzesänderung zeigt uns, wenn wir einmal richtig 
+zwischen den Zeilen lesen, doch eines: Die Landesregierung 
+und hier im Besonderen das Digitalministerium unter 
+Führung von Ihnen, Frau Ministerin, sind wohl in einen 
+Dornröschenschlaf versunken und unverhofft erwacht. 
+
+
+(Beifall SPD und vereinzelt DIE LINKE) 
+
+
+Woran mache ich das fest? Sie wollen redaktionelle Änderungen 
+vornehmen, die bereits 2019 hätten passieren müssen. 
+Unsere Bundesinnenministerin Nancy Faeser 
+
+
+(Zurufe CDU und BÜNDNIS 90/DIE GRÜNEN: 
+Ah!) 
+
+
+hat den Digicheck für die Bundesregierung bereits angekündigt. 
+
+
+(Hartmut Honka (CDU): Angekündigt!) 
+
+
+Aber eines kann ich Ihnen versprechen: Vier Jahre bis zur 
+Umsetzung wird es nicht dauern. 
+
+
+(Zurufe CDU und BÜNDNIS 90/DIE GRÜNEN) 
+
+
+Ich sage vielleicht noch ergänzend: Das Land NRW hat bereits 
+Anfang 2021 einen Digicheck eingeführt. Das heißt, 
+Hessen ist hier nicht das erste Land. 
+
+
+(Beifall SPD  Jürgen Frömmrich (BÜNDNIS 90/
+DIE GRÜNEN): Oh, sie hat es angekündigt!) 
+
+
+Jetzt zusätzlich auf ein Postfach im Nutzerkonto oder das 
+besondere elektronische Behördenpostfach zu setzen, wird 
+dem allein nicht gerecht. Es braucht Konzepte, die Device-
+unabhängig und ohne größere Installation funktionieren. 
+Zumindest schaffen Sie nun in dem Gesetz die entsprechende 
+Möglichkeit dafür. Sie haben wohl auch gemerkt, 
+dass man es vielleicht etwas offener formulieren sollte, um 
+nicht erneut totgeborene Lösungen im Gesetz festzuschreiben. 
+
+
+(Beifall SPD  Zuruf Jürgen Frömmrich (BÜNDNIS90/DIE GRÜNEN)) 
+
+
+Schauen wir aber einmal auf unsere Kommunen. Mit der 
+Heimatumlage den Kommunen Gelder zu entnehmen und 
+ihnen diese dann vermindert, schlecht umverteilt oder gar 
+nicht wieder zur Verfügung zu stellen, ist nicht die Art von 
+Unterstützung, die sie brauchen. 
+
+
+(Beifall SPD  Zurufe CDU und BÜNDNIS 90/DIEGRÜNEN: Oh!) 
+
+
+Als Beispiel nehme ich meine eigene Heimatkommune 
+Schauenburg. Die Gemeinde führte 2021/2022 187.000  
+als Heimatumlage ab. Erhalten hat sie aus dem Programm 
+Starke Heimat Hessen nichts. Die Digitalisierung ist eine 
+Mammutaufgabe, die zusätzliche Finanzmittel benötigt 
+und nicht nur jene, die sie selbst hätten haben können, 
+wenn sie nicht abgeschöpft worden wären. 
+

@@ -1,0 +1,163 @@
+Hessischer Landtag · 20. Wahlperiode · 70. Sitzung · 27. April 2021 
+5627 
+
+
+Landtag die Frage behandeln würden: Wie können wir personenbezogene 
+Daten bereitstellen und trotzdem den Datenschutz 
+beachten? Viele Datenschutzbeauftragte der Länder 
+sagen, dass es grundsätzlich möglich wäre, diese bereitzustellen, 
+wenn man diese Daten anonymisiert, z. B. indem 
+man nicht mehr das konkrete Alter benennt, sondern 
+eine Altersgruppe, in der sich eine Person befindet. Wichtig 
+wäre hier allerdings, dass es gleichzeitig auch ein Gesetz 
+zum Verbot der Deanonymisierung gibt, also dass man 
+nicht wieder Rückschlüsse daraus ziehen kann, um wen es 
+sich handelt. Das muss auch stark bestraft werden. Ich 
+glaube, wir sollten noch einmal darüber reden, ob das nicht 
+in Zukunft auch aus Hessen heraus möglich wäre; der medizinischen 
+Wissenschaft z. B. wäre es sehr dienlich. 
+
+
+(Beifall SPD und Torsten Felstehausen (DIE LINKE)) 
+
+
+Meine sehr verehrten Damen und Herren, ohne die Öffnung 
+von Daten entgehen den Wissenschaftlerinnen und 
+Wissenschaftlern, den Entwicklerinnen und Entwicklern, 
+den Bürgerinnen und Bürgern innovative und hilfreiche 
+Möglichkeiten. Wirtschaftszweige werden ausgebremst, 
+Start-ups haben nur wenige Chancen. Nur Branchen, die es 
+sich leisten können, Daten einzukaufen, können von ihnen 
+profitieren.  Lassen Sie uns in Hessen nach vorne schauen, 
+lassen Sie uns Daten als Daseinsvorsorge verstehen und 
+sie mit verantwortlichen und klaren Regeln den Bürgern 
+und Bürgerinnen zur Verfügung stellen: für die Forschung, 
+für die Innovation und auch für mehr Transparenz.  Vielen 
+Dank. 
+
+
+(Beifall SPD) 
+
+
+Präsident Boris Rhein: 
+
+
+Vielen Dank, Frau Gersberg.  Nächster Redner ist der 
+Abg. Felstehausen für die Fraktion DIE LINKE. 
+
+
+Torsten Felstehausen (DIE LINKE): 
+
+
+Herr Präsident, meine Damen und Herren zu Hause und 
+hier im Plenarsaal! Oliver Stirböck hat gerade ein kleines 
+Lehrstück aufgeführt, was man vielleicht auch unter Data 
+Mining verstehen kann, nämlich die Vorwegnahme von Ereignissen 
+aufgrund von Daten, bevor diese eintreten. 
+
+
+Aber ich muss Sie enttäuschen: Ganz so schlimm wird es 
+dieses Mal mit meiner Kapitalismuskritik nicht, auch wenn 
+sie gleichwohl tatsächlich nicht unberechtigt ist. Das Wort 
+der FDP Digitalisierung first. Bedenken second darf so 
+pauschal nicht stehen bleiben. 
+
+
+Aber zunächst einmal zu Open Data und zu dem, was dahinter 
+steht: Datensammlungen und Statistiken, Archive 
+und Verwaltungsakten, Bauanträge und -genehmigungen, 
+Geodaten und Buchhaltungsunterlagen  Verwaltungen 
+und Behörden verfügen über zahllose Daten, die für die 
+Öffentlichkeit teils gar nicht und teils nur auf Antrag zugänglich 
+sind. Das will die Open-Data-Bewegung zu Recht 
+ändern. 
+
+
+Sie möchte erreichen, dass möglichst viele Datenbestände 
+der öffentlichen Hand frei zugänglich bereitgestellt werden, 
+damit sie von Bürgerinnen und Bürgern, aber auch 
+von Unternehmen verwendet werden können. Dabei 
+kommt es darauf an, dass diese Daten  das ist bis heute 
+überwiegend noch nicht der Fall  offen und maschinenlesbar 
+sind. Denn nur so ist es möglich, dass sich große Da
+
+
+tenmengen erschließen lassen; intuitiv ist das nicht möglich. 
+Diese Daten werden erst dann nützlich, wenn man sie 
+automatisiert verarbeiten kann, wenn sie aggregiert werden 
+und wenn man sie durch selbst gesetzte Kriterien durchsuchen 
+und untersuchen kann. 
+
+
+Der Zugang zu den staatlichen Informationsmonopolen derVerwaltungen, der Ämter und der Behörden ist Voraussetzung 
+für eine erweiterte Teilhabe an demokratischen Prozessen. 
+Nur wenn staatliches Verwaltungshandeln transparent 
+wird, können Bürgerinnen und Bürger Entscheidungen, 
+die sie betreffen, tatsächlich beurteilen, hinterfragen 
+und dann mitgestalten. 
+
+
+Doch offene Daten haben nicht nur einen hohen gesellschaftlichen, 
+sondern auch einen hohen wirtschaftlichen 
+Nutzen. Auf der Basis von Geodaten etwa entstehen 
+Smartphone-Apps für Landkarten. Aus Messdaten zur 
+Luftfeuchtigkeit werden Wetterinformationen. Fahrpläne 
+des öffentlichen Nahverkehrs stellen die Grundlage für Navigationsdienste 
+dar. Dank offener Schnittstellen, die den 
+automatisierten Zugriff auf solche Daten ermöglichen, ist 
+in den letzten Jahren ein gesteigertes wirtschaftliches Interesse 
+entstanden. Dadurch sind tatsächlich Anwendungen 
+programmiert worden, die uns allen helfen. 
+
+
+Aber derzeit ist Hessen noch eine Open-Data-Wüste. Verwaltungsstruktur 
+und Verwaltungskultur sind zu häufig 
+noch auf closed orientiert. Verwaltungen hüten die eigenen 
+Daten oftmals wie einen Schatz. Zudem wird oft der 
+Aufwand einer Offenlegung gescheut. 
+
+
+Dabei sollten Daten stets so zügig und so vollständig wie 
+möglich veröffentlicht werden. Sie sollten in maschinenlesbarer 
+Form vorliegen und Informationen über die Quelle 
+enthalten. Insofern, lieber Oliver, sind wir uns an der Stelle 
+völlig einig. 
+
+
+Daten aufzufinden, zu durchsuchen und abzurufen, sollte 
+möglichst einfach und barrierefrei möglich sein. Das Material 
+sollte eben nicht mit Urheberrechten, Patenten oder 
+Markenrechten belastet sein, sondern möglichst einschränkungsfrei 
+zugänglich sein  und das dauerhaft. Steuerfinanzierte 
+Daten müssen in der Regel kosten- und barrierefrei 
+bereitgestellt werden. Hierbei stimmen wir mit der 
+FDP tatsächlich überein. 
+
+
+(Oliver Stirböck (Freie Demokraten): Gut!  Weiterer 
+Zuruf Freie Demokraten: Ui!  Gegenruf Janine 
+Wissler (DIE LINKE)) 
+
+
+ Ja, in der Tat.  Aber wir sagen auch: Wer mit öffentlichen 
+Daten Milliardengewinne macht, muss sich dann 
+eben auch mit Blick auf das Steuersystem die Frage stellen 
+lassen, wie diese Gewinne versteuert werden. Das trennt 
+uns an dieser Stelle. 
+Der Grundsatz Öffentliche Daten nützen, die private Daten 
+schützen ist nicht der einzige Grundsatz der Open-Data-
+Bewegung. Es gibt einen weiteren Grundsatz: Öffentliche 
+Gelder  öffentliches Gut. Das bedeutet, dass Forschungsergebnisse 
+der Unis, z. B. bei der sogenannten 
+Drittmittelforschung, öffentlich und für alle zugänglich 
+sein müssen. 
+
+
+(Beifall DIE LINKE) 
+
+
+Wer die Hilfe der staatlich finanzierten Bildungseinrichtungen 
+in Anspruch nimmt und für seine Zwecke nutzt, 
+muss der Öffentlichkeit diese Ergebnisse zur Verfügung 
+stellen. 
+

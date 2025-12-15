@@ -1,0 +1,157 @@
+6990 
+Hessischer Landtag · 20. Wahlperiode · 87. Sitzung · 10. November 2021 
+
+
+Ich rufe Tagesordnungspunkt 73 auf: 
+
+
+Beschlussempfehlung und BerichtAusschuss für Digitales und DatenschutzVorlage 
+Hessischer Beauftragter für Datenschutz und Informationsfreiheit 
+Neunundvierzigster Tätigkeitsbericht zum Datenschutz 
+und Dritter Bericht zur Informationsfreiheit 
+hierzu: Stellungnahme der Landesregierung betreffendden Neunundvierzigsten Tätigkeitsbericht zum Datenschutz 
+und Dritten Bericht zur Informationsfreiheit des 
+Hessischen Beauftragten für Datenschutz und Informationsfreiheit 
+
+
+ Drucks. 20/6643 
+zu Drucks. 20/6428 
+zu Drucks. 
+20/5799  
+Jetzt möchte ich den Hessischen Beauftragten für Datenschutz 
+und Informationsfreiheit bei uns begrüßen. Er wird 
+von unserem Präsidenten geleitet. Was gibt es für eine größere 
+Ehre, als vom Präsidenten in diese Runde geführt zu 
+werden? 
+
+
+(Allgemeiner Beifall) 
+
+
+Herr Prof. Roßnagel, seien Sie herzlich willkommen im 
+Hessischen Landtag. 
+
+
+Bevor ich Ihnen das Wort erteile, bitte ich zunächst die Berichterstatterin, 
+Frau Abg. Nadine Gersberg von der Fraktion 
+der SPD, um ihren Bericht. 
+
+
+Nadine Gersberg, Berichterstatterin: 
+
+
+Sehr geehrter Herr Präsident, meine sehr geehrten Damen 
+und Herren! Der Ausschuss für Digitales und Datenschutz 
+empfiehlt dem Plenum einstimmig, den Neunundvierzigsten 
+Tätigkeitsbericht zum Datenschutz und Dritten Bericht 
+zur Informationsfreiheit des Hessischen Beauftragten für 
+Datenschutz und Informationsfreiheit zur Kenntnis zu nehmen 
+und darüber eine Aussprache zu führen. 
+
+
+(Beifall SPD) 
+
+
+Vizepräsident Frank Lortz: 
+
+
+Vielen Dank, Frau Kollegin Gersberg, für den Bericht.  
+Herr Prof. Roßnagel, nun haben Sie das Wort für Ihren Tätigkeitsbericht. 
+
+
+Prof. Dr. Alexander Roßnagel, Hessischer Beauftragterfür Datenschutz und Informationsfreiheit: 
+
+
+Herr Präsident, meine sehr verehrten Damen und Herren! 
+Dies ist der erste Tätigkeitsbericht, den ich dem Landtag 
+vorstelle. Der 49. Bericht zum Datenschutz und der Dritte 
+Bericht zur Informationsfreiheit betreffen das Jahr 2020. 
+Zu dieser Zeit war ich noch nicht im Amt. Verantwortlich 
+war Herr Prof. Ronellenfitsch. Er hat auch den jetzt vorliegenden 
+Bericht noch erstellt. 
+
+
+Das wichtigste Ergebnis des 49. Berichts zum Datenschutz 
+ist, dass es in Hessen keine schwerwiegenden Verstöße zu 
+verzeichnen gibt  
+
+
+(Beifall CDU, BÜNDNIS 90/DIE GRÜNEN und 
+vereinzelt SPD) 
+
+
+ganz im Gegensatz zur Entwicklung in Deutschland und in 
+der Welt. Dort sind technische, wirtschaftliche und politische 
+Entwicklungen zu beobachten, die die Persönlichkeitsrechte 
+Betroffener zunehmend gefährden. Für Hessen 
+ist dagegen festzustellen, dass der Datenschutz akzeptiert 
+und nicht grundsätzlich infrage gestellt wird. Auch im 
+Landtag, insbesondere im Ausschuss für Digitales und Datenschutz, 
+wird kritisch und konstruktiv über den Datenschutz 
+diskutiert. Die große Übereinstimmung in Datenschutzfragen 
+kommt auch in der Stellungnahme der Landesregierung 
+zum Ausdruck, die meinem Bericht 37-mal 
+uneingeschränkt zustimmt und ihn zehnmal unwidersprochen 
+zur Kenntnis nimmt. 
+
+
+Dennoch waren viele Datenschutzverstöße zu berichten 
+und viele Beratungen und Aufsichtsmaßnahmen zu erwähnen. 
+Bevor ich zu diesen komme, will ich drei allgemeine 
+Entwicklungen ansprechen, die das Jahr 2020 geprägt haben, 
+aber auch die nächste Zeit betreffen werden. 
+
+
+Neue Herausforderungen für den Datenschutz hat die Corona-
+Pandemie hervorgerufen. Sie hat im Jahr 2020 zu einem 
+enormen Digitalisierungsschub geführt  damit aber 
+auch zu einer Zunahme von Datenschutzproblemen. Dennoch 
+hat der Datenschutz erheblich und auf breiter Front 
+zurückgesteckt: Die Aufsichtsbehörden haben viele Datenverarbeitungen, 
+die in der gesellschaftlichen Notsituation 
+erforderlich waren, vorübergehend geduldet. Jetzt, wo wir 
+beginnen, uns an Corona als endemische Erscheinung zu 
+gewöhnen, wird es Zeit, alle vorübergehend geduldeten 
+Lösungen auf den Prüfstand zu stellen und an die datenschutzrechtlichen 
+Anforderungen anzupassen, um rechtmäßige 
+Zustände herzustellen. 
+
+
+Zum anderen hat sich im Jahr 2020 gezeigt, dass das Datenschutzrecht 
+immer stärker durch die Europäische Union 
+geprägt wird. Das wurde im letzten Jahr vor allem durch 
+das Schrems-II-Urteil des Europäischen Gerichtshofs deutlich. 
+Danach muss jeder Verantwortliche, der personenbezogene 
+Daten an Staaten außerhalb des europäischen Wirtschaftsraums 
+übermittelt, sicherstellen, dass die Betroffenen 
+dadurch nicht ihre Grundrechte verlieren. 
+
+
+Für die USA hat der Gerichtshof ausdrücklich festgestellt, 
+dass wegen der unverhältnismäßigen Zugriffsmöglichkeiten 
+der US-Behörden und des fehlenden Rechtsschutzes für 
+betroffene Personen aus Europa dort kein ausreichender 
+Grundrechtsschutz besteht. Aus diesem Grund hat er das 
+Privacy Shield genannte Abkommen, das Datenübermittlungen 
+zwischen der EU und den USA rechtfertigte, für 
+nichtig erklärt. Dadurch entsteht die schwierige Herausforderung, 
+Übermittlungen von Daten an die USA ohne zusätzliche 
+Schutzmaßnahmen zu unterbinden. 
+
+
+Mit dem Urteil hat der Gerichtshof indirekt das Ziel vorgegeben, 
+die bestehende Abhängigkeit von Anbietern aus den 
+USA zu reduzieren und in der Union eine möglichst weitgehende 
+digitale Souveränität zu erreichen. Digitale Souveränität, 
+rechtsstaatlich definiert, bedeutet: Die Verantwortlichen 
+setzen eine Informationstechnik ein, die es ihnen 
+ermöglicht, den Grundrechtsschutz zu gewährleisten. 
+Ohne Unternehmen und Behörden arbeitsunfähig zu machen, 
+kann die notwendige digitale Souveränität aber nur 
+erreicht werden, wenn im Binnenmarkt geeignete Alternativen 
+zu den IT-Systemen aus den USA angeboten werden. 
+Diese Voraussetzung herzustellen, ist eine schwierige, mittel- 
+bis langfristige Aufgabe, vor der wir alle gemeinsam 
+stehen. Wo aber Alternativen bestehen, die keine Datenübertragung 
+an die USA erfordern oder Zugriffe aus den 
+

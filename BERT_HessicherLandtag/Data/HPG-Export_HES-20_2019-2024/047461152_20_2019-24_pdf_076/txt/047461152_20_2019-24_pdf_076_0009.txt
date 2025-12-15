@@ -1,0 +1,163 @@
+Hessischer Landtag · 20. Wahlperiode · 76. Sitzung · 15. Juni 2021 
+6093 
+
+
+Präsident Boris Rhein: 
+
+
+Vielen Dank, Herr Minister.  Zusatzfragen?  Eine Zusatzfrage 
+hat Kollege Kummer. 
+
+
+Gerald Kummer (SPD): 
+
+
+Herr Minister, stimmen Sie mir zu, dass es, statt weitere 
+Stellplätze an Autobahnen zu bauen, sehr wichtig wäre, dafür 
+zu sorgen, dass der Schwerverkehr auf die Schiene verlagert 
+wird? 
+
+
+(Zuruf: Welche Schiene?) 
+
+
+Präsident Boris Rhein: 
+
+
+Herr Minister. 
+
+
+Tarek Al-Wazir, Minister für Wirtschaft, Energie, Verkehr 
+und Wohnen: 
+
+
+Herr Abg. Kummer, ich stimme Ihnen ausdrücklich zu, 
+dass wir dringend mehr Schienenkapazität brauchen. Ich 
+will ausdrücklich hinzufügen, dass wir zwei große Projekte 
+in Hessen haben, nämlich FrankfurtFulda und Frankfurt 
+Mannheim, die mit dazu beitragen würden, dass wir in den 
+sehr überlasteten Bereichen jeweils zwei Gleise mehr bekämen. 
+Sie würden dazu beitragen, dass man nicht nur den 
+Deutschlandtakt im Schienenpersonenfernverkehr besser 
+machen könnte. Wir könnten auch mehr Nahverkehr anbieten, 
+und wir könnten natürlich auch mehr für den Güterverkehr 
+anbieten. Es ist ja kein Geheimnis, dass auf der Relation 
+GenuaRotterdam die Schweizer den Gotthardtunnel 
+schon fertig haben und wir bisher nichts anbieten können. 
+
+
+Da stelle ich auch die Frage  ich habe es vorhin schon gesagt 
+: Wie hat man sich kommunal verhalten, wenn entsprechende 
+Projekte zu Stellplätzen gemacht worden sind? 
+Das gilt natürlich auch beim Ausbau der Schiene. Leider, 
+und das ist die schlechte Nachricht, ist der prognostizierte 
+Zuwachs im Güterverkehr so hoch, dass auch der Ausbau 
+der Schiene nicht dazu führen kann, dass wir alle Probleme 
+auf der Straße gelöst bekommen. Deswegen denken wir ja, 
+wenn man so will, zweigleisig. 
+
+
+Präsident Boris Rhein: 
+
+
+Vielen Dank, Herr Minister. 
+
+
+Ich rufe Frage 514 
+auf. Der Fragesteller ist Abg. Bijan 
+Kaffenberger. 
+
+
+Bijan Kaffenberger (SPD): 
+
+
+Ich frage die Landesregierung: 
+
+
+Wie fördert sie flächendeckende LoRaWAN-Netze in Kommunen? 
+
+
+Präsident Boris Rhein: 
+
+
+Staatsministerin Prof. Sinemus. 
+
+
+Prof. Dr. Kristina Sinemus, Ministerin für DigitaleStrategie und Entwicklung: 
+
+
+Sehr geehrter Herr Abg. Kaffenberger, die LoRaWAN-
+Technik ist bereits in einigen hessischen Kreisen und kreisfreien 
+Städten in Betrieb oder geplant. So kann die Digitalstadt 
+Darmstadt beispielsweise auf ein flächendeckendes 
+Netz zurückgreifen, das auch durch die Landesförderung 
+der Digitalstadt Darmstadt ermöglicht wurde. 
+
+
+Eigenwirtschaftlich wurde etwa in der Landeshauptstadt 
+Wiesbaden und der Stadt Frankfurt am Main ein solches 
+Netz aufgebaut. Aber auch ländlichere Kreise, wie beispielsweise 
+Fulda, sind bereits mit LoRaWAN versorgt. 
+Aus anderen Kreisen sind uns Planungen bekannt, ein solches 
+Netz aufzubauen. Betreiber sind jeweils die öffentlichen 
+Betriebe der Energie- bzw. Wasserversorgung, die das 
+Netz für eigene Zwecke, aber auch zur Nutzung durch 
+Kunden betreiben. Anwendungsfälle sind z. B. die Fernablesung 
+von Strom- und Wasserzählern, die Temperaturüberwachung 
+bei der Fernwärme, die Lokalisierung von 
+Containern und anderem mobilen Inventar oder auch die 
+Überwachung von Parkraum im Rahmen von Smart Parking. 
+
+
+Der Vorteil an LoRaWAN-Netzen ist der niedrige Energieverbrauch, 
+die hohe Reichweite sowie die Durchdringung 
+von Materialien. Mit sehr wenigen Sendern können so große 
+Flächen abgedeckt werden. 
+
+
+Die Landesregierung fördert die digitale Infrastruktur in 
+Hessen in einem nie da gewesenen Ausmaß von 320 Millionen 
+, die in dieser Legislaturperiode vorgesehen sind. 
+Damit werden wir Hessen zum Gigabitland machen  wir 
+hatten es im letzten Plenum  und die letzten weißen Flecken 
+im Mobilfunk schließen. 
+
+
+Die Einrichtung von LoRaWAN selbst als Technologie ist 
+kein Fördergegenstand. Die Technik ist relevant, funktional 
+und rentiert sich für die Kommunen bzw. Betriebe rasch 
+durch eingesparte Aufwendungen, etwa durch Fernablesung 
+oder auch durch neue Geschäftsmodelle. Grundsatz in 
+Hessen war und ist jedoch: Eigenwirtschaftlicher Ausbau 
+geht vor gefördertem Ausbau. Deswegen ist aus Sicht der 
+Landesregierung eine Förderung der reinen Netze nicht 
+notwendig. Die genannten Beispiele belegen dies. 
+
+
+Aus den Mitteln des Programms Starke Heimat Hessen 
+können Wettbewerbsverfahren in diesem und in den nächsten 
+Jahren mit jeweils 16 Millionen , vorzugsweise Gemeinschaftsvorhaben 
+mit Modellcharakter in den Themenfeldern 
+Smart City, Smart Region, gefördert werden. Dabei 
+ist grundsätzlich denkbar, dass die Kommunen Projekte 
+einreichen, die auf LoRaWAN-Netzen basieren. In diesen 
+Fällen ist auch eine Mit- oder Teilfinanzierung der Infrastruktur 
+möglich. 
+
+
+Präsident Boris Rhein: 
+
+
+Vielen Dank, Frau Ministerin.  Die erste Zusatzfrage stellt 
+Herr Kollege Kaffenberger. 
+
+
+Bijan Kaffenberger (SPD): 
+
+
+Frau Staatsministerin, vielen Dank für Ihre Ausführungen. 
+
+
+ Wenn LoRaWAN so ein wichtiges Thema ist, wie Sie sagen, 
+wieso wird es denn in der fortgeschriebenen hessischen 
+Digitalstrategie nicht erwähnt? 

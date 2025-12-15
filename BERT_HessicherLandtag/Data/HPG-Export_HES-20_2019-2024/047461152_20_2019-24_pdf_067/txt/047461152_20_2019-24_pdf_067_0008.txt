@@ -1,0 +1,165 @@
+5314 
+Hessischer Landtag · 20. Wahlperiode · 67. Sitzung · 16. März 2021 
+
+
+und Arbeitsplattform von Landesseite angeboten, die die 
+Kommunikation zwischen Lehrkräften und Schülerinnen 
+und Schülern sowie den sicheren Austausch von Unterrichtsmaterialien 
+und Lernergebnissen ermöglicht. 
+
+
+Derzeit wird das Schulportal ausgebaut. Durch eine Verbesserung 
+der technischen Infrastruktur ist es bereits möglich, 
+allen Schulen einen Zugang zum Schulportal bereitzustellen. 
+Aktuell nutzen etwa 90 % der weiterführenden und 
+50 % der Grundschulen das Schulportal. Vor der Benutzung 
+müssen sich die Schulen nur über die Schulportal-
+Website einmalig registrieren. 
+
+
+Das Schulportal Hessen wurde als den Präsenzunterricht 
+begleitendes Instrument entwickelt. Die notwendige Systemleistung 
+für einen Lockdown war somit in der Skalierung 
+der Soft-und Hardware ursprünglich nicht berücksichtigt. 
+Seit Beginn des ersten Lockdowns wurde deshalb 
+intensiv an der Softwarearchitektur sowie an der Erweiterung 
+der Serverkapazitäten gearbeitet. Dazu mussten Ausschreibungsverfahren 
+durchgeführt und neues Personal eingearbeitet 
+werden. Da dieser Ausbau zum 16. Dezember 
+2020 noch nicht vollständig abgeschlossen war, kam es zu 
+überlastungsbedingten Störungen des Systems, die jedoch 
+kurzfristig behoben werden konnten. 
+
+
+Seit Januar 2021 arbeiten jetzt zu Höchstzeiten rund 
+
+
+100.000 bis 120.000 Schülerinnen und Schüler gleichzeitig 
+mit dem Schulportal, wobei rund 500.000 Schülerinnen 
+und Schüler über eine Zugangsberechtigung zum Schulportal 
+verfügen. 
+Ich darf darüber hinaus auf das Nachrichtenmagazin Focus 
+verweisen, das am 11. Januar 2021 in einer Übersicht 
+über alle digitalen Lernplattformen der 16 Länder zu dem 
+Ergebnis kam, dass das hessische Schulportal zum genannten 
+Stichtag die einzige digitale Lernplattform ohne Probleme 
+war. Insofern war der 16. Dezember 2020 tatsächlich 
+ein singuläres Ereignis, aus dem wir aber sehr gute 
+Lehren gezogen haben. 
+
+
+Präsident Boris Rhein: 
+
+
+Vielen Dank, Herr Staatsminister.  Herr Kollege Kaffenberger 
+hat eine Zusatzfrage. Bitte. 
+
+
+Bijan Kaffenberger (SPD): 
+
+
+Vielen Dank für Ihre Ausführungen, Herr Staatsminister.  
+Vor diesem Hintergrund möchte ich eine Nachfrage stellen. 
+Es kam schon öfter zu solchen Störungen. Es steht auch die 
+Frage im Raum, dass es dabei zu Datenverlusten kam. Ich 
+möchte Sie daher fragen, ob es denn ein Backup-System 
+für das Schulportal und insbesondere für die darin enthaltene 
+Schul-Moodle-Software gibt. 
+
+
+Präsident Boris Rhein: 
+
+
+Herr Minister. 
+
+
+Prof. Dr. R. Alexander Lorz, Kultusminister: 
+
+
+Herr Abg. Kaffenberger, das Schulportal ist auf dem aktuellen 
+technischen Stand und insofern auch mit allen erforderlichen 
+Backup-Systemen ausgestattet. Trotzdem ist es 
+natürlich ein komplexes System, das kontinuierlich in allen 
+Funktionsbereichen weiterentwickelt wird. 
+
+
+Zur Bewältigung der Pandemie haben wir vor allem die 
+technische Basis des Schulportals verändert, um der erhöhten 
+Nutzung gerecht zu werden. Das Schulportal wird in 
+BSI-zertifizierten Rechenzentren betrieben, deren Sicherheitsmaßnahmen 
+kontinuierlich auf dem neuesten Stand 
+gehalten werden. Trotzdem kommt es natürlich, wie bei jedem 
+IT-System, immer wieder zu Störungen, die aber bisher 
+auch immer noch kurzfristig behoben werden konnten. 
+
+
+Präsident Boris Rhein: 
+
+
+Vielen Dank, Herr Minister.  Gibt es weitere Zusatzfragen? 
+ Das ist offensichtlich nicht der Fall. 
+
+
+(Bijan Kaffenberger (SPD): Ich hatte gedrückt!) 
+
+
+ Herr Kaffenberger, Sie dürfen noch einmal. Bitte. 
+Bijan Kaffenberger (SPD): 
+
+
+Vielen Dank, Herr Präsident.  Herr Staatsminister, danke 
+auch für diese Ausführungen, denen ich entnehme, dass es 
+ein Backup-System gibt. Ich hätte trotzdem noch eine Frage 
+zu einer weiteren Funktion. Wir diskutieren ja schon 
+länger über die Videofunktion. Sie haben angesprochen, 
+dass Ausschreibungsprozesse eine Weile dauern. 
+
+
+Ist denn für die Leistung der Videofunktion für das Schulportal, 
+die für den Distanzunterricht auch dringend notwendig 
+ist, eine Ausschreibung bzw. eine Beauftragung erfolgt? 
+Ist diese Funktion schon vergeben, und wann können 
+wir damit rechnen? 
+
+
+Präsident Boris Rhein: 
+
+
+Herr Prof. Lorz. 
+
+
+Prof. Dr. R. Alexander Lorz, Kultusminister: 
+
+
+Herr Abg. Kaffenberger, das Verfahren ist im Gange. Den 
+exakten Stand vom heutigen Tage kann ich Ihnen jetzt natürlich 
+nicht aus dem Kopf sagen. Aber unsere Planungen 
+sehen nach wie vor vor, dass das Videokonferenzsystem zu 
+Beginn des neuen Schuljahres verfügbar sein soll. Bisher 
+habe ich noch keine Informationen, die darauf hindeuten, 
+dass das in irgendeiner Form infrage stehen würde. 
+
+
+Präsident Boris Rhein: 
+
+
+Vielen Dank, Herr Minister.  Zusatzfrage, Herr Kollege 
+Degen. 
+
+
+Christoph Degen (SPD): 
+
+
+Vielen Dank.  Ich würde gerne noch einmal präziser 
+nachfragen, Herr Minister. Kann ich davon ausgehen, dass 
+zu Beginn des neuen Schuljahres im August 2021 wirklich 
+alle Schülerinnen und Schüler und Lehrkräfte zum Unterrichtsbetrieb 
+ im Zweifel gleichzeitig  das Videokonferenztool 
+werden nutzen können? 
+
+
+Präsident Boris Rhein: 
+
+
+Herr Minister. 
+

@@ -1,0 +1,161 @@
+Hessischer Landtag · 20. Wahlperiode · 66. Sitzung · 4. Februar 2021 
+5239 
+
+
+(Beifall CDU und BÜNDNIS 90/DIE GRÜNEN  
+Marion Schardt-Sauer (Freie Demokraten): Wer hat 
+das denn behauptet?) 
+
+
+Von den LINKEN kommen große Reden, aber zu Themen 
+der Rechtspolitik: null Initiativen und null Interesse. 
+
+
+Seit 2014 führe ich das Justizministerium, und ich bin den 
+Koalitionsfraktionen dankbar, dass die Haushaltsanträge 
+im Ergebnis dazu geführt haben, das Personal bei der ZIT 
+zu verdreifachen. Das will ich an dieser Stelle noch einmal 
+sagen. 
+
+
+Herr Kummer, die Zahlen, die Sie zur Besetzung genannt 
+haben, stimmen auch nicht. Wir haben im Moment zwei 
+Mitarbeiter an den GBA abgegeben. Wir haben bis zu drei 
+Viertel der Stellen besetzt. Dort herrscht eine ständige 
+Fluktuation von jungen Leuten, die auch zum Bundeskriminalamt 
+und zum GBA gehen. Es gibt dort einen intensiven 
+Austausch. 
+
+
+Jetzt will ich Ihnen einmal sagen: Frau Schardt-Sauer, bei 
+Ihnen hört nicht einmal die eigene Fraktion bei einem so 
+wichtigen Thema zu. Ich glaube, das ist Signal genug. 
+
+
+(Zuruf Marion Schardt-Sauer (Freie Demokraten)) 
+
+
+Ein riesiger Schlag ist gelungen, und darauf können wir 
+wirklich stolz sein. Worüber reden wir? Das will ich noch 
+einmal sagen: Wir reden über eine Schadsoftware und einen 
+Trojaner. Das erste Mal ist dies 2014 aufgetaucht, als 
+eine Attacke darauf abzielte, Onlinezugangsdaten von 
+deutschen und österreichischen Bankkunden abzufangen. 
+
+
+Emotet ist in den Jahren immer besser und immer intelligenter 
+geworden. Zuletzt war es in der Lage, die Kontaktbeziehungen 
+und E-Mail-Inhalte aus den Postfächern infizierter 
+Systeme auszulesen, um auf dieser Basis weitere 
+Angriffe zu starten. Das ist ganz besonders gefährlich. Dabei 
+konnte Emotet die Absender nahezu perfekt imitieren 
+und verseuchte E-Mails von den richtigen Mail-Adressen 
+senden. Sogar der Schreibstil ist kopiert worden, und die 
+Software hat sich dabei sogar zunutze gemacht, dass die 
+Empfänger in vielen Situationen auf eine Nachricht gewartet 
+haben.  Es hat sich also riesig ausgebreitet. 
+
+
+Was genau ist passiert? In umfangreichen Ermittlungen ist 
+es gelungen, einen Server in Düsseldorf ausfindig zu machen, 
+der zum Emotet-Netzwerk gehörte. Das war der erste 
+Schritt. Die ZIT hat sich von Server zu Server gehangelt, 
+die eine Schutzschicht um das eigentliche Netzwerk gebildet 
+haben. Nach zwei Jahren intensiven Ermittlungen  hören 
+Sie gut zu, Herr Kummer  der ZIT konnten die Ermittler 
+schließlich eine Person in der Ukraine ausfindig 
+machen, die einen essenziellen Part bei der Unterhaltung 
+des Netzwerks eingenommen hat. Deshalb waren dann 
+auch Staatsanwälte der ZIT bei der Durchsuchung der 
+Wohnung dieser Person in der Ukraine dabei. 
+
+
+Vor Ort ist der eigentliche Clou gelungen. Die Ermittler haben 
+quasi ein Update von Emotet über das Netzwerk verseuchter 
+Computer verteilt und die Datenströme umgeleitet. 
+Die infizierten Rechner sendeten nicht mehr an die Server 
+von Emotet, sondern nur noch an fünf von der ZIT angemietete 
+ungefährliche Server. Genau das war der Grund, 
+warum das Netzwerk zerschlagen worden ist. Deshalb ist 
+das ein Ermittlungserfolg der ZIT gegen das System, das 
+weltweit 2,1 Milliarden  Schaden angerichtet hat. Das ist 
+eine Summe, die man nennen kann. Wahrscheinlich ist sie 
+nicht hoch genug veranschlagt.  Das ist damit am Ende 
+
+
+gestoppt worden, und das ist ein riesiger Erfolg, wozu man 
+nur Danke sagen kann an so viel Innovation. 
+
+
+(Beifall CDU und BÜNDNIS 90/DIE GRÜNEN) 
+
+
+Vizepräsidentin Karin Müller: 
+
+
+Frau Staatsministerin, ich darf Sie an die Redezeit erinnern. 
+
+
+Eva Kühne-Hörmann, Ministerin der Justiz: 
+
+
+Ich will noch einen Aspekt nennen, der die Herausforderungen 
+angeht. Es gibt Gesetzeslücken in diesem Bereich; 
+die sind schon angesprochen worden. An die Betreiber der 
+Botnetze kommen wir jederzeit heran. Das ist nicht das 
+Problem. 
+
+
+Wir brauchen Strafnormen in diesem Bereich, und da ist 
+die hessische Initiative des digitalen Hausfriedensbruchs 
+genannt worden. Herr Kummer, es ist komisch, dass im 
+Bundesrat auch von der A-Länder-Seite viele dieser Initiative 
+zugestimmt haben. Wenn ein Mitarbeiter des Wissenschaftlichen 
+Dienstes im Bundestag das anders sieht, damit 
+kann ich leben. 
+
+
+Die Experten der ZIT haben diesen Vorschlag gemacht. 
+Das sind die Spezialisten, und es fehlt uns daran, dass wir 
+den Gebrauch ausgelesener Daten bestrafen können. Das 
+heißt, die Emotet-Daten liegen jetzt irgendwo, und wer sie 
+benutzt, der kann nicht strafrechtlich dafür belangt werden. 
+Das ist eine Lücke, die geschlossen werden muss. 
+
+
+Insofern bedarf es noch vieler Initiativen, die Gesetzeslücken 
+zu schließen. Daran ist Frau Lambrecht in der Regel 
+nie beteiligt. 
+
+
+(Beifall CDU und BÜNDNIS 90/DIE GRÜNEN) 
+
+
+Vizepräsidentin Karin Müller: 
+
+
+Vielen Dank, Frau Staatsministerin Kühne-Hörmann.  
+Mir liegen jetzt keine weiteren Wortmeldungen vor. Damit 
+ist die Aktuelle Stunde der Fraktion der CDU, Drucks. 
+20/4958, abgehalten. 
+
+
+Inzwischen ist eingegangen und an Ihren Plätzen verteilt 
+ein Dringlicher Entschließungsantrag der Fraktionen der 
+CDU und BÜNDNIS 90/DIE GRÜNEN betreffend Wirtschaft 
+und Corona: Homeoffice ist wichtiger Bestandteil 
+des Kampfes gegen die Pandemie, Drucks. 20/4997. Wird 
+die Dringlichkeit bejaht?  Das ist der Fall. Dann wird dies 
+Punkt 100 und kann, wenn niemand widerspricht, mit 
+Punkt 64 zu diesem Thema aufgerufen werden.  Ich sehe 
+keinen Widerspruch. Dann machen wir das so. 
+
+
+Außerdem eingegangen und an Ihren Plätzen verteilt ist einDringlicher Antrag der Fraktionen der CDU und BÜNDNIS 
+90/DIE GRÜNEN, hessische Impfstrategie weiter vorantreiben 
+ bestehende Impfstoffproduktion ausweiten, 
+Drucks. 20/4998. Wird die Dringlichkeit bejaht?  Auch 
+das ist der Fall. Dann wird dies Punkt 101 und kann, wenn 
+niemand widerspricht  das tut niemand  mit Punkt 56 zu 
+diesem Thema aufgerufen werden. 
+
