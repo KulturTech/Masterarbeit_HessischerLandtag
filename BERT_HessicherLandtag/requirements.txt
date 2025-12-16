@@ -1,0 +1,7 @@
+pandas
+pyarrow
+datasets
+transformers
+scikit-learn
+tqdm
+regex
