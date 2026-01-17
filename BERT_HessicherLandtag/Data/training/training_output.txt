@@ -1,0 +1,43 @@
+================================================================================
+BERT FINE-TUNING SCRIPT - TRAINING OUTPUT
+================================================================================
+Started at: 2026-01-17 21:08:07
+
+No GPU available. Using CPU for training.
+Warning: Training on CPU will be significantly slower.
+
+Loading training data from: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\training\labeled_data.parquet
+Loaded 545 labeled examples
+Columns: ['text', 'label']
+
+Label distribution:
+  NON_HATE: 500 (91.74%)
+  HATE: 45 (8.26%)
+
+Label mapping:
+  NON_HATE -> 0
+  HATE -> 1
+
+Dataset split:
+  Training samples: 436
+  Validation samples: 109
+
+Loading model and tokenizer: Hate-speech-CNERG/dehatebert-mono-german
+
+Tokenizing datasets...
+Tokenization complete.
+
+Training configuration:
+  Model: Hate-speech-CNERG/dehatebert-mono-german
+  Epochs: 1
+  Batch size: 8
+  Learning rate: 2e-05
+  Max sequence length: 512
+  Weight decay: 0.01
+  Warmup steps: 500
+  Number of labels: 2
+
+================================================================================
+STARTING TRAINING
+================================================================================
+
