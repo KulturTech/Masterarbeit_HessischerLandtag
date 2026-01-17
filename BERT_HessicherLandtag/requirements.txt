@@ -1,7 +1,7 @@
 # Minimal requirements for data preparation and model prototyping
 # Use a virtual environment and pin exact versions with `pip freeze > requirements.txt`
 
-pandas>=1.5,<2
+pandas>=2.0
 pyarrow>=8.0.0
 datasets>=2.7.0
 transformers>=4.30.0
