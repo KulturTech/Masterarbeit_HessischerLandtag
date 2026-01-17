@@ -47,7 +47,7 @@ with st.sidebar:
     # File upload
     data_path = st.text_input(
         "Data Path",
-        value="BERT_HessicherLandtag/Data/prep_v1/all_docs_classified.parquet",
+        value=r"c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\prep_v1\all_docs_classified.parquet",
         help="Path to the classified parquet file"
     )
 

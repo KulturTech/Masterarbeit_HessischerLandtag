@@ -1,0 +1,4 @@
+Label,Count,Percentage,Mean Score,Median Score,Std Score,Mean Text Length,Mean Word Count
+HATE,247,2.1%,0.614,0.604,0.079,4415,305
+NON_HATE,11703,97.9%,0.972,0.979,0.040,5593,788
+OVERALL,11950,100.0%,0.964,0.979,0.065,5568,778

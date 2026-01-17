@@ -1,0 +1,5 @@
+,score,score,score,score,score,score,text_length,text_length,text_length,word_count,word_count,word_count
+,count,mean,median,std,min,max,mean,median,std,mean,median,std
+label,,,,,,,,,,,,
+HATE,247,0.614,0.604,0.079,0.5,0.823,4414.526,4465.0,1040.341,305.13,331.0,76.789
+NON_HATE,11703,0.972,0.979,0.04,0.501,0.99,5592.844,5809.0,1010.002,787.796,821.0,161.097

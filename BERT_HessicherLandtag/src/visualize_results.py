@@ -5,8 +5,8 @@ import numpy as np
 from pathlib import Path
 
 # Configuration
-INPUT_PATH = 'BERT_HessicherLandtag/Data/prep_v1/all_docs_classified.parquet'
-OUTPUT_DIR = 'BERT_HessicherLandtag/Data/visualizations'
+INPUT_PATH = r'c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\prep_v1\all_docs_classified.parquet'
+OUTPUT_DIR = r'c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\visualizations'
 FIGSIZE = (12, 8)
 DPI = 300
 

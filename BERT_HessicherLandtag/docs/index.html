@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BERT Hate Speech Classification Results</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .summary {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-card h3 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-card p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .visualizations {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 2rem;
+        }
+
+        .viz-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .viz-card h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .viz-card img {
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+
+        .download-section {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-top: 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 0.5rem;
+            transition: background 0.3s;
+        }
+
+        .download-btn:hover {
+            background: #764ba2;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🤖 BERT Hate Speech Classification</h1>
+        <p>Analysis of 11,950 documents using dehatebert-mono-german</p>
+    </header>
+
+    <div class="container">
+        <div class="summary">
+            <h2>Key Findings</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>11,950</h3>
+                    <p>Total Documents</p>
+                </div>
+                <div class="stat-card">
+                    <h3>97.9%</h3>
+                    <p>NON_HATE</p>
+                </div>
+                <div class="stat-card">
+                    <h3>2.1%</h3>
+                    <p>HATE</p>
+                </div>
+                <div class="stat-card">
+                    <h3>96.4%</h3>
+                    <p>Avg Confidence</p>
+                </div>
+                <div class="stat-card">
+                    <h3>96.8%</h3>
+                    <p>High Confidence</p>
+                </div>
+                <div class="stat-card">
+                    <h3>1.4%</h3>
+                    <p>Low Confidence</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 style="margin-bottom: 1.5rem; color: #667eea;">Visualizations</h2>
+
+        <div class="visualizations">
+            <div class="viz-card">
+                <h2>Label Distribution</h2>
+                <p>Overview of classification results showing the distribution between HATE and NON_HATE labels.</p>
+                <img src="../Data/visualizations/1_label_distribution.png" alt="Label Distribution">
+            </div>
+
+            <div class="viz-card">
+                <h2>Confidence Scores</h2>
+                <p>Distribution of model confidence scores for all predictions.</p>
+                <img src="../Data/visualizations/2_confidence_scores.png" alt="Confidence Scores">
+            </div>
+
+            <div class="viz-card">
+                <h2>Score Distribution by Label</h2>
+                <p>Box plot showing confidence score distributions for each label category.</p>
+                <img src="../Data/visualizations/3_score_boxplot.png" alt="Score Boxplot">
+            </div>
+
+            <div class="viz-card">
+                <h2>Confidence Levels</h2>
+                <p>Documents categorized by confidence level: Low (<0.6), Medium (0.6-0.8), High (>0.8).</p>
+                <img src="../Data/visualizations/4_confidence_levels.png" alt="Confidence Levels">
+            </div>
+
+            <div class="viz-card">
+                <h2>Confidence Heatmap</h2>
+                <p>Heatmap showing the relationship between labels and confidence levels.</p>
+                <img src="../Data/visualizations/5_confidence_heatmap.png" alt="Confidence Heatmap">
+            </div>
+
+            <div class="viz-card">
+                <h2>Text Length Analysis</h2>
+                <p>Analysis of text length and word count distributions across the dataset.</p>
+                <img src="../Data/visualizations/6_text_length_analysis.png" alt="Text Length Analysis">
+            </div>
+
+            <div class="viz-card">
+                <h2>Length vs Confidence</h2>
+                <p>Correlation between text length and model confidence scores.</p>
+                <img src="../Data/visualizations/7_length_vs_confidence.png" alt="Length vs Confidence">
+            </div>
+
+            <div class="viz-card">
+                <h2>Summary Statistics</h2>
+                <p>Comprehensive summary of classification statistics by label.</p>
+                <img src="../Data/visualizations/8_summary_statistics.png" alt="Summary Statistics">
+            </div>
+        </div>
+
+        <div class="download-section">
+            <h2 style="color: #667eea; margin-bottom: 1rem;">Download Data</h2>
+            <p style="margin-bottom: 1rem;">Access the raw data and detailed statistics:</p>
+            <a href="../Data/visualizations/summary_statistics.csv" class="download-btn" download>📊 Summary Statistics (CSV)</a>
+            <a href="../Data/visualizations/label_statistics.csv" class="download-btn" download>📈 Label Statistics (CSV)</a>
+            <a href="../Data/visualizations/low_confidence_predictions.csv" class="download-btn" download>⚠️ Low Confidence Predictions (CSV)</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Generated using BERT (dehatebert-mono-german) | Hessischer Landtag Analysis</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Built with Python, Transformers, and PyTorch</p>
+    </footer>
+</body>
+</html>

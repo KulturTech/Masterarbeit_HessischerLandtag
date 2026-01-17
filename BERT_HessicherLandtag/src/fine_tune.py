@@ -18,7 +18,7 @@ TRAINING_DATA_PATH = r"c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit
 MAX_LENGTH = 512
 BATCH_SIZE = 8  # Adjust based on your GPU/CPU memory
 LEARNING_RATE = 2e-5
-NUM_EPOCHS = 3
+NUM_EPOCHS = 1  # Reduced from 3 to 1 for faster CPU training
 TEST_SIZE = 0.2
 RANDOM_STATE = 42
 
