@@ -155,9 +155,13 @@ if len(immigrant_docs) > 0:
             print(f"\nDoc ID: {row.get('doc_id', idx)}")
             print(f"Confidence: {row['hate_score']:.4f}")
             print(f"Keywords: {', '.join(row['immigrant_keywords'][:5])}")
-            # Show first 300 characters of text
+            # Show first 300 characters of text (with encoding handling)
             text_preview = row['text'][:300] + "..." if len(row['text']) > 300 else row['text']
-            print(f"Text: {text_preview}")
+            try:
+                print(f"Text: {text_preview}")
+            except UnicodeEncodeError:
+                # Fallback for console encoding issues
+                print(f"Text: {text_preview.encode('ascii', 'replace').decode('ascii')}")
             print("-"*80)
 
     # 10. Save results
