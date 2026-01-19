@@ -1,0 +1,28 @@
+# Model checkpoints and large files
+BERT_HessicherLandtag/fine_tuned_model/checkpoint-*/
+*.safetensors
+*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
