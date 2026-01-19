@@ -434,6 +434,198 @@ with tab5:
     )
     st.plotly_chart(fig, use_container_width=True)
 
+# TAB 6: Hate Speech Against Immigrants
+with tab6:
+    st.header("Hate Speech Against Immigrants by Political Party")
+
+    # Load immigrants hate speech data
+    immigrants_path = r"C:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\prep_v1\hate_speech_against_immigrants.csv"
+
+    @st.cache_data
+    def load_immigrants_data(path):
+        try:
+            imm_df = pd.read_csv(path)
+            return imm_df
+        except FileNotFoundError:
+            return None
+
+    imm_df = load_immigrants_data(immigrants_path)
+
+    if imm_df is None:
+        st.error(f"Could not find immigrants hate speech data at: {immigrants_path}")
+        st.info("Please run the hate speech classification script first.")
+    else:
+        st.success(f"Loaded {len(imm_df)} documents with hate speech against immigrants")
+
+        # Define parties and their colors
+        parties = {
+            'CDU': '#000000',      # Black
+            'SPD': '#E3000F',      # Red
+            'GRÜNE': '#64A12D',    # Green
+            'FDP': '#FFED00',      # Yellow
+            'LINKE': '#BE3075',    # Magenta
+            'AfD': '#009EE0'       # Blue
+        }
+
+        # Create columns for each party mention
+        for party in parties.keys():
+            if party == 'GRÜNE':
+                imm_df[party] = imm_df['text'].str.contains(r'GRÜNE|GRÜNEN|Bündnis\s*90', case=False, regex=True, na=False)
+            else:
+                imm_df[party] = imm_df['text'].str.contains(party, case=False, na=False)
+
+        # Overview metrics
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.metric("Total Hate Speech Documents", f"{len(imm_df):,}")
+        with col2:
+            st.metric("Mean Hate Score", f"{imm_df['hate_score'].mean():.3f}")
+        with col3:
+            st.metric("Max Hate Score", f"{imm_df['hate_score'].max():.3f}")
+
+        st.markdown("---")
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            # Party mention counts
+            st.subheader("Documents by Party Mention")
+            party_counts = {party: imm_df[party].sum() for party in parties.keys()}
+            party_df = pd.DataFrame({
+                'Party': list(party_counts.keys()),
+                'Count': list(party_counts.values())
+            })
+            party_df = party_df.sort_values('Count', ascending=True)
+
+            fig = px.bar(
+                party_df,
+                x='Count',
+                y='Party',
+                orientation='h',
+                title="Documents with Hate Speech by Party Mention",
+                color='Party',
+                color_discrete_map=parties
+            )
+            fig.update_layout(showlegend=False, height=400)
+            st.plotly_chart(fig, use_container_width=True)
+
+        with col2:
+            # Hate score distribution
+            st.subheader("Hate Score Distribution")
+            fig = px.histogram(
+                imm_df,
+                x='hate_score',
+                nbins=30,
+                title="Distribution of Hate Scores",
+                labels={'hate_score': 'Hate Score', 'count': 'Frequency'},
+                color_discrete_sequence=['crimson']
+            )
+            fig.add_vline(x=imm_df['hate_score'].mean(), line_dash="dash",
+                         line_color="navy", annotation_text=f"Mean: {imm_df['hate_score'].mean():.3f}")
+            fig.update_layout(height=400)
+            st.plotly_chart(fig, use_container_width=True)
+
+        # Box plot: Hate score distribution by party
+        st.subheader("Hate Score Distribution by Political Party")
+
+        # Prepare data for box plot
+        box_data = []
+        for party in parties.keys():
+            party_scores = imm_df[imm_df[party]]['hate_score']
+            for score in party_scores:
+                box_data.append({'Party': party, 'Hate Score': score})
+
+        box_df = pd.DataFrame(box_data)
+
+        if len(box_df) > 0:
+            fig = px.box(
+                box_df,
+                x='Party',
+                y='Hate Score',
+                color='Party',
+                color_discrete_map=parties,
+                title="Hate Score Distribution by Party Mention"
+            )
+            fig.update_layout(showlegend=False, height=500)
+            st.plotly_chart(fig, use_container_width=True)
+
+        # Party statistics table
+        st.subheader("Party Statistics")
+        stats_data = []
+        for party in parties.keys():
+            party_docs = imm_df[imm_df[party]]
+            if len(party_docs) > 0:
+                stats_data.append({
+                    'Party': party,
+                    'Document Count': len(party_docs),
+                    'Mean Hate Score': party_docs['hate_score'].mean(),
+                    'Median Hate Score': party_docs['hate_score'].median(),
+                    'Std Dev': party_docs['hate_score'].std(),
+                    'Min Score': party_docs['hate_score'].min(),
+                    'Max Score': party_docs['hate_score'].max()
+                })
+
+        stats_table = pd.DataFrame(stats_data)
+        stats_table = stats_table.sort_values('Mean Hate Score', ascending=False)
+        st.dataframe(
+            stats_table.style.format({
+                'Mean Hate Score': '{:.4f}',
+                'Median Hate Score': '{:.4f}',
+                'Std Dev': '{:.4f}',
+                'Min Score': '{:.4f}',
+                'Max Score': '{:.4f}'
+            }),
+            use_container_width=True,
+            hide_index=True
+        )
+
+        # Document explorer for immigrants hate speech
+        st.markdown("---")
+        st.subheader("Document Explorer")
+
+        # Party filter
+        selected_parties = st.multiselect(
+            "Filter by Party Mention",
+            options=list(parties.keys()),
+            default=list(parties.keys())
+        )
+
+        # Score filter
+        min_score, max_score = st.slider(
+            "Hate Score Range",
+            min_value=float(imm_df['hate_score'].min()),
+            max_value=float(imm_df['hate_score'].max()),
+            value=(float(imm_df['hate_score'].min()), float(imm_df['hate_score'].max())),
+            step=0.01
+        )
+
+        # Filter documents
+        filtered_imm = imm_df[
+            (imm_df['hate_score'] >= min_score) &
+            (imm_df['hate_score'] <= max_score)
+        ]
+
+        # Apply party filter
+        if selected_parties:
+            party_mask = filtered_imm[selected_parties].any(axis=1)
+            filtered_imm = filtered_imm[party_mask]
+
+        filtered_imm = filtered_imm.sort_values('hate_score', ascending=False).head(20)
+
+        st.info(f"Showing top {len(filtered_imm)} documents by hate score")
+
+        for idx, row in filtered_imm.iterrows():
+            mentioned_parties = [p for p in parties.keys() if row[p]]
+            parties_str = ", ".join(mentioned_parties) if mentioned_parties else "None"
+
+            with st.expander(f"📄 {row['doc_id'][:50]}... | Score: {row['hate_score']:.4f} | Parties: {parties_str}"):
+                st.markdown(f"**Text:** {row['text'][:800]}{'...' if len(row['text']) > 800 else ''}")
+                col1, col2 = st.columns(2)
+                with col1:
+                    st.metric("Hate Score", f"{row['hate_score']:.4f}")
+                with col2:
+                    st.metric("Parties Mentioned", parties_str)
+
 # Footer
 st.markdown("---")
 st.markdown("""
