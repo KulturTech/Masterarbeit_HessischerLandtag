@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BERT Hate Speech Classification Results</title>
+    <title>BERT Analyse - Hessischer Landtag</title>
     <style>
         * {
             margin: 0;
@@ -37,7 +37,7 @@
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             padding: 2rem;
         }
@@ -52,7 +52,7 @@
 
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
             gap: 1.5rem;
             margin-top: 1.5rem;
         }
@@ -66,18 +66,36 @@
         }
 
         .stat-card h3 {
-            font-size: 2rem;
+            font-size: 1.8rem;
             margin-bottom: 0.5rem;
         }
 
         .stat-card p {
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             opacity: 0.9;
+        }
+
+        .section-title {
+            margin: 2.5rem 0 1.5rem 0;
+            color: #667eea;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+
+        .section-title.red {
+            color: #d32f2f;
+            border-color: #d32f2f;
+        }
+
+        .section-title.green {
+            color: #2e7d32;
+            border-color: #2e7d32;
         }
 
         .visualizations {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
             gap: 2rem;
         }
 
@@ -90,14 +108,35 @@
 
         .viz-card h2 {
             color: #667eea;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .viz-card p {
+            font-size: 0.9rem;
+            color: #666;
             margin-bottom: 1rem;
-            font-size: 1.3rem;
         }
 
         .viz-card img {
             width: 100%;
             border-radius: 5px;
-            margin-top: 1rem;
+        }
+
+        .viz-card.red-border {
+            border-top: 4px solid #d32f2f;
+        }
+
+        .viz-card.red-border h2 {
+            color: #d32f2f;
+        }
+
+        .viz-card.green-border {
+            border-top: 4px solid #2e7d32;
+        }
+
+        .viz-card.green-border h2 {
+            color: #2e7d32;
         }
 
         .download-section {
@@ -112,10 +151,11 @@
             display: inline-block;
             background: #667eea;
             color: white;
-            padding: 0.8rem 1.5rem;
+            padding: 0.7rem 1.2rem;
             border-radius: 5px;
             text-decoration: none;
-            margin: 0.5rem;
+            margin: 0.3rem;
+            font-size: 0.9rem;
             transition: background 0.3s;
         }
 
@@ -123,147 +163,398 @@
             background: #764ba2;
         }
 
+        .download-btn.red {
+            background: #d32f2f;
+        }
+
+        .download-btn.red:hover {
+            background: #b71c1c;
+        }
+
+        .download-btn.green {
+            background: #2e7d32;
+        }
+
+        .download-btn.green:hover {
+            background: #1b5e20;
+        }
+
+        .party-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        .party-table th, .party-table td {
+            padding: 0.8rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .party-table th {
+            background: #f5f5f5;
+            font-weight: 600;
+        }
+
+        .party-badge {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            color: white;
+            font-weight: bold;
+            font-size: 0.85rem;
+        }
+
+        .party-cdu { background: #000000; }
+        .party-spd { background: #E3000F; }
+        .party-gruene { background: #64A12D; }
+        .party-fdp { background: #FFED00; color: #333; }
+        .party-linke { background: #BE3075; }
+        .party-afd { background: #009EE0; }
+
         footer {
             text-align: center;
             padding: 2rem;
             color: #666;
             margin-top: 3rem;
+            background: white;
+        }
+
+        .nav-tabs {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .nav-tab {
+            padding: 0.8rem 1.5rem;
+            background: white;
+            border: 2px solid #667eea;
+            border-radius: 5px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .nav-tab:hover, .nav-tab.active {
+            background: #667eea;
+            color: white;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>🤖 BERT Hate Speech Classification</h1>
-        <p>Analysis of 11,950 documents using dehatebert-mono-german</p>
+        <h1>BERT Analyse - Hessischer Landtag</h1>
+        <p>Analyse von 11.950 Dokumenten | 20. Wahlperiode (2019-2023)</p>
     </header>
 
     <div class="container">
-        <div class="summary">
-            <h2>Key Findings</h2>
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <h3>11,950</h3>
-                    <p>Total Documents</p>
-                </div>
-                <div class="stat-card">
-                    <h3>97.9%</h3>
-                    <p>NON_HATE</p>
-                </div>
-                <div class="stat-card">
-                    <h3>2.1%</h3>
-                    <p>HATE</p>
-                </div>
-                <div class="stat-card">
-                    <h3>96.4%</h3>
-                    <p>Avg Confidence</p>
-                </div>
-                <div class="stat-card">
-                    <h3>96.8%</h3>
-                    <p>High Confidence</p>
-                </div>
-                <div class="stat-card">
-                    <h3>1.4%</h3>
-                    <p>Low Confidence</p>
-                </div>
-            </div>
+        <!-- Navigation -->
+        <div class="nav-tabs">
+            <a href="#overview" class="nav-tab active">Uebersicht</a>
+            <a href="#adjectives" class="nav-tab">Adjektive & Migration</a>
+            <a href="#parties" class="nav-tab">Parteien-Analyse</a>
+            <a href="#timeline" class="nav-tab">Zeitverlauf</a>
+            <a href="#downloads" class="nav-tab">Downloads</a>
         </div>
 
-        <h2 style="margin-bottom: 1.5rem; color: #667eea;">Visualizations</h2>
-
-        <div class="visualizations">
-            <div class="viz-card">
-                <h2>Label Distribution</h2>
-                <p>Overview of classification results showing the distribution between HATE and NON_HATE labels.</p>
-                <img src="../Data/visualizations/1_label_distribution.png" alt="Label Distribution">
-            </div>
-
-            <div class="viz-card">
-                <h2>Confidence Scores</h2>
-                <p>Distribution of model confidence scores for all predictions.</p>
-                <img src="../Data/visualizations/2_confidence_scores.png" alt="Confidence Scores">
-            </div>
-
-            <div class="viz-card">
-                <h2>Score Distribution by Label</h2>
-                <p>Box plot showing confidence score distributions for each label category.</p>
-                <img src="../Data/visualizations/3_score_boxplot.png" alt="Score Boxplot">
-            </div>
-
-            <div class="viz-card">
-                <h2>Confidence Levels</h2>
-                <p>Documents categorized by confidence level: Low (<0.6), Medium (0.6-0.8), High (>0.8).</p>
-                <img src="../Data/visualizations/4_confidence_levels.png" alt="Confidence Levels">
-            </div>
-
-            <div class="viz-card">
-                <h2>Confidence Heatmap</h2>
-                <p>Heatmap showing the relationship between labels and confidence levels.</p>
-                <img src="../Data/visualizations/5_confidence_heatmap.png" alt="Confidence Heatmap">
-            </div>
-
-            <div class="viz-card">
-                <h2>Text Length Analysis</h2>
-                <p>Analysis of text length and word count distributions across the dataset.</p>
-                <img src="../Data/visualizations/6_text_length_analysis.png" alt="Text Length Analysis">
-            </div>
-
-            <div class="viz-card">
-                <h2>Length vs Confidence</h2>
-                <p>Correlation between text length and model confidence scores.</p>
-                <img src="../Data/visualizations/7_length_vs_confidence.png" alt="Length vs Confidence">
-            </div>
-
-            <div class="viz-card">
-                <h2>Summary Statistics</h2>
-                <p>Comprehensive summary of classification statistics by label.</p>
-                <img src="../Data/visualizations/8_summary_statistics.png" alt="Summary Statistics">
-            </div>
-        </div>
-
-        <h2 style="margin: 2rem 0 1.5rem 0; color: #d32f2f;">🚨 Hate Speech Against Immigrants</h2>
-
-        <div class="summary" style="border-left: 5px solid #d32f2f;">
-            <h2>Immigrants Analysis Summary</h2>
-            <p style="margin-top: 1rem;">Analysis of documents classified as containing hate speech specifically targeting immigrants, with breakdown by political party mentions.</p>
-            <div class="stats-grid">
-                <div class="stat-card" style="background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);">
-                    <h3>121</h3>
-                    <p>Documents with Hate Speech Against Immigrants</p>
-                </div>
-                <div class="stat-card" style="background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);">
-                    <h3>6</h3>
-                    <p>Political Parties Analyzed</p>
+        <!-- OVERVIEW SECTION -->
+        <section id="overview">
+            <div class="summary">
+                <h2>Uebersicht: Hate Speech Klassifikation</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>11.950</h3>
+                        <p>Dokumente gesamt</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>97,9%</h3>
+                        <p>NON_HATE</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>2,1%</h3>
+                        <p>HATE</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>96,4%</h3>
+                        <p>Durchschn. Konfidenz</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>1.446</h3>
+                        <p>Migrations-Dokumente</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>1.195</h3>
+                        <p>Reden mit Migrations-Bezug</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="visualizations">
-            <div class="viz-card" style="border-top: 3px solid #d32f2f;">
-                <h2 style="color: #d32f2f;">Hate Speech by Party Mention</h2>
-                <p>Number of documents containing hate speech against immigrants, grouped by which political party is mentioned in the document.</p>
-                <img src="../Data/visualizations/hate_speech_by_party_counts.png" alt="Hate Speech by Party Counts">
+            <h2 class="section-title">Klassifikations-Ergebnisse</h2>
+            <div class="visualizations">
+                <div class="viz-card">
+                    <h2>Label-Verteilung</h2>
+                    <p>Verteilung der HATE und NON_HATE Klassifikationen.</p>
+                    <img src="../Data/visualizations/1_label_distribution.png" alt="Label Distribution">
+                </div>
+                <div class="viz-card">
+                    <h2>Konfidenz-Scores</h2>
+                    <p>Verteilung der Modell-Konfidenz fuer alle Vorhersagen.</p>
+                    <img src="../Data/visualizations/2_confidence_scores.png" alt="Confidence Scores">
+                </div>
+                <div class="viz-card">
+                    <h2>Score-Verteilung nach Label</h2>
+                    <p>Box-Plot der Konfidenz-Scores pro Kategorie.</p>
+                    <img src="../Data/visualizations/3_score_boxplot.png" alt="Score Boxplot">
+                </div>
+                <div class="viz-card">
+                    <h2>Konfidenz-Heatmap</h2>
+                    <p>Zusammenhang zwischen Labels und Konfidenz-Levels.</p>
+                    <img src="../Data/visualizations/5_confidence_heatmap.png" alt="Confidence Heatmap">
+                </div>
+            </div>
+        </section>
+
+        <!-- ADJECTIVES SECTION -->
+        <section id="adjectives">
+            <h2 class="section-title red">Negative Adjektive im Migrations-Kontext</h2>
+
+            <div class="summary" style="border-left: 5px solid #d32f2f;">
+                <h2>Adjektiv-Analyse mit BERT Sentiment</h2>
+                <p style="margin-top: 1rem;">Analyse von Adjektiven, die in Verbindung mit Migrations-Begriffen verwendet werden.
+                Sentiment-Klassifikation mittels deutschem BERT-Modell (oliverguhr/german-sentiment-bert).</p>
+                <div class="stats-grid">
+                    <div class="stat-card" style="background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);">
+                        <h3>9.297</h3>
+                        <p>Adjektiv-Vorkommen</p>
+                    </div>
+                    <div class="stat-card" style="background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);">
+                        <h3>2.955</h3>
+                        <p>In negativem Kontext</p>
+                    </div>
+                    <div class="stat-card" style="background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);">
+                        <h3>31,8%</h3>
+                        <p>Negativ-Anteil</p>
+                    </div>
+                    <div class="stat-card" style="background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);">
+                        <h3>61</h3>
+                        <p>Unique Adjektive</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="viz-card" style="border-top: 3px solid #d32f2f;">
-                <h2 style="color: #d32f2f;">Hate Score Distribution by Party</h2>
-                <p>Box plot showing the distribution of hate scores for documents mentioning each political party.</p>
-                <img src="../Data/visualizations/hate_score_distribution_by_party.png" alt="Hate Score Distribution by Party">
+            <div class="visualizations">
+                <div class="viz-card red-border">
+                    <h2>Top Negative Adjektive</h2>
+                    <p>Haeufigste Adjektive in negativem Sentiment-Kontext bei Migrations-Begriffen.</p>
+                    <img src="../Data/visualizations/top_negative_adjectives_migration.png" alt="Top Negative Adjectives">
+                </div>
+                <div class="viz-card red-border">
+                    <h2>Sentiment-Verteilung</h2>
+                    <p>Anteil negativer, positiver und neutraler Kontexte.</p>
+                    <img src="../Data/visualizations/sentiment_distribution_adjectives.png" alt="Sentiment Distribution">
+                </div>
+                <div class="viz-card red-border">
+                    <h2>Negativ vs. Positiv</h2>
+                    <p>Vergleich der Top-Adjektive in negativem und positivem Kontext.</p>
+                    <img src="../Data/visualizations/negative_vs_positive_adjectives.png" alt="Negative vs Positive">
+                </div>
             </div>
-        </div>
+        </section>
 
-        <div class="download-section">
-            <h2 style="color: #667eea; margin-bottom: 1rem;">Download Data</h2>
-            <p style="margin-bottom: 1rem;">Access the raw data and detailed statistics:</p>
-            <a href="../Data/visualizations/summary_statistics.csv" class="download-btn" download>📊 Summary Statistics (CSV)</a>
-            <a href="../Data/visualizations/label_statistics.csv" class="download-btn" download>📈 Label Statistics (CSV)</a>
-            <a href="../Data/visualizations/low_confidence_predictions.csv" class="download-btn" download>⚠️ Low Confidence Predictions (CSV)</a>
-            <a href="../Data/prep_v1/hate_speech_against_immigrants.csv" class="download-btn" style="background: #d32f2f;" download>🚨 Hate Speech Against Immigrants (CSV)</a>
-        </div>
+        <!-- PARTIES SECTION -->
+        <section id="parties">
+            <h2 class="section-title green">Analyse nach Parteien</h2>
+
+            <div class="summary" style="border-left: 5px solid #2e7d32;">
+                <h2>Wer verwendet welche Adjektive?</h2>
+                <p style="margin-top: 1rem;">NER-basierte Zuordnung: Identifikation der Redner anhand des Formats "Name (Partei):"
+                in den Parlamentsprotokollen. Analyse der verwendeten Adjektive im Migrations-Kontext.</p>
+
+                <table class="party-table">
+                    <thead>
+                        <tr>
+                            <th>Partei</th>
+                            <th>Reden</th>
+                            <th>Adjektive</th>
+                            <th>Top 3 Adjektive</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="party-badge party-afd">AfD</span></td>
+                            <td>338</td>
+                            <td>443</td>
+                            <td>gut (91), gute (37), wichtig (35)</td>
+                        </tr>
+                        <tr>
+                            <td><span class="party-badge party-linke">LINKE</span></td>
+                            <td>336</td>
+                            <td>401</td>
+                            <td>gut (97), wichtig (47), gute (23)</td>
+                        </tr>
+                        <tr>
+                            <td><span class="party-badge party-spd">SPD</span></td>
+                            <td>194</td>
+                            <td>278</td>
+                            <td>gut (67), wichtig (40), gute (22)</td>
+                        </tr>
+                        <tr>
+                            <td><span class="party-badge party-gruene">GRUENE</span></td>
+                            <td>133</td>
+                            <td>208</td>
+                            <td>gut (55), gute (22), wichtig (21)</td>
+                        </tr>
+                        <tr>
+                            <td><span class="party-badge party-cdu">CDU</span></td>
+                            <td>117</td>
+                            <td>152</td>
+                            <td>wichtig (21), gut (17), notwendig (13)</td>
+                        </tr>
+                        <tr>
+                            <td><span class="party-badge party-fdp">FDP</span></td>
+                            <td>77</td>
+                            <td>109</td>
+                            <td>gut (25), wichtig (18), gute (8)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="visualizations">
+                <div class="viz-card green-border">
+                    <h2>Adjektive nach Redner-Partei</h2>
+                    <p>Anzahl der Adjektive im Migrations-Kontext, zugeordnet nach Partei des Redners.</p>
+                    <img src="../Data/visualizations/adjectives_by_speaker_party.png" alt="Adjectives by Speaker Party">
+                </div>
+                <div class="viz-card green-border">
+                    <h2>Stark negative Adjektive</h2>
+                    <p>Verwendung von "illegal", "kriminell", "gefaehrlich" etc. pro Partei.</p>
+                    <img src="../Data/visualizations/negative_adjectives_by_speaker.png" alt="Negative Adjectives by Speaker">
+                </div>
+                <div class="viz-card green-border">
+                    <h2>Heatmap: Adjektive pro Partei</h2>
+                    <p>Welche Partei verwendet welche Adjektive wie haeufig?</p>
+                    <img src="../Data/visualizations/adjectives_heatmap_by_speaker.png" alt="Heatmap by Speaker">
+                </div>
+                <div class="viz-card green-border">
+                    <h2>Prozentualer Anteil negativer Adjektive</h2>
+                    <p>Anteil stark negativer Adjektive am Gesamt pro Partei.</p>
+                    <img src="../Data/visualizations/negative_percentage_by_speaker.png" alt="Negative Percentage">
+                </div>
+            </div>
+
+            <h2 class="section-title" style="color: #ff9800; border-color: #ff9800;">Parteierwaehnung vs. Redner</h2>
+            <div class="summary" style="border-left: 5px solid #ff9800;">
+                <p><strong>Wichtiger Unterschied:</strong></p>
+                <ul style="margin-top: 1rem; margin-left: 1.5rem;">
+                    <li><strong>Parteierwaehnung:</strong> Welche Partei wird im Text erwaehnt? (z.B. andere Parteien sprechen ueber AfD)</li>
+                    <li><strong>Redner-Partei:</strong> Welcher Partei gehoert der Redner an? (NER-basierte Zuordnung)</li>
+                </ul>
+            </div>
+
+            <div class="visualizations">
+                <div class="viz-card" style="border-top: 4px solid #ff9800;">
+                    <h2 style="color: #ff9800;">Negative Adjektive nach Parteierwaehnung</h2>
+                    <p>Haeufigkeit negativer Adjektive in Texten, die eine bestimmte Partei erwaehnen.</p>
+                    <img src="../Data/visualizations/negative_adjectives_by_party_count.png" alt="By Party Mention">
+                </div>
+                <div class="viz-card" style="border-top: 4px solid #ff9800;">
+                    <h2 style="color: #ff9800;">Heatmap nach Parteierwaehnung</h2>
+                    <p>Top-Adjektive in Texten mit Parteierwaehnung.</p>
+                    <img src="../Data/visualizations/negative_adjectives_party_heatmap.png" alt="Party Heatmap">
+                </div>
+            </div>
+        </section>
+
+        <!-- TIMELINE SECTION -->
+        <section id="timeline">
+            <h2 class="section-title" style="color: #1976d2; border-color: #1976d2;">Zeitliche Entwicklung (AfD)</h2>
+
+            <div class="summary" style="border-left: 5px solid #1976d2;">
+                <h2>AfD: Entwicklung 2019-2023</h2>
+                <p style="margin-top: 1rem;">Zeitliche Entwicklung der negativen Adjektive im Migrations-Kontext bei AfD-Rednern.</p>
+                <div class="stats-grid">
+                    <div class="stat-card" style="background: #1976d2;">
+                        <h3>2019</h3>
+                        <p>250 Adjektive</p>
+                    </div>
+                    <div class="stat-card" style="background: #1976d2;">
+                        <h3>2020</h3>
+                        <p>194 Adjektive</p>
+                    </div>
+                    <div class="stat-card" style="background: #1976d2;">
+                        <h3>2021</h3>
+                        <p>175 Adjektive</p>
+                    </div>
+                    <div class="stat-card" style="background: #1976d2;">
+                        <h3>2022</h3>
+                        <p>294 Adjektive (Peak)</p>
+                    </div>
+                    <div class="stat-card" style="background: #1976d2;">
+                        <h3>2023</h3>
+                        <p>252 Adjektive</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="visualizations">
+                <div class="viz-card" style="border-top: 4px solid #1976d2;">
+                    <h2 style="color: #1976d2;">Adjektive pro Jahr</h2>
+                    <p>Anzahl negativer Adjektive im Migrations-Kontext pro Jahr.</p>
+                    <img src="../Data/visualizations/afd_negative_adjectives_per_year.png" alt="AfD per Year">
+                </div>
+                <div class="viz-card" style="border-top: 4px solid #1976d2;">
+                    <h2 style="color: #1976d2;">Entwicklung spezifischer Adjektive</h2>
+                    <p>Wie entwickeln sich "illegal", "kriminell" etc. ueber die Jahre?</p>
+                    <img src="../Data/visualizations/afd_key_adjectives_over_time.png" alt="Key Adjectives Over Time">
+                </div>
+                <div class="viz-card" style="border-top: 4px solid #1976d2;">
+                    <h2 style="color: #1976d2;">Heatmap: Jahre x Adjektive</h2>
+                    <p>Top 15 Adjektive pro Jahr im Ueberblick.</p>
+                    <img src="../Data/visualizations/afd_adjectives_heatmap_years.png" alt="AfD Heatmap Years">
+                </div>
+                <div class="viz-card" style="border-top: 4px solid #1976d2;">
+                    <h2 style="color: #1976d2;">Anteil stark negativer Adjektive</h2>
+                    <p>Prozentualer Anteil von "illegal", "kriminell" etc. am Gesamt.</p>
+                    <img src="../Data/visualizations/afd_strong_negative_percentage.png" alt="Strong Negative Percentage">
+                </div>
+            </div>
+        </section>
+
+        <!-- DOWNLOADS SECTION -->
+        <section id="downloads">
+            <div class="download-section">
+                <h2 style="color: #667eea; margin-bottom: 1.5rem;">Downloads</h2>
+
+                <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem;">Adjektiv-Analysen</h3>
+                <a href="../Data/prep_v1/adjectives_migration_context.csv" class="download-btn" download>Alle Adjektive (CSV)</a>
+                <a href="../Data/prep_v1/negative_adjectives_migration.csv" class="download-btn red" download>Negative Adjektive (CSV)</a>
+                <a href="../Data/prep_v1/negative_adjectives_with_parties.csv" class="download-btn red" download>Mit Parteierwaehnung (CSV)</a>
+                <a href="../Data/prep_v1/adjective_analysis_summary.json" class="download-btn" download>Zusammenfassung (JSON)</a>
+
+                <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem;">Redner-Analysen (NER)</h3>
+                <a href="../Data/prep_v1/speaker_adjectives_migration.csv" class="download-btn green" download>Adjektive nach Redner (CSV)</a>
+                <a href="../Data/prep_v1/full_speeches_migration_context.csv" class="download-btn green" download>Vollstaendige Reden (CSV)</a>
+                <a href="../Data/prep_v1/adjectives_by_speaker_ner.json" class="download-btn green" download>NER Zusammenfassung (JSON)</a>
+
+                <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem;">Zeitliche Analysen</h3>
+                <a href="../Data/prep_v1/afd_negative_adjectives_with_dates.csv" class="download-btn" download>AfD mit Datum (CSV)</a>
+                <a href="../Data/prep_v1/adjectives_by_party_summary.json" class="download-btn" download>Parteien-Summary (JSON)</a>
+
+                <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem;">Hate Speech Klassifikation</h3>
+                <a href="../Data/prep_v1/hate_speech_against_immigrants.csv" class="download-btn red" download>Hate Speech (CSV)</a>
+                <a href="../Data/visualizations/summary_statistics.csv" class="download-btn" download>Klassifikations-Statistiken (CSV)</a>
+            </div>
+        </section>
     </div>
 
     <footer>
-        <p>Generated using BERT (dehatebert-mono-german) | Hessischer Landtag Analysis</p>
-        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Built with Python, Transformers, and PyTorch</p>
+        <p><strong>Masterarbeit: Hessischer Landtag Analyse</strong></p>
+        <p style="margin-top: 0.5rem;">BERT-Modelle: dehatebert-mono-german, german-sentiment-bert</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">20. Wahlperiode (2019-2023) | 11.950 Dokumente | 1.195 Migrations-Reden</p>
     </footer>
 </body>
 </html>
