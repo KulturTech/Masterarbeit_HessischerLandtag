@@ -220,12 +220,44 @@
             </div>
         </div>
 
+        <h2 style="margin: 2rem 0 1.5rem 0; color: #d32f2f;">🚨 Hate Speech Against Immigrants</h2>
+
+        <div class="summary" style="border-left: 5px solid #d32f2f;">
+            <h2>Immigrants Analysis Summary</h2>
+            <p style="margin-top: 1rem;">Analysis of documents classified as containing hate speech specifically targeting immigrants, with breakdown by political party mentions.</p>
+            <div class="stats-grid">
+                <div class="stat-card" style="background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);">
+                    <h3>121</h3>
+                    <p>Documents with Hate Speech Against Immigrants</p>
+                </div>
+                <div class="stat-card" style="background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);">
+                    <h3>6</h3>
+                    <p>Political Parties Analyzed</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="visualizations">
+            <div class="viz-card" style="border-top: 3px solid #d32f2f;">
+                <h2 style="color: #d32f2f;">Hate Speech by Party Mention</h2>
+                <p>Number of documents containing hate speech against immigrants, grouped by which political party is mentioned in the document.</p>
+                <img src="../Data/visualizations/hate_speech_by_party_counts.png" alt="Hate Speech by Party Counts">
+            </div>
+
+            <div class="viz-card" style="border-top: 3px solid #d32f2f;">
+                <h2 style="color: #d32f2f;">Hate Score Distribution by Party</h2>
+                <p>Box plot showing the distribution of hate scores for documents mentioning each political party.</p>
+                <img src="../Data/visualizations/hate_score_distribution_by_party.png" alt="Hate Score Distribution by Party">
+            </div>
+        </div>
+
         <div class="download-section">
             <h2 style="color: #667eea; margin-bottom: 1rem;">Download Data</h2>
             <p style="margin-bottom: 1rem;">Access the raw data and detailed statistics:</p>
             <a href="../Data/visualizations/summary_statistics.csv" class="download-btn" download>📊 Summary Statistics (CSV)</a>
             <a href="../Data/visualizations/label_statistics.csv" class="download-btn" download>📈 Label Statistics (CSV)</a>
             <a href="../Data/visualizations/low_confidence_predictions.csv" class="download-btn" download>⚠️ Low Confidence Predictions (CSV)</a>
+            <a href="../Data/prep_v1/hate_speech_against_immigrants.csv" class="download-btn" style="background: #d32f2f;" download>🚨 Hate Speech Against Immigrants (CSV)</a>
         </div>
     </div>
 
