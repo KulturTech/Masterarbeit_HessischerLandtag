@@ -153,12 +153,13 @@ with col5:
 st.markdown("---")
 
 # Create tabs
-tab1, tab2, tab3, tab4, tab5 = st.tabs([
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
     "📈 Label Distribution",
     "🎯 Confidence Analysis",
     "📝 Text Analysis",
     "🔎 Document Explorer",
-    "📊 Advanced Analytics"
+    "📊 Advanced Analytics",
+    "🚨 Hate Speech Against Immigrants"
 ])
 
 # TAB 1: Label Distribution
