@@ -1,0 +1,145 @@
+{
+  "total_adjectives": 9297,
+  "adjectives_in_hate_docs": 50,
+  "adjectives_in_non_hate_docs": 9192,
+  "hate_percentage": 0.5378078950198989,
+  "top_adjectives_in_hate": {
+    "aktuelle": 22,
+    "große": 12,
+    "vielen": 3,
+    "humanitäre": 2,
+    "politischen": 1,
+    "ausländischen": 1,
+    "notwendig": 1,
+    "deutschen": 1,
+    "europäische": 1,
+    "schnell": 1,
+    "sozialen": 1,
+    "gut": 1,
+    "politische": 1,
+    "gescheiterte": 1,
+    "zunehmend": 1
+  },
+  "top_adjectives_by_hate_ratio": [
+    {
+      "adjective": "aktuelle",
+      "total": 146,
+      "in_hate": 22,
+      "hate_ratio": 15.068493150684931
+    },
+    {
+      "adjective": "gescheiterte",
+      "total": 14,
+      "in_hate": 1,
+      "hate_ratio": 7.142857142857142
+    },
+    {
+      "adjective": "große",
+      "total": 242,
+      "in_hate": 12,
+      "hate_ratio": 4.958677685950414
+    },
+    {
+      "adjective": "zunehmend",
+      "total": 31,
+      "in_hate": 1,
+      "hate_ratio": 3.225806451612903
+    },
+    {
+      "adjective": "humanitäre",
+      "total": 89,
+      "in_hate": 2,
+      "hate_ratio": 2.247191011235955
+    },
+    {
+      "adjective": "ausländischen",
+      "total": 85,
+      "in_hate": 1,
+      "hate_ratio": 1.1764705882352942
+    },
+    {
+      "adjective": "schnell",
+      "total": 101,
+      "in_hate": 1,
+      "hate_ratio": 0.9900990099009901
+    },
+    {
+      "adjective": "sozialen",
+      "total": 103,
+      "in_hate": 1,
+      "hate_ratio": 0.9708737864077669
+    },
+    {
+      "adjective": "notwendig",
+      "total": 112,
+      "in_hate": 1,
+      "hate_ratio": 0.8928571428571428
+    },
+    {
+      "adjective": "europäische",
+      "total": 131,
+      "in_hate": 1,
+      "hate_ratio": 0.7633587786259541
+    },
+    {
+      "adjective": "politischen",
+      "total": 135,
+      "in_hate": 1,
+      "hate_ratio": 0.7407407407407408
+    },
+    {
+      "adjective": "politische",
+      "total": 163,
+      "in_hate": 1,
+      "hate_ratio": 0.6134969325153374
+    },
+    {
+      "adjective": "vielen",
+      "total": 554,
+      "in_hate": 3,
+      "hate_ratio": 0.5415162454873645
+    },
+    {
+      "adjective": "deutschen",
+      "total": 207,
+      "in_hate": 1,
+      "hate_ratio": 0.4830917874396135
+    },
+    {
+      "adjective": "gut",
+      "total": 348,
+      "in_hate": 1,
+      "hate_ratio": 0.28735632183908044
+    },
+    {
+      "adjective": "wichtigen",
+      "total": 30,
+      "in_hate": 0,
+      "hate_ratio": 0.0
+    },
+    {
+      "adjective": "steigenden",
+      "total": 24,
+      "in_hate": 0,
+      "hate_ratio": 0.0
+    },
+    {
+      "adjective": "wirtschaftlichen",
+      "total": 24,
+      "in_hate": 0,
+      "hate_ratio": 0.0
+    },
+    {
+      "adjective": "zusätzlich",
+      "total": 50,
+      "in_hate": 0,
+      "hate_ratio": 0.0
+    },
+    {
+      "adjective": "kleiner",
+      "total": 6,
+      "in_hate": 0,
+      "hate_ratio": 0.0
+    }
+  ]
+}
