@@ -1,6 +1,6 @@
 # Masterarbeit: Hessischer Landtag
 
-Dieses Repository enthält alle Datensätze und Code-Implementierungen für meine Masterarbeit zur Analyse von Daten des Hessischen Landtags mittels BERT-Modellen.
+Dieses Repository enthält alle Datensätze und Code-Implementierungen für meine Masterarbeit zur Analyse von Hate Speech bzgl. Menschen mit Migrationshintegrund von Daten des Hessischen Landtags mittels BERT-Modellen.
 
 ## 📋 Übersicht
 
