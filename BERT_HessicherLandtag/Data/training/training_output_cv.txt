@@ -53,3 +53,40 @@ FOLD 2/5
   Loading fresh model...
   Training...
   Epoch 1 completed.
+  Epoch 2 completed.
+  Epoch 3 completed.
+  Results: Accuracy=0.9908, F1=0.9906
+
+========================================
+FOLD 3/5
+========================================
+  Training samples: 436
+  Validation samples: 109
+  Loading fresh model...
+  Training...
+  Epoch 1 completed.
+  Epoch 2 completed.
+  Epoch 3 completed.
+  Results: Accuracy=0.9908, F1=0.9910
+
+========================================
+FOLD 4/5
+========================================
+  Training samples: 436
+  Validation samples: 109
+  Loading fresh model...
+  Training...
+  Epoch 1 completed.
+  Epoch 2 completed.
+  Epoch 3 completed.
+  Results: Accuracy=0.9908, F1=0.9910
+
+========================================
+FOLD 5/5
+========================================
+  Training samples: 436
+  Validation samples: 109
+  Loading fresh model...
+  Training...
+  Epoch 1 completed.
+  Epoch 2 completed.
