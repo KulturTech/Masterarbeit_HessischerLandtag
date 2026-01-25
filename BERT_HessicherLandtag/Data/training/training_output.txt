@@ -1,7 +1,7 @@
 ================================================================================
 BERT FINE-TUNING SCRIPT - TRAINING OUTPUT
 ================================================================================
-Started at: 2026-01-25 15:13:15
+Started at: 2026-01-25 15:17:35
 
 No GPU available. Using CPU for training.
 Warning: Training on CPU will be significantly slower.
@@ -32,7 +32,7 @@ Training configuration:
   Epochs: 3
   Batch size: 8
   Learning rate: 2e-05
-  Max sequence length: 512
+  Max sequence length: 256
   Weight decay: 0.01
   Warmup steps: 500
   Number of labels: 2
@@ -41,3 +41,87 @@ Training configuration:
 STARTING TRAINING
 ================================================================================
 
+Step 50 | Epoch 0.91 | loss: 0.0765 | grad_norm: 0.5429 | learning_rate: 0.0000 | epoch: 0.9091
+
+Epoch 1.0 completed.
+Step 55 | Epoch 1.00 | eval_loss: 0.0105 | eval_accuracy: 1.0000 | eval_f1: 1.0000 | eval_precision: 1.0000 | eval_recall: 1.0000 | eval_runtime: 59.1813 | eval_samples_per_second: 1.8420 | eval_steps_per_second: 0.2370 | epoch: 1.0000
+Step 100 | Epoch 1.82 | loss: 0.0451 | grad_norm: 0.1113 | learning_rate: 0.0000 | epoch: 1.8182
+
+Epoch 2.0 completed.
+Step 110 | Epoch 2.00 | eval_loss: 0.0029 | eval_accuracy: 1.0000 | eval_f1: 1.0000 | eval_precision: 1.0000 | eval_recall: 1.0000 | eval_runtime: 85.7307 | eval_samples_per_second: 1.2710 | eval_steps_per_second: 0.1630 | epoch: 2.0000
+Step 150 | Epoch 2.73 | loss: 0.0264 | grad_norm: 0.1020 | learning_rate: 0.0000 | epoch: 2.7273
+
+Epoch 3.0 completed.
+Step 165 | Epoch 3.00 | eval_loss: 0.1320 | eval_accuracy: 0.9541 | eval_f1: 0.9459 | eval_precision: 0.9563 | eval_recall: 0.9541 | eval_runtime: 94.0927 | eval_samples_per_second: 1.1580 | eval_steps_per_second: 0.1490 | epoch: 3.0000
+Step 165 | Epoch 3.00 | train_runtime: 4908.4268 | train_samples_per_second: 0.2660 | train_steps_per_second: 0.0340 | total_flos: 172074630205440.0000 | train_loss: 0.0563 | epoch: 3.0000
+
+================================================================================
+FINAL EVALUATION
+================================================================================
+
+Step 165 | Epoch 3.00 | eval_loss: 0.0105 | eval_accuracy: 1.0000 | eval_f1: 1.0000 | eval_precision: 1.0000 | eval_recall: 1.0000 | eval_runtime: 65.1969 | eval_samples_per_second: 1.6720 | eval_steps_per_second: 0.2150 | epoch: 3.0000
+Validation Results:
+  eval_loss: 0.0105
+  eval_accuracy: 1.0000
+  eval_f1: 1.0000
+  eval_precision: 1.0000
+  eval_recall: 1.0000
+  eval_runtime: 65.1969
+  eval_samples_per_second: 1.6720
+  eval_steps_per_second: 0.2150
+  epoch: 3.0000
+
+================================================================================
+DETAILED CLASSIFICATION REPORT
+================================================================================
+
+              precision    recall  f1-score   support
+
+    NON_HATE       1.00      1.00      1.00       100
+        HATE       1.00      1.00      1.00         9
+
+    accuracy                           1.00       109
+   macro avg       1.00      1.00      1.00       109
+weighted avg       1.00      1.00      1.00       109
+
+
+Confusion Matrix:
+
+[[100   0]
+ [  0   9]]
+
+Per-class metrics:
+  NON_HATE: 1.0000 (100 samples)
+  HATE: 1.0000 (9 samples)
+
+Saving fine-tuned model to: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\fine_tuned_model
+
+Training metrics saved to: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\training\training_metrics.json
+
+================================================================================
+TRAINING COMPLETE!
+================================================================================
+
+Training duration: 1:21:48.726304
+Output files:
+  - Model: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\fine_tuned_model
+  - Training log: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\training\training_output.txt
+  - Metrics JSON: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\training\training_metrics.json
+
+To use the fine-tuned model for inference:
+
+from transformers import pipeline
+
+pipe = pipeline(
+    "text-classification",
+    model="c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\fine_tuned_model",
+    device=-1,  # or 0 for GPU
+    truncation=True
+)
+
+results = pipe(["Your text here"])
+print(results)
+
+
+Completed at: 2026-01-25 16:41:45
+================================================================================
