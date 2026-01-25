@@ -90,3 +90,62 @@ FOLD 5/5
   Training...
   Epoch 1 completed.
   Epoch 2 completed.
+  Epoch 3 completed.
+  Results: Accuracy=0.9908, F1=0.9910
+
+================================================================================
+CROSS-VALIDATION RESULTS
+================================================================================
+
+Per-Fold Results:
+Fold   Accuracy     F1           Precision    Recall      
+------------------------------------------------------
+1      1.0000       1.0000       1.0000       1.0000      
+2      0.9908       0.9906       0.9909       0.9908      
+3      0.9908       0.9910       0.9917       0.9908      
+4      0.9908       0.9910       0.9917       0.9908      
+5      0.9908       0.9910       0.9917       0.9908      
+------------------------------------------------------
+Mean   0.9927       0.9927       0.9932       0.9927      
+Std    0.0037       0.0036       0.0034       0.0037      
+
+================================================================================
+OVERALL CLASSIFICATION REPORT (All Folds Combined)
+================================================================================
+
+              precision    recall  f1-score   support
+
+    NON_HATE       1.00      0.99      1.00       500
+        HATE       0.94      0.98      0.96        45
+
+    accuracy                           0.99       545
+   macro avg       0.97      0.99      0.98       545
+weighted avg       0.99      0.99      0.99       545
+
+
+Overall Confusion Matrix:
+
+[[497   3]
+ [  1  44]]
+
+Training metrics saved to: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\training\training_metrics_cv.json
+
+================================================================================
+CROSS-VALIDATION COMPLETE!
+================================================================================
+
+Total training duration: 4:33:06.679008
+
+Final Average Metrics:
+  Accuracy: 0.9927 (+/- 0.0037)
+  F1-Score: 0.9927 (+/- 0.0036)
+  Precision: 0.9932 (+/- 0.0034)
+  Recall: 0.9927 (+/- 0.0037)
+
+Output files:
+  - Best model: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\fine_tuned_model_cv/best_model
+  - Training log: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\training\training_output_cv.txt
+  - Metrics JSON: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\training\training_metrics_cv.json
+
+Completed at: 2026-01-25 21:20:17
+================================================================================
