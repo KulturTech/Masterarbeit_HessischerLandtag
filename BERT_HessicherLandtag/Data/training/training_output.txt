@@ -1,7 +1,7 @@
 ================================================================================
 BERT FINE-TUNING SCRIPT - TRAINING OUTPUT
 ================================================================================
-Started at: 2026-01-17 21:08:07
+Started at: 2026-01-25 14:59:33
 
 No GPU available. Using CPU for training.
 Warning: Training on CPU will be significantly slower.
@@ -26,94 +26,3 @@ Loading model and tokenizer: Hate-speech-CNERG/dehatebert-mono-german
 
 Tokenizing datasets...
 Tokenization complete.
-
-Training configuration:
-  Model: Hate-speech-CNERG/dehatebert-mono-german
-  Epochs: 1
-  Batch size: 8
-  Learning rate: 2e-05
-  Max sequence length: 512
-  Weight decay: 0.01
-  Warmup steps: 500
-  Number of labels: 2
-
-================================================================================
-STARTING TRAINING
-================================================================================
-
-Step 50 | Epoch 0.91 | loss: 0.0514 | grad_norm: 0.4856 | learning_rate: 0.0000 | epoch: 0.9091
-
-Epoch 1.0 completed.
-Step 55 | Epoch 1.00 | eval_loss: 0.0283 | eval_accuracy: 0.9908 | eval_f1: 0.9910 | eval_precision: 0.9917 | eval_recall: 0.9908 | eval_runtime: 91.7890 | eval_samples_per_second: 1.1880 | eval_steps_per_second: 0.1530 | epoch: 1.0000
-Step 55 | Epoch 1.00 | train_runtime: 4526.4442 | train_samples_per_second: 0.0960 | train_steps_per_second: 0.0120 | total_flos: 114716420136960.0000 | train_loss: 0.0580 | epoch: 1.0000
-
-================================================================================
-FINAL EVALUATION
-================================================================================
-
-Step 55 | Epoch 1.00 | eval_loss: 0.0283 | eval_accuracy: 0.9908 | eval_f1: 0.9910 | eval_precision: 0.9917 | eval_recall: 0.9908 | eval_runtime: 98.6842 | eval_samples_per_second: 1.1050 | eval_steps_per_second: 0.1420 | epoch: 1.0000
-Validation Results:
-  eval_loss: 0.0283
-  eval_accuracy: 0.9908
-  eval_f1: 0.9910
-  eval_precision: 0.9917
-  eval_recall: 0.9908
-  eval_runtime: 98.6842
-  eval_samples_per_second: 1.1050
-  eval_steps_per_second: 0.1420
-  epoch: 1.0000
-
-================================================================================
-DETAILED CLASSIFICATION REPORT
-================================================================================
-
-              precision    recall  f1-score   support
-
-    NON_HATE       1.00      0.99      0.99       100
-        HATE       0.90      1.00      0.95         9
-
-    accuracy                           0.99       109
-   macro avg       0.95      0.99      0.97       109
-weighted avg       0.99      0.99      0.99       109
-
-
-Confusion Matrix:
-
-[[99  1]
- [ 0  9]]
-
-Per-class metrics:
-  NON_HATE: 0.9900 (100 samples)
-  HATE: 1.0000 (9 samples)
-
-Saving fine-tuned model to: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\fine_tuned_model
-
-Training metrics saved to: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\training\training_metrics.json
-
-================================================================================
-TRAINING COMPLETE!
-================================================================================
-
-Training duration: 1:15:26.698230
-Output files:
-  - Model: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\fine_tuned_model
-  - Training log: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\training\training_output.txt
-  - Metrics JSON: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\training\training_metrics.json
-
-To use the fine-tuned model for inference:
-
-from transformers import pipeline
-
-pipe = pipeline(
-    "text-classification",
-    model="c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\fine_tuned_model",
-    device=-1,  # or 0 for GPU
-    truncation=True
-)
-
-results = pipe(["Your text here"])
-print(results)
-
-
-Completed at: 2026-01-17 22:26:50
-================================================================================
