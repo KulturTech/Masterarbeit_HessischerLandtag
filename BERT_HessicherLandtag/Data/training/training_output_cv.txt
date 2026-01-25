@@ -1,0 +1,55 @@
+================================================================================
+BERT FINE-TUNING SCRIPT - CROSS-VALIDATION
+================================================================================
+Started at: 2026-01-25 16:47:09
+
+No GPU available. Using CPU for training.
+Warning: Training on CPU will be significantly slower.
+
+Loading training data from: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\training\labeled_data.parquet
+Loaded 545 labeled examples
+Columns: ['text', 'label']
+
+Label distribution:
+  NON_HATE: 500 (91.74%)
+  HATE: 45 (8.26%)
+
+Label mapping:
+  NON_HATE -> 0
+  HATE -> 1
+
+Loading tokenizer: Hate-speech-CNERG/dehatebert-mono-german
+
+================================================================================
+STARTING 5-FOLD CROSS-VALIDATION
+================================================================================
+
+Configuration:
+  Model: Hate-speech-CNERG/dehatebert-mono-german
+  Epochs per fold: 3
+  Batch size: 8
+  Learning rate: 2e-05
+  Max sequence length: 256
+  Number of folds: 5
+
+========================================
+FOLD 1/5
+========================================
+  Training samples: 436
+  Validation samples: 109
+  Loading fresh model...
+  Training...
+  Epoch 1 completed.
+  Epoch 2 completed.
+  Epoch 3 completed.
+  Results: Accuracy=1.0000, F1=1.0000
+  Saving best model (F1=1.0000)...
+
+========================================
+FOLD 2/5
+========================================
+  Training samples: 436
+  Validation samples: 109
+  Loading fresh model...
+  Training...
+  Epoch 1 completed.
