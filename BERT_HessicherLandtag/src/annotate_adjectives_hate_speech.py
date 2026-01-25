@@ -1,6 +1,6 @@
 """
 Annotiere Adjektive im Migrationskontext mit BERT Hate-Speech-Modell
-Verwendet: Hate-speech-CNERG/dehatebert-mono-german
+Verwendet: Fine-tuned dehatebert-mono-german (Cross-Validation Best Model)
 """
 import torch
 from transformers import pipeline
@@ -22,10 +22,10 @@ else:
     print("[INFO] Keine GPU - verwende CPU (langsamer)")
 
 # 2. Lade Hate-Speech Modell
-print("\nLade Hate-Speech Modell (dehatebert-mono-german)...")
+print("\nLade Hate-Speech Modell (Fine-tuned CV Best Model)...")
 hate_pipe = pipeline(
     "text-classification",
-    model="Hate-speech-CNERG/dehatebert-mono-german",
+    model=r"c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\fine_tuned_model_cv\best_model",
     device=device,
     batch_size=16,
     truncation=True

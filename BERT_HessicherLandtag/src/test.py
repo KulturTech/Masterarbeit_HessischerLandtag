@@ -18,9 +18,9 @@ batch_size = 8  # Reduced for CPU processing
 print(f"Setting batch size to: {batch_size}")
 
 # 3. Re-initialize the pipeline with the new batch_size and device
-# The model 'Hate-speech-CNERG/dehatebert-mono-german' is used for text-classification
+# Using fine-tuned dehatebert model (Cross-Validation Best Model)
 # truncation=True ensures texts longer than 512 tokens are truncated to fit the model
-pipe = pipeline("text-classification", model="Hate-speech-CNERG/dehatebert-mono-german", device=device, batch_size=batch_size, truncation=True)
+pipe = pipeline("text-classification", model=r"c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\fine_tuned_model_cv\best_model", device=device, batch_size=batch_size, truncation=True)
 print("Text classification pipeline re-initialized with new batch size and truncation enabled.")
 
 df = pd.read_parquet('BERT_HessicherLandtag/Data/prep_v1/all_docs_clean.parquet')
