@@ -1,7 +1,7 @@
 ================================================================================
 BERT FINE-TUNING SCRIPT - TRAINING OUTPUT
 ================================================================================
-Started at: 2026-01-25 14:59:33
+Started at: 2026-01-25 15:13:15
 
 No GPU available. Using CPU for training.
 Warning: Training on CPU will be significantly slower.
@@ -26,3 +26,18 @@ Loading model and tokenizer: Hate-speech-CNERG/dehatebert-mono-german
 
 Tokenizing datasets...
 Tokenization complete.
+
+Training configuration:
+  Model: Hate-speech-CNERG/dehatebert-mono-german
+  Epochs: 3
+  Batch size: 8
+  Learning rate: 2e-05
+  Max sequence length: 512
+  Weight decay: 0.01
+  Warmup steps: 500
+  Number of labels: 2
+
+================================================================================
+STARTING TRAINING
+================================================================================
+
