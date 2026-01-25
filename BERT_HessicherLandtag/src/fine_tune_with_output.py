@@ -24,7 +24,7 @@ TRAINING_METRICS_FILE = r"c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarb
 MAX_LENGTH = 512
 BATCH_SIZE = 8
 LEARNING_RATE = 2e-5
-NUM_EPOCHS = 1
+NUM_EPOCHS = 3
 TEST_SIZE = 0.2
 RANDOM_STATE = 42
 
