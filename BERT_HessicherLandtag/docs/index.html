@@ -139,6 +139,22 @@
             color: #2e7d32;
         }
 
+        .viz-card.blue-border {
+            border-top: 4px solid #1976d2;
+        }
+
+        .viz-card.blue-border h2 {
+            color: #1976d2;
+        }
+
+        .viz-card.purple-border {
+            border-top: 4px solid #7b1fa2;
+        }
+
+        .viz-card.purple-border h2 {
+            color: #7b1fa2;
+        }
+
         .download-section {
             background: white;
             border-radius: 10px;
@@ -177,6 +193,14 @@
 
         .download-btn.green:hover {
             background: #1b5e20;
+        }
+
+        .download-btn.blue {
+            background: #1976d2;
+        }
+
+        .download-btn.blue:hover {
+            background: #0d47a1;
         }
 
         .party-table {
@@ -242,6 +266,62 @@
             background: #667eea;
             color: white;
         }
+
+        .cv-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .cv-metric {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 1rem;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .cv-metric .value {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .cv-metric .label {
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .cv-metric .std {
+            font-size: 0.8rem;
+            color: #999;
+        }
+
+        .confusion-matrix {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 2px;
+            max-width: 300px;
+            margin: 1rem auto;
+            text-align: center;
+        }
+
+        .confusion-matrix .cell {
+            padding: 0.8rem;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        .confusion-matrix .header {
+            background: #f0f0f0;
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        .confusion-matrix .tp { background: #c8e6c9; color: #2e7d32; }
+        .confusion-matrix .tn { background: #c8e6c9; color: #2e7d32; }
+        .confusion-matrix .fp { background: #ffcdd2; color: #c62828; }
+        .confusion-matrix .fn { background: #ffcdd2; color: #c62828; }
     </style>
 </head>
 <body>
@@ -254,7 +334,10 @@
         <!-- Navigation -->
         <div class="nav-tabs">
             <a href="#overview" class="nav-tab active">Uebersicht</a>
+            <a href="#validation" class="nav-tab">Modell-Validierung</a>
+            <a href="#hate-parties" class="nav-tab">Hate Speech & Parteien</a>
             <a href="#adjectives" class="nav-tab">Adjektive & Migration</a>
+            <a href="#wordclouds" class="nav-tab">Wordclouds</a>
             <a href="#parties" class="nav-tab">Parteien-Analyse</a>
             <a href="#timeline" class="nav-tab">Zeitverlauf</a>
             <a href="#downloads" class="nav-tab">Downloads</a>
@@ -270,20 +353,20 @@
                         <p>Dokumente gesamt</p>
                     </div>
                     <div class="stat-card">
-                        <h3>97,9%</h3>
+                        <h3>3.169</h3>
+                        <p>Migrations-Dokumente (26,5%)</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>220</h3>
+                        <p>HATE (6,9% der Migr.-Docs)</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>2.949</h3>
                         <p>NON_HATE</p>
                     </div>
                     <div class="stat-card">
-                        <h3>2,1%</h3>
-                        <p>HATE</p>
-                    </div>
-                    <div class="stat-card">
-                        <h3>96,4%</h3>
-                        <p>Durchschn. Konfidenz</p>
-                    </div>
-                    <div class="stat-card">
-                        <h3>1.446</h3>
-                        <p>Migrations-Dokumente</p>
+                        <h3>99,27%</h3>
+                        <p>Modell-Accuracy (5-Fold CV)</p>
                     </div>
                     <div class="stat-card">
                         <h3>1.195</h3>
@@ -310,9 +393,172 @@
                     <img src="../Data/visualizations/3_score_boxplot.png" alt="Score Boxplot">
                 </div>
                 <div class="viz-card">
+                    <h2>Konfidenz-Levels</h2>
+                    <p>Verteilung der Vorhersagen auf verschiedene Konfidenz-Stufen.</p>
+                    <img src="../Data/visualizations/4_confidence_levels.png" alt="Confidence Levels">
+                </div>
+                <div class="viz-card">
                     <h2>Konfidenz-Heatmap</h2>
                     <p>Zusammenhang zwischen Labels und Konfidenz-Levels.</p>
                     <img src="../Data/visualizations/5_confidence_heatmap.png" alt="Confidence Heatmap">
+                </div>
+                <div class="viz-card">
+                    <h2>Textlaengen-Analyse</h2>
+                    <p>Verteilung der Textlaengen in den klassifizierten Dokumenten.</p>
+                    <img src="../Data/visualizations/6_text_length_analysis.png" alt="Text Length Analysis">
+                </div>
+                <div class="viz-card">
+                    <h2>Textlaenge vs. Konfidenz</h2>
+                    <p>Zusammenhang zwischen Textlaenge und Modell-Konfidenz.</p>
+                    <img src="../Data/visualizations/7_length_vs_confidence.png" alt="Length vs Confidence">
+                </div>
+                <div class="viz-card">
+                    <h2>Zusammenfassende Statistiken</h2>
+                    <p>Uebersicht der wichtigsten Kennzahlen der Klassifikation.</p>
+                    <img src="../Data/visualizations/8_summary_statistics.png" alt="Summary Statistics">
+                </div>
+            </div>
+        </section>
+
+        <!-- MODEL VALIDATION SECTION -->
+        <section id="validation">
+            <h2 class="section-title" style="color: #7b1fa2; border-color: #7b1fa2;">Modell-Validierung (Cross-Validation)</h2>
+
+            <div class="summary" style="border-left: 5px solid #7b1fa2;">
+                <h2>5-Fold Cross-Validation Ergebnisse</h2>
+                <p style="margin-top: 1rem;">Modell: <strong>dehatebert-mono-german</strong> | 545 manuell gelabelte Samples (500 NON_HATE, 45 HATE) | 3 Epochen, Batch-Size 8, LR 2e-5</p>
+
+                <div class="cv-metrics">
+                    <div class="cv-metric">
+                        <div class="value">99,27%</div>
+                        <div class="label">Accuracy</div>
+                        <div class="std">&plusmn; 0,37%</div>
+                    </div>
+                    <div class="cv-metric">
+                        <div class="value">99,27%</div>
+                        <div class="label">F1-Score</div>
+                        <div class="std">&plusmn; 0,36%</div>
+                    </div>
+                    <div class="cv-metric">
+                        <div class="value">99,32%</div>
+                        <div class="label">Precision</div>
+                        <div class="std">&plusmn; 0,34%</div>
+                    </div>
+                    <div class="cv-metric">
+                        <div class="value">99,27%</div>
+                        <div class="label">Recall</div>
+                        <div class="std">&plusmn; 0,37%</div>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 2rem; margin-bottom: 0.5rem;">Aggregierte Confusion Matrix (alle 5 Folds)</h3>
+                <div class="confusion-matrix">
+                    <div class="cell header"></div>
+                    <div class="cell header">Pred. NON_HATE</div>
+                    <div class="cell header">Pred. HATE</div>
+                    <div class="cell header">Actual NON_HATE</div>
+                    <div class="cell tn">497</div>
+                    <div class="cell fp">3</div>
+                    <div class="cell header">Actual HATE</div>
+                    <div class="cell fn">1</div>
+                    <div class="cell tp">44</div>
+                </div>
+
+                <h3 style="margin-top: 2rem; margin-bottom: 0.5rem;">Ergebnisse pro Fold</h3>
+                <table class="party-table">
+                    <thead>
+                        <tr>
+                            <th>Fold</th>
+                            <th>Accuracy</th>
+                            <th>F1-Score</th>
+                            <th>Precision</th>
+                            <th>Recall</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Fold 1</strong></td>
+                            <td>100,00%</td>
+                            <td>100,00%</td>
+                            <td>100,00%</td>
+                            <td>100,00%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fold 2</strong></td>
+                            <td>99,08%</td>
+                            <td>99,06%</td>
+                            <td>99,09%</td>
+                            <td>99,08%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fold 3</strong></td>
+                            <td>99,08%</td>
+                            <td>99,10%</td>
+                            <td>99,17%</td>
+                            <td>99,08%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fold 4</strong></td>
+                            <td>99,08%</td>
+                            <td>99,10%</td>
+                            <td>99,17%</td>
+                            <td>99,08%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fold 5</strong></td>
+                            <td>99,08%</td>
+                            <td>99,10%</td>
+                            <td>99,17%</td>
+                            <td>99,08%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- HATE SPEECH BY PARTIES SECTION -->
+        <section id="hate-parties">
+            <h2 class="section-title" style="color: #1976d2; border-color: #1976d2;">Hate Speech nach Parteien</h2>
+
+            <div class="summary" style="border-left: 5px solid #1976d2;">
+                <h2>Hate Speech Analyse im Migrations-Kontext</h2>
+                <p style="margin-top: 1rem;">Von 3.169 migrationsbezogenen Dokumenten wurden 220 (6,9%) als Hate Speech klassifiziert.
+                Analyse der Verteilung nach Parteien und Score-Verteilungen.</p>
+                <div class="stats-grid">
+                    <div class="stat-card" style="background: #1976d2;">
+                        <h3>3.169</h3>
+                        <p>Migrations-Dokumente</p>
+                    </div>
+                    <div class="stat-card" style="background: #1976d2;">
+                        <h3>220</h3>
+                        <p>Hate Speech (6,9%)</p>
+                    </div>
+                    <div class="stat-card" style="background: #1976d2;">
+                        <h3>2.949</h3>
+                        <p>NON_HATE (93,1%)</p>
+                    </div>
+                    <div class="stat-card" style="background: #1976d2;">
+                        <h3>1,84%</h3>
+                        <p>Hate Speech aller Docs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="visualizations">
+                <div class="viz-card blue-border">
+                    <h2>Hate Speech nach Parteien (Anzahl)</h2>
+                    <p>Anzahl der als Hate Speech klassifizierten Dokumente pro Partei.</p>
+                    <img src="../Data/visualizations/hate_speech_by_party_counts.png" alt="Hate Speech by Party Counts">
+                </div>
+                <div class="viz-card blue-border">
+                    <h2>Hate Score Verteilung</h2>
+                    <p>Verteilung der Hate-Speech-Scores ueber alle Dokumente.</p>
+                    <img src="../Data/visualizations/hate_score_distribution.png" alt="Hate Score Distribution">
+                </div>
+                <div class="viz-card blue-border">
+                    <h2>Hate Score Verteilung nach Partei</h2>
+                    <p>Wie unterscheiden sich die Hate-Scores zwischen den Parteien?</p>
+                    <img src="../Data/visualizations/hate_score_distribution_by_party.png" alt="Hate Score Distribution by Party">
                 </div>
             </div>
         </section>
@@ -339,6 +585,14 @@
                         <p>Negativ-Anteil</p>
                     </div>
                     <div class="stat-card" style="background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);">
+                        <h3>50</h3>
+                        <p>Adjektive in HATE-Docs</p>
+                    </div>
+                    <div class="stat-card" style="background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);">
+                        <h3>0,54%</h3>
+                        <p>Hate-Anteil der Adjektive</p>
+                    </div>
+                    <div class="stat-card" style="background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);">
                         <h3>61</h3>
                         <p>Unique Adjektive</p>
                     </div>
@@ -360,6 +614,39 @@
                     <h2>Negativ vs. Positiv</h2>
                     <p>Vergleich der Top-Adjektive in negativem und positivem Kontext.</p>
                     <img src="../Data/visualizations/negative_vs_positive_adjectives.png" alt="Negative vs Positive">
+                </div>
+                <div class="viz-card red-border">
+                    <h2>Top 5 Negative Adjektive pro Partei</h2>
+                    <p>Die fuenf haeufigsten negativen Adjektive aufgeschluesselt nach Partei.</p>
+                    <img src="../Data/visualizations/top5_negative_adjectives_per_party.png" alt="Top 5 Negative Adjectives per Party">
+                </div>
+            </div>
+        </section>
+
+        <!-- WORDCLOUDS SECTION -->
+        <section id="wordclouds">
+            <h2 class="section-title" style="color: #7b1fa2; border-color: #7b1fa2;">Wordclouds</h2>
+
+            <div class="visualizations">
+                <div class="viz-card purple-border">
+                    <h2>Negative Adjektive (Migration)</h2>
+                    <p>Wordcloud der negativen Adjektive im Migrations-Kontext.</p>
+                    <img src="../Data/prep_v1/wordcloud_negative_migration.png" alt="Wordcloud Negative Migration">
+                </div>
+                <div class="viz-card purple-border">
+                    <h2>Negative Adjektive nach Partei</h2>
+                    <p>Wordcloud der negativen Adjektive aufgeschluesselt nach Partei.</p>
+                    <img src="../Data/prep_v1/wordcloud_negative_by_party.png" alt="Wordcloud Negative by Party">
+                </div>
+                <div class="viz-card purple-border">
+                    <h2>Stark negative Adjektive</h2>
+                    <p>Wordcloud der als besonders negativ eingestuften Adjektive.</p>
+                    <img src="../Data/prep_v1/wordcloud_truly_negative.png" alt="Wordcloud Truly Negative">
+                </div>
+                <div class="viz-card purple-border">
+                    <h2>Stark negative Adjektive nach Partei</h2>
+                    <p>Wordcloud der stark negativen Adjektive aufgeschluesselt nach Partei.</p>
+                    <img src="../Data/prep_v1/wordcloud_truly_negative_by_party.png" alt="Wordcloud Truly Negative by Party">
                 </div>
             </div>
         </section>
@@ -533,6 +820,7 @@
                 <a href="../Data/prep_v1/adjectives_migration_context.csv" class="download-btn" download>Alle Adjektive (CSV)</a>
                 <a href="../Data/prep_v1/negative_adjectives_migration.csv" class="download-btn red" download>Negative Adjektive (CSV)</a>
                 <a href="../Data/prep_v1/negative_adjectives_with_parties.csv" class="download-btn red" download>Mit Parteierwaehnung (CSV)</a>
+                <a href="../Data/prep_v1/truly_negative_adjectives.csv" class="download-btn red" download>Stark negative Adjektive (CSV)</a>
                 <a href="../Data/prep_v1/adjective_analysis_summary.json" class="download-btn" download>Zusammenfassung (JSON)</a>
 
                 <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem;">Redner-Analysen (NER)</h3>
@@ -546,7 +834,16 @@
 
                 <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem;">Hate Speech Klassifikation</h3>
                 <a href="../Data/prep_v1/hate_speech_against_immigrants.csv" class="download-btn red" download>Hate Speech (CSV)</a>
+                <a href="../Data/prep_v1/adjectives_in_hate_documents.csv" class="download-btn red" download>Adjektive in Hate-Docs (CSV)</a>
+                <a href="../Data/prep_v1/adjectives_with_hate_labels.csv" class="download-btn red" download>Adjektive mit Hate-Labels (CSV)</a>
+                <a href="../Data/prep_v1/adjectives_hate_ratio_stats.csv" class="download-btn red" download>Hate-Ratio Statistiken (CSV)</a>
+                <a href="../Data/prep_v1/adjectives_hate_summary.json" class="download-btn" download>Hate-Adjektiv Summary (JSON)</a>
+                <a href="../Data/prep_v1/immigrant_hate_speech_summary.json" class="download-btn" download>Immigrant Hate Summary (JSON)</a>
                 <a href="../Data/visualizations/summary_statistics.csv" class="download-btn" download>Klassifikations-Statistiken (CSV)</a>
+
+                <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem;">Modell-Training</h3>
+                <a href="../Data/training/training_metrics.json" class="download-btn blue" download>Training Metriken (JSON)</a>
+                <a href="../Data/training/training_metrics_cv.json" class="download-btn blue" download>Cross-Validation Metriken (JSON)</a>
             </div>
         </section>
     </div>
@@ -554,7 +851,7 @@
     <footer>
         <p><strong>Masterarbeit: Hessischer Landtag Analyse</strong></p>
         <p style="margin-top: 0.5rem;">BERT-Modelle: dehatebert-mono-german, german-sentiment-bert</p>
-        <p style="margin-top: 0.5rem; font-size: 0.9rem;">20. Wahlperiode (2019-2023) | 11.950 Dokumente | 1.195 Migrations-Reden</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">20. Wahlperiode (2019-2023) | 11.950 Dokumente | 3.169 Migrations-Docs | 5-Fold CV Accuracy: 99,27%</p>
     </footer>
 </body>
 </html>
