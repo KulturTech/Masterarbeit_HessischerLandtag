@@ -102,7 +102,7 @@ Bei Fragen zur Masterarbeit oder zum Code können Sie gerne ein Issue erstellen.
 
 ## 🙏 Danksagungen
 
-- Hessischer Landtag für die Bereitstellung öffentlich zugänglicher Daten
+- Hessisches Institut für Landesgeschichte für die zugänglich gemachten Daten
 - Hugging Face für die BERT-Implementierung
 - Betreuende Professor:innen und Mentor:innen
 
