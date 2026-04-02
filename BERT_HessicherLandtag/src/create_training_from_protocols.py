@@ -3,9 +3,9 @@ Pipeline: Hessen-Protokolle (protocols.csv) → Trainingsdaten
 
 Schritte:
 1. Hessen-Protokolle aus protocols.csv filtern (state == "he")
-2. PDFs herunterladen
+2. PDFs parallel herunterladen
 3. Text extrahieren (pdfplumber)
-4. Text in Segmente aufteilen (~400 Wörter)
+4. Text in Segmente aufteilen (~400 Wörter, sliding window)
 5. Fine-tuned Modell für Silver Labels anwenden
 6. Balanciertes Trainings-CSV speichern
 """
@@ -16,9 +16,9 @@ import pdfplumber
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import re
 import time
-import io
 
 # ── Konfiguration ──────────────────────────────────────────────────────────────
 BASE_DIR = Path(r"c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag")
@@ -30,10 +30,12 @@ OUTPUT_FILE     = OUTPUT_DIR / "labeled_data_hessen_protocols.csv"
 MODEL_DIR       = BASE_DIR / "fine_tuned_model_cv" / "best_model"
 
 CONFIDENCE_THRESHOLD    = 0.80   # Nur Vorhersagen über diesem Wert
-SEGMENT_WORD_LIMIT      = 400    # Maximale Wörter pro Segment
+SEGMENT_WORD_LIMIT      = 350    # Wörter pro Segment
+SEGMENT_OVERLAP         = 50     # Überlappung zwischen Segmenten
+MIN_SEGMENT_WORDS       = 30     # Minimale Wörter damit Segment behalten wird
 SAMPLE_SIZE_PER_LABEL   = 1000   # Max. Samples pro Label im finalen Dataset
 REQUEST_TIMEOUT         = 30     # Sekunden pro PDF-Download
-REQUEST_DELAY           = 0.5    # Pause zwischen Downloads (Rate-Limiting)
+DOWNLOAD_WORKERS        = 8      # Parallele Downloads
 # ──────────────────────────────────────────────────────────────────────────────
 
 
@@ -44,28 +46,27 @@ def load_hessen_protocols(csv_path: Path) -> pd.DataFrame:
     return he
 
 
-def download_pdf(url: str, cache_dir: Path, protocol_id: str) -> Path | None:
-    """PDF herunterladen und cachen. Gibt Pfad zurück oder None bei Fehler."""
+def download_pdf(args) -> tuple[str, Path | None]:
+    """PDF herunterladen und cachen. Gibt (protocol_id, Pfad) zurück."""
+    protocol_id, url, cache_dir = args
     cache_path = cache_dir / f"{protocol_id}.pdf"
     if cache_path.exists():
-        return cache_path
+        return protocol_id, cache_path
     try:
         response = requests.get(url, timeout=REQUEST_TIMEOUT, headers={
             "User-Agent": "Mozilla/5.0 (research project)"
         })
         if response.status_code == 200 and b"%PDF" in response.content[:10]:
             cache_path.write_bytes(response.content)
-            return cache_path
+            return protocol_id, cache_path
         else:
-            print(f"  [SKIP] {protocol_id}: HTTP {response.status_code}")
-            return None
-    except Exception as e:
-        print(f"  [FEHLER] {protocol_id}: {e}")
-        return None
+            return protocol_id, None
+    except Exception:
+        return protocol_id, None
 
 
 def extract_text_from_pdf(pdf_path: Path) -> str:
-    """Text aus PDF extrahieren mit pdfplumber."""
+    """Text aus allen Seiten extrahieren und zusammenführen."""
     try:
         with pdfplumber.open(pdf_path) as pdf:
             pages = []
@@ -80,32 +81,38 @@ def extract_text_from_pdf(pdf_path: Path) -> str:
 
 
 def clean_text(text: str) -> str:
-    """Grundlegende Textbereinigung."""
+    """Grundlegende Textbereinigung für parlamentarische Protokolle."""
+    # Seitenzahlen (alleinstehende Zahlen)
+    text = re.sub(r"(?m)^\s*\d{1,5}\s*$", " ", text)
+    # Mehrfache Leerzeilen reduzieren
     text = re.sub(r"\n{3,}", "\n\n", text)
+    # Mehrfache Leerzeichen
     text = re.sub(r"[ \t]{2,}", " ", text)
-    text = re.sub(r"^\s*\d+\s*$", "", text, flags=re.MULTILINE)  # Seitenzahlen
     return text.strip()
 
 
-def split_into_segments(text: str, max_words: int = SEGMENT_WORD_LIMIT) -> list[str]:
-    """Text in Paragraphen aufteilen, max. max_words Wörter pro Segment."""
-    paragraphs = [p.strip() for p in text.split("\n\n") if len(p.strip()) > 50]
+def split_into_segments(text: str,
+                        max_words: int = SEGMENT_WORD_LIMIT,
+                        overlap: int = SEGMENT_OVERLAP,
+                        min_words: int = MIN_SEGMENT_WORDS) -> list[str]:
+    """
+    Sliding-window Segmentierung auf Wortebene.
+    Funktioniert unabhängig von Paragraph-Struktur.
+    """
+    words = text.split()
+    if len(words) < min_words:
+        return []
+
     segments = []
-    current = []
-    current_len = 0
-
-    for para in paragraphs:
-        words = para.split()
-        if current_len + len(words) > max_words and current:
-            segments.append(" ".join(current))
-            current = words
-            current_len = len(words)
-        else:
-            current.extend(words)
-            current_len += len(words)
-
-    if current:
-        segments.append(" ".join(current))
+    start = 0
+    while start < len(words):
+        end = min(start + max_words, len(words))
+        segment = " ".join(words[start:end])
+        if len(segment.split()) >= min_words:
+            segments.append(segment)
+        if end == len(words):
+            break
+        start += max_words - overlap
 
     return segments
 
@@ -162,36 +169,48 @@ def main():
     model = AutoModelForSequenceClassification.from_pretrained(str(MODEL_DIR)).to(device)
     print("Modell geladen.")
 
-    # 3. PDFs herunterladen, Text extrahieren, segmentieren
+    # 3. PDFs parallel herunterladen
     print("\n" + "=" * 70)
-    print("SCHRITT 3: PDFs herunterladen & Text extrahieren")
+    print("SCHRITT 3a: PDFs herunterladen (parallel)")
+    print("=" * 70)
+
+    download_args = [
+        (row["id"], row["url"], PDF_CACHE_DIR)
+        for _, row in protocols.iterrows()
+    ]
+
+    pdf_paths: dict[str, Path] = {}
+    n_total = len(download_args)
+    done = 0
+
+    with ThreadPoolExecutor(max_workers=DOWNLOAD_WORKERS) as executor:
+        futures = {executor.submit(download_pdf, args): args[0] for args in download_args}
+        for future in as_completed(futures):
+            protocol_id, path = future.result()
+            done += 1
+            status = "OK" if path else "FEHLER"
+            if path:
+                pdf_paths[protocol_id] = path
+            if done % 20 == 0 or done == n_total:
+                print(f"  {done}/{n_total} heruntergeladen ({len(pdf_paths)} erfolgreich)")
+
+    print(f"\nPDFs gecacht: {len(pdf_paths)}/{n_total}")
+
+    # 3b. Text extrahieren & segmentieren
+    print("\n" + "=" * 70)
+    print("SCHRITT 3b: Text extrahieren & segmentieren")
     print("=" * 70)
 
     all_segments = []
-    n_total = len(protocols)
-
-    for idx, row in protocols.iterrows():
-        protocol_id = row["id"]
-        url = row["url"]
-        progress = f"[{protocols.index.get_loc(idx) + 1}/{n_total}]"
-
-        print(f"{progress} {protocol_id} ...", end=" ", flush=True)
-
-        pdf_path = download_pdf(url, PDF_CACHE_DIR, protocol_id)
-        if pdf_path is None:
-            continue
-
+    for i, (protocol_id, pdf_path) in enumerate(pdf_paths.items(), 1):
         raw_text = extract_text_from_pdf(pdf_path)
         if not raw_text:
-            print("kein Text")
             continue
-
         text = clean_text(raw_text)
         segments = split_into_segments(text)
         all_segments.extend(segments)
-        print(f"OK ({len(segments)} Segmente)")
-
-        time.sleep(REQUEST_DELAY)
+        if i % 50 == 0 or i == len(pdf_paths):
+            print(f"  {i}/{len(pdf_paths)} extrahiert | Segmente bisher: {len(all_segments)}")
 
     print(f"\nSegmente gesamt: {len(all_segments)}")
 
