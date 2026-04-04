@@ -2,6 +2,8 @@
 Hate-Dokumente bzgl. Migranten: Redner und Parteien identifizieren
 Verfeinerte Version mit Name→Partei-Lookup aus allen Protokollen
 """
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 import pandas as pd
 import matplotlib
 matplotlib.use('Agg')
@@ -91,20 +93,34 @@ def build_name_party_lookup(all_texts: list[str]) -> dict[str, str]:
 
 
 def extract_speakers_from_text(text: str) -> list[str]:
-    """Redner aus Text extrahieren (Name am Zeilenanfang gefolgt von ':')."""
-    speaker_re = re.compile(
+    """Redner aus Text extrahieren – beide Formate:
+    1. Redebeginn: 'Name (Partei):' oder 'Name:'
+    2. Inhaltsverzeichnis: 'Name.......... 123'
+    """
+    # Format 1: Redebeginn
+    speech_re = re.compile(
         r'\n([A-ZÄÖÜ][a-zäöüß\-\.]+(?:\s+(?:Dr\.|h\.c\.|Prof\.)?\s*[A-ZÄÖÜ][a-zäöüß\-]+){1,4})'
         r'(?:\s*\([^)]{2,60}\))?\s*:',
         re.MULTILINE
     )
+    # Format 2: TOC-Einträge  "Name......... 123" oder "Name............... 123, 456"
+    toc_re = re.compile(
+        r'\n([A-ZÄÖÜ][a-zäöüß\-\.]+(?:\s+(?:Dr\.|h\.c\.|Prof\.)?\s*[A-ZÄÖÜ][a-zäöüß\-]+){1,4})'
+        r'\s*\.{3,}\s*\d',
+        re.MULTILINE
+    )
     speakers = []
-    for m in speaker_re.finditer(text):
-        name = m.group(1).strip()
-        if any(w in name for w in SKIP_WORDS):
-            continue
-        if len(name) < 5:
-            continue
-        speakers.append(name)
+    seen = set()
+    for pattern in [speech_re, toc_re]:
+        for m in pattern.finditer(text):
+            name = m.group(1).strip()
+            if any(w in name for w in SKIP_WORDS):
+                continue
+            if len(name) < 5:
+                continue
+            if name not in seen:
+                seen.add(name)
+                speakers.append(name)
     return speakers
 
 
@@ -205,19 +221,23 @@ print("[3/3] Pie Chart...")
 fig, ax = plt.subplots(figsize=(8, 8))
 pie_data = [(p, party_doc_counter[p]) for p in PARTY_COLORS if party_doc_counter[p] > 0]
 pie_data.sort(key=lambda x: x[1], reverse=True)
-p_labels, p_vals = zip(*pie_data)
-p_colors = [PARTY_COLORS[p] for p in p_labels]
-wedges, texts, autotexts = ax.pie(
-    p_vals, labels=p_labels, colors=p_colors, autopct='%1.1f%%',
-    startangle=90, pctdistance=0.8
-)
-for t in autotexts:
-    t.set_fontsize(11); t.set_fontweight('bold')
-    t.set_color('white' if t.get_text() else 'black')
-ax.set_title('Parteien-Anteil in HATE+Migrations-Dokumenten\n(nach identifizierten Rednern)', fontweight='bold')
-plt.tight_layout()
-plt.savefig(VIZ_DIR / 'hate_migration_party_pie.png', dpi=DPI, bbox_inches='tight')
-plt.close()
+if not pie_data:
+    print("  Keine Parteidaten verfügbar – Pie Chart wird übersprungen.")
+    plt.close()
+else:
+    p_labels, p_vals = zip(*pie_data)
+    p_colors = [PARTY_COLORS[p] for p in p_labels]
+    wedges, texts, autotexts = ax.pie(
+        p_vals, labels=p_labels, colors=p_colors, autopct='%1.1f%%',
+        startangle=90, pctdistance=0.8
+    )
+    for t in autotexts:
+        t.set_fontsize(11); t.set_fontweight('bold')
+        t.set_color('white' if t.get_text() else 'black')
+    ax.set_title('Parteien-Anteil in HATE+Migrations-Dokumenten\n(nach identifizierten Rednern)', fontweight='bold')
+    plt.tight_layout()
+    plt.savefig(VIZ_DIR / 'hate_migration_party_pie.png', dpi=DPI, bbox_inches='tight')
+    plt.close()
 
 # ── 4. CSV speichern ──────────────────────────────────────────────────────────
 out = pd.DataFrame([
