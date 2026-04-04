@@ -111,12 +111,24 @@ SPEAKER_RE = re.compile(
     re.MULTILINE
 )
 
+NAME_CLEAN_RE = re.compile(r'^[\s\W]+')  # führende Nicht-Buchstaben entfernen
+
+def clean_speaker_name(name: str) -> str:
+    """Artefakte wie 'Wort.\n\n' oder 'Bitte.\n\n' vor dem echten Namen entfernen."""
+    # Letztes Wort nach Zeilenumbruch nehmen, falls mehrere Zeilen
+    parts = [p.strip() for p in name.split('\n') if p.strip()]
+    if parts:
+        name = parts[-1]
+    # Führende Satzzeichen / Kleinbuchstaben entfernen
+    name = NAME_CLEAN_RE.sub('', name).strip()
+    return name
+
 def get_current_speaker(text: str, match_start: int) -> str | None:
     """Letzter Redner vor der gefundenen Position."""
     best_name, best_pos = None, -1
     for m in SPEAKER_RE.finditer(text):
         if m.start() <= match_start:
-            name = m.group(1).strip()
+            name = clean_speaker_name(m.group(1))
             if any(w in name for w in SKIP_WORDS) or len(name) < 5:
                 continue
             if m.start() > best_pos:
