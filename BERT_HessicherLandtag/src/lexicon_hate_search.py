@@ -105,6 +105,7 @@ def build_name_party_lookup(all_texts: list[str]) -> dict[str, str]:
 
 
 TOC_RE    = re.compile(r'[A-ZÄÖÜ][a-zäöüß]+(?:\s+\S+){0,4}\.{5,}\d', re.MULTILINE)
+YEAR_RE   = re.compile(r'\b(20\d{2})\b')
 SPEAKER_RE = re.compile(
     r'\n([A-ZÄÖÜ][a-zäöüß\-\.]+(?:\s+(?:Dr\.|h\.c\.|Prof\.)?\s*[A-ZÄÖÜ][a-zäöüß\-]+){1,4})'
     r'(?:\s*\([^)]{2,60}\))?\s*:',
@@ -201,12 +202,16 @@ for idx, row in speech_df.iterrows():
             critical   = is_critical_use(ctx_before)
             start = max(0, m.start() - 100)
             end   = min(len(text), m.end() + 150)
+            # Jahr aus erstem Vorkommen im Text extrahieren
+            year_m = YEAR_RE.search(text[:500])
+            year   = int(year_m.group(1)) if year_m else None
             hits.append({
                 'category': cat,
                 'term':     m.group(0),
                 'speaker':  speaker or 'unbekannt',
                 'party':    party or 'unbekannt',
                 'critical': critical,
+                'year':     year,
                 'context':  text[start:end].replace('\n', ' ').strip(),
                 'score':    row['score'],
                 'label':    row['label'],
@@ -296,6 +301,53 @@ ax.legend(handles=legend, loc='lower right', fontsize=9)
 plt.tight_layout()
 plt.savefig(VIZ_DIR / 'lexikon_top_redner.png', dpi=DPI, bbox_inches='tight')
 plt.close()
+
+# Plot 4: Jährliche Entwicklung nach Partei
+print("[4/4] Jährliche Entwicklung...")
+yearly = known.dropna(subset=['year']).copy()
+yearly['year'] = yearly['year'].astype(int)
+
+years = sorted(yearly['year'].unique())
+parties_present = [p for p in PARTY_COLORS if p in yearly['party'].unique()]
+
+# Absolute Treffer pro Jahr & Partei
+pivot_year = yearly.groupby(['year', 'party']).size().unstack(fill_value=0)
+pivot_year = pivot_year.reindex(columns=parties_present, fill_value=0)
+
+fig, axes = plt.subplots(1, 2, figsize=(16, 6))
+
+# Links: gestapeltes Balkendiagramm
+bottom = [0] * len(pivot_year)
+for party in parties_present:
+    vals = pivot_year[party].values
+    axes[0].bar(pivot_year.index, vals, bottom=bottom,
+                color=PARTY_COLORS[party], alpha=0.85, edgecolor='black', label=party)
+    bottom = [b + v for b, v in zip(bottom, vals)]
+axes[0].set_xlabel('Jahr')
+axes[0].set_ylabel('Anzahl Lexikon-Treffer')
+axes[0].set_title('Abwertende Migrationssprache pro Jahr\n(gestapelt nach Partei)', fontweight='bold')
+axes[0].legend(loc='upper right', fontsize=9)
+axes[0].grid(axis='y', alpha=0.3)
+axes[0].set_xticks(years)
+
+# Rechts: Liniendiagramm pro Partei
+for party in parties_present:
+    vals = pivot_year[party]
+    axes[1].plot(vals.index, vals.values, marker='o', color=PARTY_COLORS[party],
+                 label=party, linewidth=2, markersize=6)
+axes[1].set_xlabel('Jahr')
+axes[1].set_ylabel('Anzahl Lexikon-Treffer')
+axes[1].set_title('Entwicklung je Partei über die Zeit', fontweight='bold')
+axes[1].legend(fontsize=9)
+axes[1].grid(alpha=0.3)
+axes[1].set_xticks(years)
+
+plt.tight_layout()
+plt.savefig(VIZ_DIR / 'lexikon_jahresverlauf.png', dpi=DPI, bbox_inches='tight')
+plt.close()
+
+print(f"\nJährliche Treffer (Eigenverwendung, bekannte Partei):")
+print(pivot_year.to_string())
 
 # ── 4. CSV + Beispieltexte ───────────────────────────────────────────────────
 hits_df.to_csv(OUT_DIR / 'lexikon_treffer_alle.csv', index=False)
