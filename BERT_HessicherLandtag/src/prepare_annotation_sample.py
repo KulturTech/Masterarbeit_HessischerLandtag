@@ -134,22 +134,46 @@ def main():
     chunks = pd.DataFrame(rows).drop_duplicates(subset='text').reset_index(drop=True)
     print(f"  {len(chunks)} einzigartige Absätze extrahiert")
 
-    # 4. Vortrainiertes Modell laden & Texte bewerten
-    print(f"\nLade vortrainiertes Modell: {PRETRAINED_MODEL}")
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    print(f"  Device: {device}")
-    tokenizer = AutoTokenizer.from_pretrained(PRETRAINED_MODEL)
-    model = AutoModelForSequenceClassification.from_pretrained(PRETRAINED_MODEL).to(device)
-    model.eval()
+    # 4. Vortrainiertes Modell laden & Texte bewerten (mit Cache)
+    SCORE_CACHE = OUT_DIR / "paragraph_scores_cache.parquet"
+    if SCORE_CACHE.exists():
+        print(f"\nLade gecachte Scores: {SCORE_CACHE}")
+        cached = pd.read_parquet(SCORE_CACHE)[['text', 'p_hate']]
+        # Merge without pre-existing p_hate column to avoid _x/_y suffixes
+        chunks = chunks.merge(cached, on='text', how='left')
+        missing = int(chunks['p_hate'].isna().sum())
+        if missing > 0:
+            print(f"  {missing} neue Texte ohne Score - berechne nach...")
+        else:
+            print(f"  Alle {len(chunks)} Scores aus Cache geladen.")
+    else:
+        chunks['p_hate'] = np.nan
+        missing = len(chunks)
 
-    print(f"Berechne P(HATE) für {len(chunks)} Texte...")
-    chunks['p_hate'] = score_with_pretrained(chunks['text'].tolist(), tokenizer, model, device)
+    if missing > 0:
+        print(f"\nLade vortrainiertes Modell: {PRETRAINED_MODEL}")
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        print(f"  Device: {device}")
+        tokenizer = AutoTokenizer.from_pretrained(PRETRAINED_MODEL)
+        model = AutoModelForSequenceClassification.from_pretrained(PRETRAINED_MODEL).to(device)
+        model.eval()
+
+        mask = chunks['p_hate'].isna()
+        to_score = chunks[mask].copy()
+        print(f"Berechne P(HATE) fuer {len(to_score)} Texte...")
+        scores = score_with_pretrained(to_score['text'].tolist(), tokenizer, model, device)
+        chunks.loc[mask, 'p_hate'] = scores
+
+        # Cache speichern
+        OUT_DIR.mkdir(parents=True, exist_ok=True)
+        chunks[['text', 'p_hate']].to_parquet(SCORE_CACHE)
+        print(f"  Scores gecacht: {SCORE_CACHE}")
 
     print(f"\nP(HATE) Verteilung:")
     print(f"  > 0.50:  {(chunks['p_hate'] > 0.50).sum()}")
     print(f"  > 0.30:  {(chunks['p_hate'] > 0.30).sum()}")
     print(f"  > 0.15:  {(chunks['p_hate'] > 0.15).sum()}")
-    print(f"  ≤ 0.15:  {(chunks['p_hate'] <= 0.15).sum()}")
+    print(f"  <= 0.15: {(chunks['p_hate'] <= 0.15).sum()}")
 
     # 5. Stratifizierte Stichprobe ziehen
     print(f"\nZiehe stratifizierte Stichprobe ({N_HIGH_HATE} hoch + {N_RANDOM} zufällig)...")
