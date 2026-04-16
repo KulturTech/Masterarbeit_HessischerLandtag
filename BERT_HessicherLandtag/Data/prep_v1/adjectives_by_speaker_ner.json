@@ -28,16 +28,16 @@
         "gefährlich": 2
       },
       "speakers": [
-        "Horst Falk",
-        "Alexander Bauer",
-        "Dirk Bamberger",
-        "Birgit Heitland",
-        "Thomas Hering",
-        "Frank Steinraths",
+        "Michael Boddenberg",
+        "Ines Claus",
+        "Manfred \nPentz",
         "Claudia Ravensburg",
+        "Max Schad",
         "Zuruf Thomas Hering",
+        "Armin Schwarz",
         "Marvin Flatten",
-        "Norbert Bartelt"
+        "Christian Heinz",
+        "Tobias Utter"
       ]
     },
     "SPD": {
@@ -66,16 +66,16 @@
         "unkontrollierte": 2
       },
       "speakers": [
-        "Tilo Becher",
-        "Turgut Yüksel",
-        "Wolfgang Decker",
         "Manuela Strube",
-        "Bijan Kaffenberger",
-        "Sabine Waschke",
-        "Nadine Gersberg",
+        "Daniela Sommer",
+        "Tobias \nEckert",
+        "Turgut Yüksel",
+        "Lisa Gnadl",
         "Christoph Degen",
+        "Daniela \nSommer",
         "Oliver Ulloth",
-        "Tobias \nEckert"
+        "Knut John",
+        "Gernot Grumbach"
       ]
     },
     "GRUENE": {
@@ -104,16 +104,16 @@
         "illegalen": 2
       },
       "speakers": [
-        "Eva Goldbach",
-        "Jürgen Frömmrich",
-        "Katrin Schleenbecker",
-        "Frank Diefenbach",
-        "Kaya Kinkel",
-        "Gegenruf Jürgen \nFrömmrich",
-        "Silvia Brünnel",
-        "Marcus Bocklet",
+        "Gegenruf \nJürgen Frömmrich",
+        "Miriam Dahlke",
         "Felix Martin",
-        "Nina Eisenhardt"
+        "Martina Feldmayer",
+        "Peter Kaufmann",
+        "Nina Eisenhardt",
+        "Frank Diefenbach",
+        "Marcus Bocklet",
+        "Gegenruf Marcus Bocklet",
+        "Silvia Brünnel"
       ]
     },
     "FDP": {
@@ -142,15 +142,15 @@
         "gescheiterte": 1
       },
       "speakers": [
-        "Wiebke Knell",
+        "Matthias Büger",
+        "Yanki Pürsün",
         "Stefan Naas",
-        "Stellungnahme \n\nMoritz Promny",
+        "Uwe Hahn",
+        "Wiebke Knell",
+        "Lisa Deißler",
         "Jürgen Lenders",
         "Moritz Promny",
-        "Lisa Deißler",
-        "Uwe Hahn",
-        "Yanki Pürsün",
-        "Matthias Büger",
+        "Minuten Redezeit \n\nYanki Pürsün",
         "Oliver Stirböck"
       ]
     },
@@ -180,16 +180,16 @@
         "legale": 4
       },
       "speakers": [
-        "Janine Wissler",
-        "Hermann Schaus",
+        "Gegenruf Elisabeth Kula",
         "Saadet Sönmez",
-        "Torsten Felstehausen",
-        "Saadet \nSönmez",
-        "Christiane Böhm",
-        "Elisabeth \nKula",
-        "Ulrich Wilken",
+        "Christiane \nBöhm",
         "Axel Gerntke",
-        "Gegenruf Jan Schalauske"
+        "Petra Heimer",
+        "Jan Schalauske",
+        "Janine Wissler",
+        "Christiane Böhm",
+        "Saadet \nSönmez",
+        "Hermann Schaus"
       ]
     },
     "AfD": {
@@ -218,16 +218,16 @@
         "qualifizierten": 5
       },
       "speakers": [
-        "Erich Heidkamp",
+        "Heiko Scholz",
+        "Dirk Gaw",
+        "Gegenruf Robert Lambrou",
+        "Gegenruf \nRobert Lambrou",
         "Robert \nLambrou",
-        "Frank \nGrobe",
-        "Walter Wissenbach",
-        "Robert Lambrou",
-        "Erich Vohl",
-        "Klaus Gagel",
-        "Andreas Lichert",
+        "Volker Richter",
         "Rolf Kahnt",
-        "Karl Hermann Bolldorf"
+        "Walter Wissenbach",
+        "Klaus Gagel",
+        "Gegenruf Andreas \nLichert"
       ]
     }
   }

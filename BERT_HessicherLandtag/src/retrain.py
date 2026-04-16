@@ -22,11 +22,13 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import torch
+import torch.nn as nn
 from datasets import Dataset
 from sklearn.metrics import (accuracy_score, classification_report,
                               confusion_matrix,
                               precision_recall_fscore_support)
 from sklearn.model_selection import StratifiedKFold
+from sklearn.utils.class_weight import compute_class_weight
 from transformers import (AutoModelForSequenceClassification, AutoTokenizer,
                           Trainer, TrainerCallback, TrainingArguments)
 
@@ -66,13 +68,44 @@ def compute_metrics(eval_pred):
     preds, labels = eval_pred
     preds = np.argmax(preds, axis=1)
     p, r, f1, _ = precision_recall_fscore_support(labels, preds, average='weighted')
-    return {'accuracy': accuracy_score(labels, preds), 'f1': f1,
-            'precision': p, 'recall': r}
+    # Zusätzlich HATE-spezifische Metriken
+    p_hate, r_hate, f1_hate, _ = precision_recall_fscore_support(
+        labels, preds, average=None, labels=[1])
+    return {
+        'accuracy':       accuracy_score(labels, preds),
+        'f1':             f1,
+        'precision':      p,
+        'recall':         r,
+        'f1_hate':        float(f1_hate[0]),
+        'precision_hate': float(p_hate[0]),
+        'recall_hate':    float(r_hate[0]),
+    }
 
 
 class LogCallback(TrainerCallback):
     def on_epoch_end(self, args, state, control, **kwargs):
         log(f"    Epoch {state.epoch:.0f} abgeschlossen.", console=False)
+
+
+# ---------------------------------------------------------------------------
+# Trainer mit Class Weights
+# ---------------------------------------------------------------------------
+class WeightedTrainer(Trainer):
+    """Trainer mit gewichteter Cross-Entropy — gleicht Klassenimbalanz aus."""
+
+    def __init__(self, *args, class_weights: torch.Tensor = None, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.class_weights = class_weights
+
+    def compute_loss(self, model, inputs, return_outputs=False, **kwargs):
+        labels = inputs.pop("labels")
+        outputs = model(**inputs)
+        logits = outputs.logits
+        loss_fn = nn.CrossEntropyLoss(
+            weight=self.class_weights.to(logits.device) if self.class_weights is not None else None
+        )
+        loss = loss_fn(logits, labels)
+        return (loss, outputs) if return_outputs else loss
 
 
 # ---------------------------------------------------------------------------
@@ -113,6 +146,11 @@ def main():
     texts  = df['text'].tolist()
     labels = df['label_id'].tolist()
 
+    # Class Weights berechnen
+    cw = compute_class_weight('balanced', classes=np.array([0, 1]), y=np.array(labels))
+    class_weights = torch.tensor(cw, dtype=torch.float)
+    log(f"\nClass Weights: NON_HATE={cw[0]:.3f}, HATE={cw[1]:.3f}")
+
     # 2. Tokenizer laden
     log(f"\nLade Tokenizer: {BASE_MODEL}")
     tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL)
@@ -132,7 +170,7 @@ def main():
     best_f1 = -1
 
     for fold, (train_idx, val_idx) in enumerate(skf.split(texts, labels)):
-        log(f"\n{'─'*40}")
+        log(f"\n{'-'*40}")
         log(f"Fold {fold+1}/{n_folds}  "
             f"(train={len(train_idx)}, val={len(val_idx)})")
 
@@ -168,18 +206,20 @@ def main():
             logging_steps=20,
         )
 
-        trainer = Trainer(
+        trainer = WeightedTrainer(
             model=model, args=training_args,
             train_dataset=train_ds, eval_dataset=val_ds,
             compute_metrics=compute_metrics,
             callbacks=[LogCallback()],
+            class_weights=class_weights,
         )
         trainer.train()
 
         res = trainer.evaluate()
         f1  = res['eval_f1']
         log(f"  Accuracy={res['eval_accuracy']:.4f}  F1={f1:.4f}  "
-            f"Precision={res['eval_precision']:.4f}  Recall={res['eval_recall']:.4f}")
+            f"Precision={res['eval_precision']:.4f}  Recall={res['eval_recall']:.4f}  "
+            f"| HATE → P={res['eval_precision_hate']:.4f}  R={res['eval_recall_hate']:.4f}  F1={res['eval_f1_hate']:.4f}")
 
         fold_metrics.append({
             'fold': fold + 1,
