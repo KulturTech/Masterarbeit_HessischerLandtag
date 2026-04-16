@@ -1,0 +1,50 @@
+text_idx,text_preview,pred_label,p_hate,word,weight
+1,Die Ausländer nehmen uns die Arbeitsplätze weg und belasten unser Sozialsystem.,NON_HATE,0.002,belasten,-0.000393
+1,Die Ausländer nehmen uns die Arbeitsplätze weg und belasten unser Sozialsystem.,NON_HATE,0.002,und,-0.000288
+1,Die Ausländer nehmen uns die Arbeitsplätze weg und belasten unser Sozialsystem.,NON_HATE,0.002,nehmen,-0.000263
+1,Die Ausländer nehmen uns die Arbeitsplätze weg und belasten unser Sozialsystem.,NON_HATE,0.002,unser,-0.00019
+1,Die Ausländer nehmen uns die Arbeitsplätze weg und belasten unser Sozialsystem.,NON_HATE,0.002,Sozialsystem,0.000125
+1,Die Ausländer nehmen uns die Arbeitsplätze weg und belasten unser Sozialsystem.,NON_HATE,0.002,die,7.4e-05
+1,Die Ausländer nehmen uns die Arbeitsplätze weg und belasten unser Sozialsystem.,NON_HATE,0.002,Ausländer,-3.1e-05
+1,Die Ausländer nehmen uns die Arbeitsplätze weg und belasten unser Sozialsystem.,NON_HATE,0.002,uns,-2.6e-05
+1,Die Ausländer nehmen uns die Arbeitsplätze weg und belasten unser Sozialsystem.,NON_HATE,0.002,weg,-2.2e-05
+1,Die Ausländer nehmen uns die Arbeitsplätze weg und belasten unser Sozialsystem.,NON_HATE,0.002,Arbeitsplätze,2.2e-05
+1,Die Ausländer nehmen uns die Arbeitsplätze weg und belasten unser Sozialsystem.,NON_HATE,0.002,Die,-5e-06
+2,Wir begrüßen die Integration von Flüchtlingen in unsere Gesellschaft.,NON_HATE,0.0027,unsere,-0.00293
+2,Wir begrüßen die Integration von Flüchtlingen in unsere Gesellschaft.,NON_HATE,0.0027,von,-0.001374
+2,Wir begrüßen die Integration von Flüchtlingen in unsere Gesellschaft.,NON_HATE,0.0027,in,-0.001328
+2,Wir begrüßen die Integration von Flüchtlingen in unsere Gesellschaft.,NON_HATE,0.0027,Gesellschaft,0.0009
+2,Wir begrüßen die Integration von Flüchtlingen in unsere Gesellschaft.,NON_HATE,0.0027,Flüchtlingen,0.000522
+2,Wir begrüßen die Integration von Flüchtlingen in unsere Gesellschaft.,NON_HATE,0.0027,die,0.000367
+2,Wir begrüßen die Integration von Flüchtlingen in unsere Gesellschaft.,NON_HATE,0.0027,begrüßen,-0.000234
+2,Wir begrüßen die Integration von Flüchtlingen in unsere Gesellschaft.,NON_HATE,0.0027,Wir,-0.000183
+2,Wir begrüßen die Integration von Flüchtlingen in unsere Gesellschaft.,NON_HATE,0.0027,Integration,-6.4e-05
+3,Die Migrationspolitik der Bundesregierung ist gescheitert und gefährdet die öffentliche Sicherheit.,NON_HATE,0.0019,gescheitert,-0.002511
+3,Die Migrationspolitik der Bundesregierung ist gescheitert und gefährdet die öffentliche Sicherheit.,NON_HATE,0.0019,ist,-0.001192
+3,Die Migrationspolitik der Bundesregierung ist gescheitert und gefährdet die öffentliche Sicherheit.,NON_HATE,0.0019,und,-0.001081
+3,Die Migrationspolitik der Bundesregierung ist gescheitert und gefährdet die öffentliche Sicherheit.,NON_HATE,0.0019,der,-0.000384
+3,Die Migrationspolitik der Bundesregierung ist gescheitert und gefährdet die öffentliche Sicherheit.,NON_HATE,0.0019,gefährdet,0.000381
+3,Die Migrationspolitik der Bundesregierung ist gescheitert und gefährdet die öffentliche Sicherheit.,NON_HATE,0.0019,Bundesregierung,0.000247
+3,Die Migrationspolitik der Bundesregierung ist gescheitert und gefährdet die öffentliche Sicherheit.,NON_HATE,0.0019,Die,-0.000171
+3,Die Migrationspolitik der Bundesregierung ist gescheitert und gefährdet die öffentliche Sicherheit.,NON_HATE,0.0019,öffentliche,0.000154
+3,Die Migrationspolitik der Bundesregierung ist gescheitert und gefährdet die öffentliche Sicherheit.,NON_HATE,0.0019,Sicherheit,0.000153
+3,Die Migrationspolitik der Bundesregierung ist gescheitert und gefährdet die öffentliche Sicherheit.,NON_HATE,0.0019,Migrationspolitik,-7.7e-05
+3,Die Migrationspolitik der Bundesregierung ist gescheitert und gefährdet die öffentliche Sicherheit.,NON_HATE,0.0019,die,-5.9e-05
+4,Asylbewerber sollten faire Chancen auf ein besseres Leben bekommen.,NON_HATE,0.0021,bekommen,-0.000367
+4,Asylbewerber sollten faire Chancen auf ein besseres Leben bekommen.,NON_HATE,0.0021,faire,-0.000249
+4,Asylbewerber sollten faire Chancen auf ein besseres Leben bekommen.,NON_HATE,0.0021,ein,-0.000195
+4,Asylbewerber sollten faire Chancen auf ein besseres Leben bekommen.,NON_HATE,0.0021,besseres,-0.000165
+4,Asylbewerber sollten faire Chancen auf ein besseres Leben bekommen.,NON_HATE,0.0021,Leben,0.000106
+4,Asylbewerber sollten faire Chancen auf ein besseres Leben bekommen.,NON_HATE,0.0021,Asylbewerber,9e-05
+4,Asylbewerber sollten faire Chancen auf ein besseres Leben bekommen.,NON_HATE,0.0021,Chancen,3.6e-05
+4,Asylbewerber sollten faire Chancen auf ein besseres Leben bekommen.,NON_HATE,0.0021,auf,-2.4e-05
+4,Asylbewerber sollten faire Chancen auf ein besseres Leben bekommen.,NON_HATE,0.0021,sollten,-4e-06
+5,"Diese Invasoren kommen nur, um unser Land zu zerstören.",NON_HATE,0.002,kommen,-0.00029
+5,"Diese Invasoren kommen nur, um unser Land zu zerstören.",NON_HATE,0.002,nur,-0.000239
+5,"Diese Invasoren kommen nur, um unser Land zu zerstören.",NON_HATE,0.002,um,-0.000196
+5,"Diese Invasoren kommen nur, um unser Land zu zerstören.",NON_HATE,0.002,zu,-0.000143
+5,"Diese Invasoren kommen nur, um unser Land zu zerstören.",NON_HATE,0.002,unser,-0.000138
+5,"Diese Invasoren kommen nur, um unser Land zu zerstören.",NON_HATE,0.002,Invasoren,6.4e-05
+5,"Diese Invasoren kommen nur, um unser Land zu zerstören.",NON_HATE,0.002,zerstören,3.1e-05
+5,"Diese Invasoren kommen nur, um unser Land zu zerstören.",NON_HATE,0.002,Diese,-2.7e-05
+5,"Diese Invasoren kommen nur, um unser Land zu zerstören.",NON_HATE,0.002,Land,-9e-06
