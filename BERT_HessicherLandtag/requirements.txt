@@ -16,6 +16,8 @@ seaborn>=0.12.0
 streamlit>=1.28.0
 plotly>=5.17.0
 
+lime>=0.2.0.1
+
 # Optional developer/test tools
 black
 flake8
