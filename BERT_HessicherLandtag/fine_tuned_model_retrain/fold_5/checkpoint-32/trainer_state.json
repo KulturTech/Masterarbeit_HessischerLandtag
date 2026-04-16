@@ -1,0 +1,53 @@
+{
+  "best_global_step": 32,
+  "best_metric": 0.8825921553194281,
+  "best_model_checkpoint": "c:\\Users\\gsera\\OneDrive\\Desktop\\Masterarbeit\\Masterarbeit_HessischerLandtag\\BERT_HessicherLandtag\\fine_tuned_model_retrain\\fold_5\\checkpoint-32",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 32,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.625,
+      "grad_norm": 4.0741190910339355,
+      "learning_rate": 1.790697674418605e-05,
+      "loss": 0.2748,
+      "step": 20
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.9206349206349206,
+      "eval_f1": 0.8825921553194281,
+      "eval_loss": 0.29721853137016296,
+      "eval_precision": 0.8475686570924665,
+      "eval_recall": 0.9206349206349206,
+      "eval_runtime": 35.9834,
+      "eval_samples_per_second": 1.751,
+      "eval_steps_per_second": 0.222,
+      "step": 32
+    }
+  ],
+  "logging_steps": 20,
+  "max_steps": 96,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 33415104030720.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}

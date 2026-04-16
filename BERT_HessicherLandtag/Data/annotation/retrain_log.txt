@@ -1,0 +1,82 @@
+======================================================================
+NEUTRAINING AUF MANUELL ANNOTIERTEN DATEN
+======================================================================
+Start: 2026-04-16 20:12:32
+
+Lade annotierte Daten: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\annotation\annotation_sample.csv
+  Annotierte Texte gesamt: 317
+    NON_HATE: 294
+    HATE: 23
+
+Lade Tokenizer: Hate-speech-CNERG/dehatebert-mono-german
+
+5-Fold Cross-Validation
+  Epochen: 3  |  Batch: 8  |  LR: 2e-05
+
+────────────────────────────────────────
+Fold 1/5  (train=253, val=64)
+    Epoch 1 abgeschlossen.
+    Epoch 2 abgeschlossen.
+    Epoch 3 abgeschlossen.
+  Accuracy=0.9219  F1=0.8844  Precision=0.8499  Recall=0.9219
+  → Neues bestes Modell (F1=0.8844), speichere...
+
+────────────────────────────────────────
+Fold 2/5  (train=253, val=64)
+    Epoch 1 abgeschlossen.
+    Epoch 2 abgeschlossen.
+    Epoch 3 abgeschlossen.
+  Accuracy=0.9219  F1=0.8844  Precision=0.8499  Recall=0.9219
+
+────────────────────────────────────────
+Fold 3/5  (train=254, val=63)
+    Epoch 1 abgeschlossen.
+    Epoch 2 abgeschlossen.
+    Epoch 3 abgeschlossen.
+  Accuracy=0.9524  F1=0.9387  Precision=0.9547  Recall=0.9524
+  → Neues bestes Modell (F1=0.9387), speichere...
+
+────────────────────────────────────────
+Fold 4/5  (train=254, val=63)
+    Epoch 1 abgeschlossen.
+    Epoch 2 abgeschlossen.
+    Epoch 3 abgeschlossen.
+  Accuracy=0.9365  F1=0.9058  Precision=0.8770  Recall=0.9365
+
+────────────────────────────────────────
+Fold 5/5  (train=254, val=63)
+    Epoch 1 abgeschlossen.
+    Epoch 2 abgeschlossen.
+    Epoch 3 abgeschlossen.
+  Accuracy=0.9206  F1=0.8826  Precision=0.8476  Recall=0.9206
+
+======================================================================
+GESAMTERGEBNIS (alle Folds kombiniert)
+======================================================================
+
+              precision    recall  f1-score   support
+
+    NON_HATE       0.93      1.00      0.96       294
+        HATE       1.00      0.04      0.08        23
+
+    accuracy                           0.93       317
+   macro avg       0.97      0.52      0.52       317
+weighted avg       0.94      0.93      0.90       317
+
+
+Konfusionsmatrix:
+[[294   0]
+ [ 22   1]]
+
+Durchschnittliche Metriken über 5 Folds:
+  accuracy    : 0.9307 ± 0.0123
+  f1          : 0.8992 ± 0.0215
+  precision   : 0.8758 ± 0.0409
+  recall      : 0.9307 ± 0.0123
+
+[OK] Metriken gespeichert: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\annotation\retrain_metrics.json
+[OK] Bestes Modell:         c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\fine_tuned_model_retrain\best_model
+[OK] Trainingslog:          c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\annotation\retrain_log.txt
+
+Gesamtdauer: 2:37:36.910456
+======================================================================

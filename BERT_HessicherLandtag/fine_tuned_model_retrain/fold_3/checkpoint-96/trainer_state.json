@@ -1,0 +1,98 @@
+{
+  "best_global_step": 96,
+  "best_metric": 0.9386855568673751,
+  "best_model_checkpoint": "c:\\Users\\gsera\\OneDrive\\Desktop\\Masterarbeit\\Masterarbeit_HessischerLandtag\\BERT_HessicherLandtag\\fine_tuned_model_retrain\\fold_3\\checkpoint-96",
+  "epoch": 3.0,
+  "eval_steps": 500,
+  "global_step": 96,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.625,
+      "grad_norm": 0.27161920070648193,
+      "learning_rate": 1.790697674418605e-05,
+      "loss": 0.3253,
+      "step": 20
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.9365079365079365,
+      "eval_f1": 0.9058027582617746,
+      "eval_loss": 0.25324493646621704,
+      "eval_precision": 0.8770471151423532,
+      "eval_recall": 0.9365079365079365,
+      "eval_runtime": 34.2471,
+      "eval_samples_per_second": 1.84,
+      "eval_steps_per_second": 0.234,
+      "step": 32
+    },
+    {
+      "epoch": 1.25,
+      "grad_norm": 4.102210521697998,
+      "learning_rate": 1.3255813953488372e-05,
+      "loss": 0.3294,
+      "step": 40
+    },
+    {
+      "epoch": 1.875,
+      "grad_norm": 0.5594059824943542,
+      "learning_rate": 8.604651162790698e-06,
+      "loss": 0.2917,
+      "step": 60
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.9365079365079365,
+      "eval_f1": 0.9058027582617746,
+      "eval_loss": 0.20591500401496887,
+      "eval_precision": 0.8770471151423532,
+      "eval_recall": 0.9365079365079365,
+      "eval_runtime": 34.5716,
+      "eval_samples_per_second": 1.822,
+      "eval_steps_per_second": 0.231,
+      "step": 64
+    },
+    {
+      "epoch": 2.5,
+      "grad_norm": 5.27737283706665,
+      "learning_rate": 3.953488372093024e-06,
+      "loss": 0.2652,
+      "step": 80
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.9523809523809523,
+      "eval_f1": 0.9386855568673751,
+      "eval_loss": 0.17804041504859924,
+      "eval_precision": 0.9546850998463902,
+      "eval_recall": 0.9523809523809523,
+      "eval_runtime": 31.2696,
+      "eval_samples_per_second": 2.015,
+      "eval_steps_per_second": 0.256,
+      "step": 96
+    }
+  ],
+  "logging_steps": 20,
+  "max_steps": 96,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": true
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 100245312092160.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}
