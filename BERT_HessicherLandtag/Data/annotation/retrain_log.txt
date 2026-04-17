@@ -19,3 +19,5 @@ Lade Tokenizer: Hate-speech-CNERG/dehatebert-mono-german
 Fold 1/5  (train=253, val=64)
     Epoch 1 abgeschlossen.
     Epoch 2 abgeschlossen.
+    Epoch 3 abgeschlossen.
+  Accuracy=0.9219  F1=0.8844  Precision=0.8499  Recall=0.9219  | HATE: P=0.0000  R=0.0000  F1=0.0000
