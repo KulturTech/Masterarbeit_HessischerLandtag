@@ -1,7 +1,7 @@
 ======================================================================
 NEUTRAINING AUF MANUELL ANNOTIERTEN DATEN
 ======================================================================
-Start: 2026-04-16 23:16:07
+Start: 2026-04-17 00:58:19
 
 Lade annotierte Daten: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\annotation\annotation_sample.csv
   Annotierte Texte gesamt: 317
@@ -17,3 +17,5 @@ Lade Tokenizer: Hate-speech-CNERG/dehatebert-mono-german
 
 ----------------------------------------
 Fold 1/5  (train=253, val=64)
+    Epoch 1 abgeschlossen.
+    Epoch 2 abgeschlossen.

@@ -2,9 +2,9 @@
   "best_global_step": 32,
   "best_metric": 0.884400406504065,
   "best_model_checkpoint": "c:\\Users\\gsera\\OneDrive\\Desktop\\Masterarbeit\\Masterarbeit_HessischerLandtag\\BERT_HessicherLandtag\\fine_tuned_model_retrain\\fold_1\\checkpoint-32",
-  "epoch": 1.0,
+  "epoch": 2.0,
   "eval_steps": 500,
-  "global_step": 32,
+  "global_step": 64,
   "is_hyper_param_search": false,
   "is_local_process_zero": true,
   "is_world_process_zero": true,
@@ -30,6 +30,35 @@
       "eval_samples_per_second": 1.137,
       "eval_steps_per_second": 0.142,
       "step": 32
+    },
+    {
+      "epoch": 1.25,
+      "grad_norm": 0.5211566090583801,
+      "learning_rate": 1.3255813953488372e-05,
+      "loss": 0.5034,
+      "step": 40
+    },
+    {
+      "epoch": 1.875,
+      "grad_norm": 18.141416549682617,
+      "learning_rate": 8.604651162790698e-06,
+      "loss": 1.3171,
+      "step": 60
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.921875,
+      "eval_f1": 0.884400406504065,
+      "eval_f1_hate": 0.0,
+      "eval_loss": 1.3072470426559448,
+      "eval_precision": 0.849853515625,
+      "eval_precision_hate": 0.0,
+      "eval_recall": 0.921875,
+      "eval_recall_hate": 0.0,
+      "eval_runtime": 63.0731,
+      "eval_samples_per_second": 1.015,
+      "eval_steps_per_second": 0.127,
+      "step": 64
     }
   ],
   "logging_steps": 20,
@@ -49,7 +78,7 @@
       "attributes": {}
     }
   },
-  "total_flos": 33283548503040.0,
+  "total_flos": 66567097006080.0,
   "train_batch_size": 8,
   "trial_name": null,
   "trial_params": null

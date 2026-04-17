@@ -219,7 +219,7 @@ def main():
         f1  = res['eval_f1']
         log(f"  Accuracy={res['eval_accuracy']:.4f}  F1={f1:.4f}  "
             f"Precision={res['eval_precision']:.4f}  Recall={res['eval_recall']:.4f}  "
-            f"| HATE → P={res['eval_precision_hate']:.4f}  R={res['eval_recall_hate']:.4f}  F1={res['eval_f1_hate']:.4f}")
+            f"| HATE: P={res['eval_precision_hate']:.4f}  R={res['eval_recall_hate']:.4f}  F1={res['eval_f1_hate']:.4f}")
 
         fold_metrics.append({
             'fold': fold + 1,
