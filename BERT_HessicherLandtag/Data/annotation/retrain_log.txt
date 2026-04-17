@@ -1,40 +1,56 @@
 ======================================================================
 NEUTRAINING AUF MANUELL ANNOTIERTEN DATEN
 ======================================================================
-Start: 2026-04-17 14:45:38
+Start: 2026-04-17 15:51:12
 
 Lade annotierte Daten: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\annotation\annotation_sample.csv
-  Annotierte Texte gesamt: 401
-    NON_HATE: 344
-    HATE: 57
+  Annotierte Texte gesamt: 651
+    NON_HATE: 444
+    HATE: 207
 
-Class Weights: NON_HATE=0.583, HATE=3.518
+Class Weights: NON_HATE=0.733, HATE=1.572
 
 Lade Tokenizer: Hate-speech-CNERG/dehatebert-mono-german
 
-3-Fold Cross-Validation
-  Epochen: 2  |  Batch: 16  |  LR: 2e-05
+5-Fold Cross-Validation
+  Epochen: 3  |  Batch: 16  |  LR: 2e-05
 
 ----------------------------------------
-Fold 1/3  (train=267, val=134)
+Fold 1/5  (train=520, val=131)
     Epoch 1 abgeschlossen.
     Epoch 2 abgeschlossen.
-  Accuracy=0.6493  F1=0.6867  Precision=0.7334  Recall=0.6493  | HATE: P=0.0882  R=0.1579  F1=0.1132
-  >> Neues bestes Modell (F1=0.6867), speichere...
+    Epoch 3 abgeschlossen.
+  Accuracy=0.7863  F1=0.7863  Precision=0.7863  Recall=0.7863  | HATE: P=0.6667  R=0.6667  F1=0.6667
+  >> Neues bestes Modell (F1=0.7863), speichere...
 
 ----------------------------------------
-Fold 2/3  (train=267, val=134)
+Fold 2/5  (train=521, val=130)
     Epoch 1 abgeschlossen.
     Epoch 2 abgeschlossen.
-  Accuracy=0.8060  F1=0.7834  Precision=0.7654  Recall=0.8060  | HATE: P=0.1818  R=0.1053  F1=0.1333
-  >> Neues bestes Modell (F1=0.7834), speichere...
+    Epoch 3 abgeschlossen.
+  Accuracy=0.8077  F1=0.8005  Precision=0.8024  Recall=0.8077  | HATE: P=0.7500  R=0.5854  F1=0.6575
+  >> Neues bestes Modell (F1=0.8005), speichere...
 
 ----------------------------------------
-Fold 3/3  (train=268, val=133)
+Fold 3/5  (train=521, val=130)
     Epoch 1 abgeschlossen.
     Epoch 2 abgeschlossen.
-  Accuracy=0.8271  F1=0.8035  Precision=0.7885  Recall=0.8271  | HATE: P=0.3000  R=0.1579  F1=0.2069
-  >> Neues bestes Modell (F1=0.8035), speichere...
+    Epoch 3 abgeschlossen.
+  Accuracy=0.7769  F1=0.7606  Precision=0.7703  Recall=0.7769  | HATE: P=0.7308  R=0.4634  F1=0.5672
+
+----------------------------------------
+Fold 4/5  (train=521, val=130)
+    Epoch 1 abgeschlossen.
+    Epoch 2 abgeschlossen.
+    Epoch 3 abgeschlossen.
+  Accuracy=0.7692  F1=0.7593  Precision=0.7600  Recall=0.7692  | HATE: P=0.6774  R=0.5122  F1=0.5833
+
+----------------------------------------
+Fold 5/5  (train=521, val=130)
+    Epoch 1 abgeschlossen.
+    Epoch 2 abgeschlossen.
+    Epoch 3 abgeschlossen.
+  Accuracy=0.7000  F1=0.6946  Precision=0.6914  Recall=0.7000  | HATE: P=0.5405  R=0.4762  F1=0.5063
 
 ======================================================================
 GESAMTERGEBNIS (alle Folds kombiniert)
@@ -42,27 +58,27 @@ GESAMTERGEBNIS (alle Folds kombiniert)
 
               precision    recall  f1-score   support
 
-    NON_HATE       0.86      0.86      0.86       344
-        HATE       0.15      0.14      0.14        57
+    NON_HATE       0.80      0.87      0.84       444
+        HATE       0.67      0.54      0.60       207
 
-    accuracy                           0.76       401
-   macro avg       0.50      0.50      0.50       401
-weighted avg       0.76      0.76      0.76       401
+    accuracy                           0.77       651
+   macro avg       0.73      0.71      0.72       651
+weighted avg       0.76      0.77      0.76       651
 
 
 Konfusionsmatrix:
-[[297  47]
- [ 49   8]]
+[[388  56]
+ [ 95 112]]
 
-Durchschnittliche Metriken über 3 Folds:
-  accuracy    : 0.7608 ± 0.0793
-  f1          : 0.7578 ± 0.0510
-  precision   : 0.7624 ± 0.0226
-  recall      : 0.7608 ± 0.0793
+Durchschnittliche Metriken über 5 Folds:
+  accuracy    : 0.7680 ± 0.0364
+  f1          : 0.7603 ± 0.0363
+  precision   : 0.7621 ± 0.0381
+  recall      : 0.7680 ± 0.0364
 
 [OK] Metriken gespeichert: c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\annotation\retrain_metrics.json
 [OK] Bestes Modell:         c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\fine_tuned_model_retrain\best_model
 [OK] Trainingslog:          c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\annotation\retrain_log.txt
 
-Gesamtdauer: 0:47:15.650999
+Gesamtdauer: 2:45:39.549793
 ======================================================================

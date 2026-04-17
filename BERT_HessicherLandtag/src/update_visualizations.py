@@ -13,7 +13,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from pathlib import Path
 
 BASE_DIR   = Path(r"c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag")
-MODEL_DIR  = BASE_DIR / "fine_tuned_model_combined"
+MODEL_DIR  = BASE_DIR / "fine_tuned_model_retrain" / "best_model"
 INPUT_PATH = BASE_DIR / "Data" / "prep_v1" / "all_docs_classified.parquet"
 OUTPUT_PARQUET = BASE_DIR / "Data" / "prep_v1" / "all_docs_classified.parquet"
 VIZ_DIR    = BASE_DIR / "Data" / "visualizations"
@@ -24,7 +24,7 @@ DPI = 300
 
 # ── 1. Neu klassifizieren ──────────────────────────────────────────────────────
 print("=" * 65)
-print("SCHRITT 1: Neu-Klassifizierung mit fine_tuned_model_combined")
+print("SCHRITT 1: Neu-Klassifizierung mit fine_tuned_model_retrain/best_model")
 print("=" * 65)
 
 df = pd.read_parquet(INPUT_PATH)
