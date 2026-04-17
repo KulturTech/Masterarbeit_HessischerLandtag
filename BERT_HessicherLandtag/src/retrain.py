@@ -42,7 +42,7 @@ METRICS_FILE   = BASE_DIR / "Data" / "annotation" / "retrain_metrics.json"
 LOG_FILE       = BASE_DIR / "Data" / "annotation" / "retrain_log.txt"
 
 BASE_MODEL  = "Hate-speech-CNERG/dehatebert-mono-german"
-MAX_LENGTH  = 256
+MAX_LENGTH  = 128
 LABEL2ID    = {'NON_HATE': 0, 'HATE': 1}
 ID2LABEL    = {0: 'NON_HATE', 1: 'HATE'}
 
@@ -236,7 +236,7 @@ def main():
         # Bestes Modell speichern
         if f1 > best_f1:
             best_f1 = f1
-            log(f"  → Neues bestes Modell (F1={f1:.4f}), speichere...")
+            log(f"  >> Neues bestes Modell (F1={f1:.4f}), speichere...")
             trainer.save_model(str(OUTPUT_DIR / "best_model"))
             tokenizer.save_pretrained(str(OUTPUT_DIR / "best_model"))
 
