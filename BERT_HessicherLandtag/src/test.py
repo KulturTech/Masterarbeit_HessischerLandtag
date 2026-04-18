@@ -20,10 +20,10 @@ print(f"Setting batch size to: {batch_size}")
 # 3. Re-initialize the pipeline with the new batch_size and device
 # Using fine-tuned dehatebert model (Cross-Validation Best Model)
 # truncation=True ensures texts longer than 512 tokens are truncated to fit the model
-pipe = pipeline("text-classification", model=r"c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\fine_tuned_model_cv\best_model", device=device, batch_size=batch_size, truncation=True)
+pipe = pipeline("text-classification", model=r"c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\fine_tuned_model_retrain\best_model", device=device, batch_size=batch_size, truncation=True)
 print("Text classification pipeline re-initialized with new batch size and truncation enabled.")
 
-df = pd.read_parquet('BERT_HessicherLandtag/Data/prep_v1/all_docs_clean.parquet')
+df = pd.read_parquet(r'c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\prep_v1\all_docs_clean.parquet')
 print("Parquet file loaded successfully.")
 print(f"Total documents: {len(df)}")
 print(f"Columns: {df.columns.tolist()}")
@@ -51,6 +51,6 @@ print(f"\nFirst 5 results:")
 print(df[['doc_id', 'label', 'score']].head())
 
 # 6. Save results
-output_path = 'BERT_HessicherLandtag/Data/prep_v1/all_docs_classified.parquet'
+output_path = r'c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\Data\prep_v1\all_docs_classified.parquet'
 df.to_parquet(output_path)
 print(f"\nResults saved to: {output_path}")

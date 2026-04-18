@@ -36,7 +36,7 @@ from transformers import (AutoModelForSequenceClassification, AutoTokenizer,
 # Pfade & Defaults
 # ---------------------------------------------------------------------------
 BASE_DIR       = Path(r"c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag")
-ANNOTATION_CSV = BASE_DIR / "Data" / "annotation" / "annotation_sample.csv"
+ANNOTATION_CSV = BASE_DIR / "Data" / "training" / "labeled_data_all.csv"
 OUTPUT_DIR     = BASE_DIR / "fine_tuned_model_retrain"
 METRICS_FILE   = BASE_DIR / "Data" / "annotation" / "retrain_metrics.json"
 LOG_FILE       = BASE_DIR / "Data" / "annotation" / "retrain_log.txt"
