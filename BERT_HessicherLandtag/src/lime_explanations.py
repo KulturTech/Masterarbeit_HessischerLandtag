@@ -15,6 +15,7 @@ Verwendung:
 
 import argparse
 import os
+import re
 from pathlib import Path
 
 import numpy as np
@@ -46,6 +47,33 @@ DEFAULT_TEXTS = [
     "Asylbewerber sollten faire Chancen auf ein besseres Leben bekommen.",
     "Diese Invasoren kommen nur, um unser Land zu zerstören.",
 ]
+
+
+# ---------------------------------------------------------------------------
+# TOC-Filter: Inhaltsverzeichnis- und Tagesordnungsseiten ausschließen
+# ---------------------------------------------------------------------------
+def is_toc_page(text: str) -> bool:
+    """Gibt True zurück, wenn der Text eher eine TOC/Agenda-Seite ist als eine Rede."""
+    lines = [l.strip() for l in text.split('\n') if l.strip()]
+    if len(lines) < 3:
+        return True
+
+    # Zeilen, die nur eine Zahl oder "79." sind (Tagesordnungspunkte)
+    numbered_lines = sum(1 for l in lines if re.fullmatch(r'\d+\.?', l))
+    if len(lines) > 0 and numbered_lines / len(lines) > 0.15:
+        return True
+
+    # Zu kurze Texte (< 40 echte Wörter)
+    words = text.split()
+    if len(words) < 40:
+        return True
+
+    # Zu wenig alphabetische Wörter (≥ 3 Zeichen) — TOC hat viele Zahlen/Kürzel
+    real_words = sum(1 for w in words if re.search(r'[a-zA-ZäöüÄÖÜß]{3,}', w))
+    if real_words / len(words) < 0.5:
+        return True
+
+    return False
 
 
 # ---------------------------------------------------------------------------
@@ -205,7 +233,11 @@ def main():
         if args.filter and "label" in df.columns:
             df = df[df["label"] == args.filter]
             print(f"Gefiltert auf '{args.filter}': {len(df)} Texte")
-        texts = df["text"].dropna().head(args.n).tolist()
+        df = df[df["text"].notna()]
+        before = len(df)
+        df = df[~df["text"].apply(is_toc_page)]
+        print(f"TOC-Filter: {before - len(df)} Seiten entfernt, {len(df)} verbleiben")
+        texts = df["text"].head(args.n).tolist()
         print(f"\nLade {len(texts)} Texte aus: {args.csv}")
     else:
         texts = DEFAULT_TEXTS
