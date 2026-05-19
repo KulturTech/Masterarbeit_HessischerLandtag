@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divH7CV7XAUZDCT1BL"></div>
+        <div class="lime top_div" id="top_divOO4KOMBWV2ZVZLI"></div>
         
         <script>
-        var top_div = d3.select('#top_divH7CV7XAUZDCT1BL').classed('lime top_div', true);
+        var top_div = d3.select('#top_divOO4KOMBWV2ZVZLI').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["NON_HATE", "HATE"], [0.9979990124702454, 0.002000932116061449]);
+            var pp = new lime.PredictProba(pp_svg, ["NON_HATE", "HATE"], [0.949539303779602, 0.05046067759394646]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["NON_HATE", "HATE"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["belasten", -0.00039267122994568417], ["und", -0.0002875708194445141], ["nehmen", -0.00026313028701286165], ["unser", -0.0001901832804165579], ["Sozialsystem", 0.00012519476464021897], ["die", 7.391322318005329e-05], ["Ausländer", -3.141162295246082e-05], ["uns", -2.5726273661507996e-05], ["weg", -2.192027847223586e-05], ["Arbeitsplätze", 2.17465894002202e-05], ["Die", -4.517325499948678e-06]], 1, exp_div);
+                exp.show([["auch", -0.19768919477434044], ["und", -0.1719586589076753], ["provozieren", 0.1689590704575512], ["fortlaufend", -0.14831930401093035], ["entwickelt", -0.10913630855310474], ["gibt", -0.0906649592505331], ["kulturellen", -0.09007440853005333], ["internationalen", -0.08539236401076877], ["wider", 0.07934699240052456], ["brauchen", -0.06607719802252579], ["spiegelt", -0.061486852366963024], ["weiter", -0.057189672835497064], ["sich", -0.05495724107727215], ["darf", 0.045653465450401456], ["sie", 0.04047628101137083]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["belasten", 51, -0.00039267122994568417], ["und", 47, -0.0002875708194445141], ["nehmen", 14, -0.00026313028701286165], ["unser", 60, -0.0001901832804165579], ["Sozialsystem", 66, 0.00012519476464021897], ["die", 25, 7.391322318005329e-05], ["Ausl\u00e4nder", 4, -3.141162295246082e-05], ["uns", 21, -2.5726273661507996e-05], ["weg", 43, -2.192027847223586e-05], ["Arbeitspl\u00e4tze", 29, 2.17465894002202e-05], ["Die", 0, -4.517325499948678e-06]], 1, "Die Ausl\u00e4nder nehmen uns die Arbeitspl\u00e4tze weg und belasten unser Sozialsystem.", raw_div, true);
+            exp.show_raw_text([["auch", 240, -0.19768919477434044], ["und", 48, -0.1719586589076753], ["und", 208, -0.1719586589076753], ["provozieren", 246, 0.1689590704575512], ["fortlaufend", 136, -0.14831930401093035], ["entwickelt", 119, -0.10913630855310474], ["gibt", 67, -0.0906649592505331], ["kulturellen", 26, -0.09007440853005333], ["internationalen", 10, -0.08539236401076877], ["wider", 202, 0.07934699240052456], ["brauchen", 0, -0.06607719802252579], ["spiegelt", 160, -0.061486852366963024], ["weiter", 148, -0.057189672835497064], ["sich", 131, -0.05495724107727215], ["darf", 235, 0.045653465450401456], ["sie", 156, 0.04047628101137083], ["sie", 224, 0.04047628101137083]], 1, "brauchen  internationalen kulturellen Austausch und Einfl\u00fcsse. Es  gibt keine feststehende deutsche Leitkultur. Kultur entwickelt  sich fortlaufend weiter, sie spiegelt gesellschaftliche  Entwicklungen wider und hinterfragt sie. Kunst darf auch  provozieren.", raw_div, true);
             
         </script>
         </body></html>

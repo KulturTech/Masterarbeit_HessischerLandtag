@@ -2,11 +2,11 @@
   "total_documents": 11950,
   "immigrant_related_docs": 3169,
   "immigrant_related_percentage": 26.518828451882847,
-  "hate_speech_count": 220,
-  "hate_speech_percentage_of_immigrant_docs": 6.942253076680341,
-  "hate_speech_percentage_of_all_docs": 1.8410041841004186,
+  "hate_speech_count": 256,
+  "hate_speech_percentage_of_immigrant_docs": 8.07825812559167,
+  "hate_speech_percentage_of_all_docs": 2.1422594142259417,
   "label_distribution": {
-    "NON_HATE": 2949,
-    "HATE": 220
+    "NON_HATE": 2913,
+    "HATE": 256
   }
 }

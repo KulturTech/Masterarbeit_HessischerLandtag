@@ -20,7 +20,7 @@ print(f"Setting batch size to: {batch_size}")
 print("\nInitializing hate speech detection model...")
 pipe = pipeline(
     "text-classification",
-    model=r"c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\fine_tuned_model_cv\best_model",
+    model=r"c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag\fine_tuned_model_retrain\best_model",
     device=device,
     batch_size=batch_size,
     truncation=True

@@ -28,7 +28,7 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 # Pfade & Konfiguration
 # ---------------------------------------------------------------------------
 BASE_DIR  = Path(r"c:\Users\gsera\OneDrive\Desktop\Masterarbeit\Masterarbeit_HessischerLandtag\BERT_HessicherLandtag")
-MODEL_DIR = BASE_DIR / "fine_tuned_model_cv" / "best_model"
+MODEL_DIR = BASE_DIR / "fine_tuned_model_retrain" / "best_model"
 OUT_DIR   = BASE_DIR / "Data" / "evaluation" / "lime"
 
 # Klassenreihenfolge: LIME braucht eine feste Reihenfolge
@@ -47,34 +47,6 @@ DEFAULT_TEXTS = [
     "Asylbewerber sollten faire Chancen auf ein besseres Leben bekommen.",
     "Diese Invasoren kommen nur, um unser Land zu zerstören.",
 ]
-
-
-# ---------------------------------------------------------------------------
-# TOC-Filter: Inhaltsverzeichnis- und Tagesordnungsseiten ausschließen
-# ---------------------------------------------------------------------------
-def is_toc_page(text: str) -> bool:
-    """Gibt True zurück, wenn der Text eher eine TOC/Agenda-Seite ist als eine Rede."""
-    lines = [l.strip() for l in text.split('\n') if l.strip()]
-    if len(lines) < 3:
-        return True
-
-    # Zeilen, die nur eine Zahl oder "79." sind (Tagesordnungspunkte)
-    numbered_lines = sum(1 for l in lines if re.fullmatch(r'\d+\.?', l))
-    if len(lines) > 0 and numbered_lines / len(lines) > 0.15:
-        return True
-
-    # Zu kurze Texte (< 40 echte Wörter)
-    words = text.split()
-    if len(words) < 40:
-        return True
-
-    # Zu wenig alphabetische Wörter (≥ 3 Zeichen) — TOC hat viele Zahlen/Kürzel
-    real_words = sum(1 for w in words if re.search(r'[a-zA-ZäöüÄÖÜß]{3,}', w))
-    if real_words / len(words) < 0.5:
-        return True
-
-    return False
-
 
 # ---------------------------------------------------------------------------
 # Modell laden
@@ -207,15 +179,25 @@ def parse_args():
         help="Pfad zum Modellverzeichnis"
     )
     parser.add_argument(
-        "--samples", type=int, default=NUM_SAMPLES,
-        help=f"LIME-Perturbierungen pro Text (Standard: {NUM_SAMPLES})"
+        "--no-filter", action="store_true",
+        help="TOC-Filter deaktivieren (für kuratierte Daten)"
     )
     parser.add_argument(
         "--filter", type=str, default=None,
         choices=["HATE", "NON_HATE"],
         help="Nur Texte mit diesem Label aus der CSV laden (wenn 'label'-Spalte vorhanden)"
     )
-    return parser.parse_args()
+    parser.add_argument(
+        "--samples", type=int, default=NUM_SAMPLES,
+        help=f"Anzahl LIME-Perturbierungen (Standard: {NUM_SAMPLES})"
+    )
+    return parser.parse_known_args()[0]
+
+
+_TOC_RE = re.compile(r'[A-ZÄÖÜ][a-zäöüß]+(?:\s+\S+){0,4}\.{5,}\d', re.MULTILINE)
+
+def is_toc_page(text: str) -> bool:
+    return len(_TOC_RE.findall(str(text))) >= 3
 
 
 def main():
@@ -227,18 +209,28 @@ def main():
 
     # Texte bestimmen
     if args.csv:
-        df = pd.read_csv(args.csv)
-        if "text" not in df.columns:
-            raise ValueError(f"CSV hat keine 'text'-Spalte. Gefundene Spalten: {df.columns.tolist()}")
-        if args.filter and "label" in df.columns:
-            df = df[df["label"] == args.filter]
-            print(f"Gefiltert auf '{args.filter}': {len(df)} Texte")
-        df = df[df["text"].notna()]
-        before = len(df)
-        df = df[~df["text"].apply(is_toc_page)]
-        print(f"TOC-Filter: {before - len(df)} Seiten entfernt, {len(df)} verbleiben")
-        texts = df["text"].head(args.n).tolist()
-        print(f"\nLade {len(texts)} Texte aus: {args.csv}")
+        path = args.csv
+        if path.endswith(".parquet"):
+            df = pd.read_parquet(path)
+        else:
+            df = pd.read_csv(path)
+
+        label_col = "label" if "label" in df.columns else "hate_label" if "hate_label" in df.columns else None
+        text_col = "text" if "text" in df.columns else "context" if "context" in df.columns else None
+
+        if not text_col:
+            raise ValueError(f"Keine 'text'- oder 'context'-Spalte gefunden. Gefundene Spalten: {df.columns.tolist()}")
+
+        if args.filter and label_col:
+            df = df[df[label_col] == args.filter]
+            print(f"Gefiltert auf '{args.filter}' (Spalte '{label_col}'): {len(df)} Texte")
+        df = df[df[text_col].notna()]
+        if not args.no_filter:
+            before = len(df)
+            df = df[~df[text_col].apply(is_toc_page)]
+            print(f"TOC-Filter: {before - len(df)} Seiten entfernt, {len(df)} verbleiben")
+        texts = df[text_col].head(args.n).tolist()
+        print(f"\nLade {len(texts)} Texte aus: {path}")
     else:
         texts = DEFAULT_TEXTS
         print(f"\nVerwende {len(texts)} Standard-Beispieltexte")

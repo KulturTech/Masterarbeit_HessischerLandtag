@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div7SNVRX6Y5HRDTX3"></div>
+        <div class="lime top_div" id="top_divW5MUVDV30UGM50H"></div>
         
         <script>
-        var top_div = d3.select('#top_div7SNVRX6Y5HRDTX3').classed('lime top_div', true);
+        var top_div = d3.select('#top_divW5MUVDV30UGM50H').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["NON_HATE", "HATE"], [0.9981354475021362, 0.0018645799718797207]);
+            var pp = new lime.PredictProba(pp_svg, ["NON_HATE", "HATE"], [0.9788135290145874, 0.021186523139476776]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["NON_HATE", "HATE"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["gescheitert", -0.0025113953259281465], ["ist", -0.0011915813733909542], ["und", -0.0010807404310495899], ["der", -0.0003835761683842161], ["gefährdet", 0.00038107949723212927], ["Bundesregierung", 0.0002467479907496768], ["Die", -0.000170975566720336], ["öffentliche", 0.00015389978535985214], ["Sicherheit", 0.0001532591990051981], ["Migrationspolitik", -7.731660200171802e-05], ["die", -5.8869673803195336e-05]], 1, exp_div);
+                exp.show([["irre", 0.009344424093198325], ["betrachtet", -0.008786782622810633], ["sein", -0.007441019946236708], ["und", -0.006679954316360108], ["ich", -0.0063498382816820935], ["leisten", -0.005508387678251861], ["also", -0.005497120905593066], ["einer", -0.0053808881457459955], ["auch", -0.005176708413370659], ["in", -0.005078987533226812], ["Beitrag", -0.004880813466334389], ["unter", -0.0045076060831536376], ["zur", -0.004416977283272919], ["der", -0.003984072823391604], ["diesem", 0.003027563983382866]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["gescheitert", 46, -0.0025113953259281465], ["ist", 42, -0.0011915813733909542], ["und", 58, -0.0010807404310495899], ["der", 22, -0.0003835761683842161], ["gef\u00e4hrdet", 62, 0.00038107949723212927], ["Bundesregierung", 26, 0.0002467479907496768], ["Die", 0, -0.000170975566720336], ["\u00f6ffentliche", 76, 0.00015389978535985214], ["Sicherheit", 88, 0.0001532591990051981], ["Migrationspolitik", 4, -7.731660200171802e-05], ["die", 72, -5.8869673803195336e-05]], 1, "Die Migrationspolitik der Bundesregierung ist gescheitert und gef\u00e4hrdet die \u00f6ffentliche Sicherheit.", raw_div, true);
+            exp.show_raw_text([["irre", 231, 0.009344424093198325], ["betrachtet", 41, -0.008786782622810633], ["sein", 220, -0.007441019946236708], ["und", 111, -0.006679954316360108], ["und", 180, -0.006679954316360108], ["ich", 236, -0.0063498382816820935], ["leisten", 171, -0.005508387678251861], ["also", 14, -0.005497120905593066], ["einer", 83, -0.0053808881457459955], ["auch", 195, -0.005176708413370659], ["in", 115, -0.005078987533226812], ["in", 200, -0.005078987533226812], ["Beitrag", 59, -0.004880813466334389], ["unter", 20, -0.0045076060831536376], ["zur", 67, -0.004416977283272919], ["der", 146, -0.003984072823391604], ["diesem", 26, 0.003027563983382866]], 1, "Best\u00e4nde kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  Leitkultur und in deren Wirkung eine St\u00e4rkung der  deutschen Identit\u00e4t leisten, und das m\u00fcsste auch in Ihrem  Interesse sein. Oder irre ich mich?   (Beifall AfD", raw_div, true);
             
         </script>
         </body></html>

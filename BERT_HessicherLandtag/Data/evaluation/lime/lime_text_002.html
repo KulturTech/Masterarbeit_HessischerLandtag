@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divWTH0C62AC2TR686"></div>
+        <div class="lime top_div" id="top_divZBWJ2WI1125G3E8"></div>
         
         <script>
-        var top_div = d3.select('#top_divWTH0C62AC2TR686').classed('lime top_div', true);
+        var top_div = d3.select('#top_divZBWJ2WI1125G3E8').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["NON_HATE", "HATE"], [0.9972935318946838, 0.002706480212509632]);
+            var pp = new lime.PredictProba(pp_svg, ["NON_HATE", "HATE"], [0.9821771383285522, 0.01782284304499626]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["NON_HATE", "HATE"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["unsere", -0.002929972341189607], ["von", -0.0013735471153289603], ["in", -0.001327945801126904], ["Gesellschaft", 0.0008998696673045653], ["Flüchtlingen", 0.0005216522086296728], ["die", 0.00036708915291876], ["begrüßen", -0.00023382874560073512], ["Wir", -0.0001834495835655342], ["Integration", -6.425747458642066e-05]], 1, exp_div);
+                exp.show([["und", -0.022644669088125735], ["finden", -0.017585890578739515], ["Ja", -0.013272499476587207], ["gut", -0.01289921832927827], ["Migration", -0.012612508022960659], ["Deutsche", -0.012352634444462244], ["AfD", -0.011773282001509077], ["gibt", -0.010189936916524343], ["Beifall", -0.008990348855160271], ["eine", -0.008682326903731025], ["Wir", -0.008674134648984842], ["verneinen", -0.008626953402286638], ["unkontrollierte", -0.0066484275388336575], ["sen", 0.006591029658538197], ["moralische", 0.005887831790210799]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["unsere", 49, -0.002929972341189607], ["von", 29, -0.0013735471153289603], ["in", 46, -0.001327945801126904], ["Gesellschaft", 56, 0.0008998696673045653], ["Fl\u00fcchtlingen", 33, 0.0005216522086296728], ["die", 13, 0.00036708915291876], ["begr\u00fc\u00dfen", 4, -0.00023382874560073512], ["Wir", 0, -0.0001834495835655342], ["Integration", 17, -6.425747458642066e-05]], 1, "Wir begr\u00fc\u00dfen die Integration von Fl\u00fcchtlingen in unsere Gesellschaft.", raw_div, true);
+            exp.show_raw_text([["und", 255, -0.022644669088125735], ["finden", 219, -0.017585890578739515], ["Ja", 62, -0.013272499476587207], ["gut", 212, -0.01289921832927827], ["Migration", 202, -0.012612508022960659], ["Deutsche", 19, -0.012352634444462244], ["AfD", 55, -0.011773282001509077], ["AfD", 70, -0.011773282001509077], ["AfD", 238, -0.011773282001509077], ["gibt", 196, -0.010189936916524343], ["Beifall", 47, -0.008990348855160271], ["Beifall", 230, -0.008990348855160271], ["eine", 165, -0.008682326903731025], ["Wir", 142, -0.008674134648984842], ["verneinen", 146, -0.008626953402286638], ["unkontrollierte", 84, -0.0066484275388336575], ["sen", 0, 0.006591029658538197], ["moralische", 170, 0.005887831790210799]], 1, "sen wir auch gute  Deutsche bleiben d\u00fcrfen.   (Beifall AfD)   Ja, die AfD ist gegen unkontrollierte Massenmigration in  unsere Sozialsysteme. Wir verneinen, dass es eine moralische  Verpflichtung gibt, Migration gut zu finden.   (Beifall AfD \u0096 Zurufe SPD und DIE LI", raw_div, true);
             
         </script>
         </body></html>
