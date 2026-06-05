@@ -1,91 +1,121 @@
 text_idx,text_preview,pred_label,p_hate,word,weight
-1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
-könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,bedanke,0.056206
-1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
-könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,aber,-0.038571
-1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
-könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,provokant,0.036634
-1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
-könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,könnte,-0.034355
-1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
-könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,normalerweise,-0.030824
-1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
-könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,eine,-0.027303
-1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
-könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,mich,0.024697
-1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
-könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,noch,0.022975
-1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
-könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,nicht,0.022581
-1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
-könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,Auskunft,0.021317
-1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
-könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,hätte,0.020118
-1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
-könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,etwas,0.018344
-1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
-könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,stelle,-0.017668
-1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
-könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,für,-0.011355
-1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
-könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,die,-0.007566
-2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
-Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,vorgeworfen,0.089263
-2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
-Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,und,-0.067529
-2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
-Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,meinem,0.062045
-2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
-Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,seiner,0.055257
-2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
-Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,hat,-0.049399
-2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
-Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,Rede,-0.03425
-2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
-Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,Kinkel,-0.030388
-2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
-Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,Präsidentin,-0.030334
-2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
-Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,Lichert,-0.028342
-2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
-Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,geehrte,0.028273
-2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
-Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,Damen,0.025119
-2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
-Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,indirekt,0.024631
-2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
-Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,Antisemitismus,0.023798
-2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
-Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,grüne,-0.023171
-2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
-Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,verehrte,0.02303
-3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
-Gerade nach den Äußerungen von ",HATE,0.8027,geboten,0.126747
-3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
-Gerade nach den Äußerungen von ",HATE,0.8027,bitten,0.114627
-3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
-Gerade nach den Äußerungen von ",HATE,0.8027,wir,-0.056698
-3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
-Gerade nach den Äußerungen von ",HATE,0.8027,ist,-0.055895
-3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
-Gerade nach den Äußerungen von ",HATE,0.8027,einen,-0.049402
-3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
-Gerade nach den Äußerungen von ",HATE,0.8027,nach,-0.0472
-3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
-Gerade nach den Äußerungen von ",HATE,0.8027,jetzt,-0.043056
-3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
-Gerade nach den Äußerungen von ",HATE,0.8027,darauf,0.041033
-3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
-Gerade nach den Äußerungen von ",HATE,0.8027,einzuberufen,-0.03603
-3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
-Gerade nach den Äußerungen von ",HATE,0.8027,haben,-0.033431
-3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
-Gerade nach den Äußerungen von ",HATE,0.8027,Ältestenrat,0.02258
-3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
-Gerade nach den Äußerungen von ",HATE,0.8027,Fraktion,0.015101
-3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
-Gerade nach den Äußerungen von ",HATE,0.8027,Gerade,-0.014828
-3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
-Gerade nach den Äußerungen von ",HATE,0.8027,das,0.013085
-3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
-Gerade nach den Äußerungen von ",HATE,0.8027,Wir,0.011879
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,verpulvern,0.286512
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,sprudelt,0.247821
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,durch,0.08128
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,erwähnen,0.076449
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,und,-0.073588
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,es,0.071149
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,seinen,0.069027
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,nicht,-0.056096
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,Kassen,-0.051655
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,eigentlich,0.043759
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,öffentlichen,-0.041767
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,Haushaltspolitik,-0.038698
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,für,0.036068
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,der,-0.035159
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,ich,0.028192
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,die,-0.010942
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,Gemeinden,0.009593
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,ist,0.009478
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,sondern,0.008177
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,Puderzucker,0.007818
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,Städte,0.006569
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,blasen,0.006107
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,nicht,0.005592
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,in,-0.005165
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,freiwillig,0.005147
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,und,-0.004973
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,Asylanten,-0.004636
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,den,0.004347
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,Gelder,-0.004031
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,Hintern,-0.003973
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,todbringender,0.352124
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,alimentierten,0.238653
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,bei,-0.143028
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,und,-0.124919
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,Türkei,0.089673
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,als,0.080584
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,spricht,-0.071227
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,Parasiten,-0.068684
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,Migranten,-0.061044
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,Ihnen,0.055557
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,Kopftuchmädchen,0.051577
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,von,-0.051098
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,Messermännern,0.049534
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,Messermigration,0.039587
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,Nein,-0.039064
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,geflutet,0.291919
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,in,-0.106607
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,sie,0.06377
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,Spitze,-0.052552
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,gerade,-0.045975
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,Bewegung,0.037233
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,mit,0.035814
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,und,-0.035179
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,setzen,0.034845
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,an,-0.030844
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,Hessens,-0.028682
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,die,-0.023941
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,wird,0.023691
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,diesen,0.016919
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,überleben,-0.015029
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,verzehren,0.003087
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,ja,-0.002281
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,in,0.002074
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,zahlreichen,0.001954
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,fangen,0.001403
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,Migrantenpack,0.001371
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,nur,-0.001355
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,diese,0.001242
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,grundsätzlich,0.001167
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,Kanalisationen,-0.000964
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,Sollten,0.000901
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,an,0.000746
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,ausgeben,0.000742
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,SteinbachErika,-0.000626
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,und,-0.000431
