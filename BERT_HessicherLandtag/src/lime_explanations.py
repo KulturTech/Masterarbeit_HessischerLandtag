@@ -16,7 +16,11 @@ Verwendung:
 import argparse
 import os
 import re
+import sys
 from pathlib import Path
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 import numpy as np
 import pandas as pd
@@ -225,6 +229,7 @@ def main():
             df = df[df[label_col] == args.filter]
             print(f"Gefiltert auf '{args.filter}' (Spalte '{label_col}'): {len(df)} Texte")
         df = df[df[text_col].notna()]
+        df = df[df[text_col].str.split().str.len() >= 20]
         if not args.no_filter:
             before = len(df)
             df = df[~df[text_col].apply(is_toc_page)]

@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divW5MUVDV30UGM50H"></div>
+        <div class="lime top_div" id="top_divKNDB5VC51XEWZ4V"></div>
         
         <script>
-        var top_div = d3.select('#top_divW5MUVDV30UGM50H').classed('lime top_div', true);
+        var top_div = d3.select('#top_divKNDB5VC51XEWZ4V').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["NON_HATE", "HATE"], [0.9788135290145874, 0.021186523139476776]);
+            var pp = new lime.PredictProba(pp_svg, ["NON_HATE", "HATE"], [0.1973394751548767, 0.8026604652404785]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["NON_HATE", "HATE"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["irre", 0.009344424093198325], ["betrachtet", -0.008786782622810633], ["sein", -0.007441019946236708], ["und", -0.006679954316360108], ["ich", -0.0063498382816820935], ["leisten", -0.005508387678251861], ["also", -0.005497120905593066], ["einer", -0.0053808881457459955], ["auch", -0.005176708413370659], ["in", -0.005078987533226812], ["Beitrag", -0.004880813466334389], ["unter", -0.0045076060831536376], ["zur", -0.004416977283272919], ["der", -0.003984072823391604], ["diesem", 0.003027563983382866]], 1, exp_div);
+                exp.show([["geboten", 0.1267470025763158], ["bitten", 0.11462738652535705], ["wir", -0.05669830299350507], ["ist", -0.05589519362227202], ["einen", -0.04940205947746185], ["nach", -0.047200475536441994], ["jetzt", -0.04305585330786501], ["darauf", 0.041033201143362875], ["einzuberufen", -0.03603027571763056], ["haben", -0.03343096994832673], ["Ältestenrat", 0.02257997190197421], ["Fraktion", 0.015100793096184676], ["Gerade", -0.01482752266296739], ["das", 0.013085454282071312], ["Wir", 0.011879240151293047]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["irre", 231, 0.009344424093198325], ["betrachtet", 41, -0.008786782622810633], ["sein", 220, -0.007441019946236708], ["und", 111, -0.006679954316360108], ["und", 180, -0.006679954316360108], ["ich", 236, -0.0063498382816820935], ["leisten", 171, -0.005508387678251861], ["also", 14, -0.005497120905593066], ["einer", 83, -0.0053808881457459955], ["auch", 195, -0.005176708413370659], ["in", 115, -0.005078987533226812], ["in", 200, -0.005078987533226812], ["Beitrag", 59, -0.004880813466334389], ["unter", 20, -0.0045076060831536376], ["zur", 67, -0.004416977283272919], ["der", 146, -0.003984072823391604], ["diesem", 26, 0.003027563983382866]], 1, "Best\u00e4nde kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  Leitkultur und in deren Wirkung eine St\u00e4rkung der  deutschen Identit\u00e4t leisten, und das m\u00fcsste auch in Ihrem  Interesse sein. Oder irre ich mich?   (Beifall AfD", raw_div, true);
+            exp.show_raw_text([["geboten", 134, 0.1267470025763158], ["bitten", 24, 0.11462738652535705], ["wir", 20, -0.05669830299350507], ["ist", 117, -0.05589519362227202], ["einen", 166, -0.04940205947746185], ["nach", 76, -0.047200475536441994], ["jetzt", 48, -0.04305585330786501], ["darauf", 182, 0.041033201143362875], ["einzuberufen", 54, -0.03603027571763056], ["haben", 147, -0.03343096994832673], ["\u00c4ltestenrat", 36, 0.02257997190197421], ["Fraktion", 157, 0.015100793096184676], ["Gerade", 69, -0.01482752266296739], ["das", 121, 0.013085454282071312], ["Wir", 143, 0.011879240151293047]], 1, "Herr Vizepr\u00e4sident, wir bitten, den \u00c4ltestenrat jetzt einzuberufen. \nGerade nach den \u00c4u\u00dferungen von Herrn Fr\u00f6mmrich \nist das dringend geboten. Wir haben als Fraktion einen \nAnspruch darauf.", raw_div, true);
             
         </script>
         </body></html>

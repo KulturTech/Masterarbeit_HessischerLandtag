@@ -1,46 +1,91 @@
 text_idx,text_preview,pred_label,p_hate,word,weight
-1,brauchen  internationalen kulturellen Austausch und Einflüsse. Es  gibt keine feststehende deutsche ,NON_HATE,0.0505,auch,-0.197689
-1,brauchen  internationalen kulturellen Austausch und Einflüsse. Es  gibt keine feststehende deutsche ,NON_HATE,0.0505,und,-0.171959
-1,brauchen  internationalen kulturellen Austausch und Einflüsse. Es  gibt keine feststehende deutsche ,NON_HATE,0.0505,provozieren,0.168959
-1,brauchen  internationalen kulturellen Austausch und Einflüsse. Es  gibt keine feststehende deutsche ,NON_HATE,0.0505,fortlaufend,-0.148319
-1,brauchen  internationalen kulturellen Austausch und Einflüsse. Es  gibt keine feststehende deutsche ,NON_HATE,0.0505,entwickelt,-0.109136
-1,brauchen  internationalen kulturellen Austausch und Einflüsse. Es  gibt keine feststehende deutsche ,NON_HATE,0.0505,gibt,-0.090665
-1,brauchen  internationalen kulturellen Austausch und Einflüsse. Es  gibt keine feststehende deutsche ,NON_HATE,0.0505,kulturellen,-0.090074
-1,brauchen  internationalen kulturellen Austausch und Einflüsse. Es  gibt keine feststehende deutsche ,NON_HATE,0.0505,internationalen,-0.085392
-1,brauchen  internationalen kulturellen Austausch und Einflüsse. Es  gibt keine feststehende deutsche ,NON_HATE,0.0505,wider,0.079347
-1,brauchen  internationalen kulturellen Austausch und Einflüsse. Es  gibt keine feststehende deutsche ,NON_HATE,0.0505,brauchen,-0.066077
-1,brauchen  internationalen kulturellen Austausch und Einflüsse. Es  gibt keine feststehende deutsche ,NON_HATE,0.0505,spiegelt,-0.061487
-1,brauchen  internationalen kulturellen Austausch und Einflüsse. Es  gibt keine feststehende deutsche ,NON_HATE,0.0505,weiter,-0.05719
-1,brauchen  internationalen kulturellen Austausch und Einflüsse. Es  gibt keine feststehende deutsche ,NON_HATE,0.0505,sich,-0.054957
-1,brauchen  internationalen kulturellen Austausch und Einflüsse. Es  gibt keine feststehende deutsche ,NON_HATE,0.0505,darf,0.045653
-1,brauchen  internationalen kulturellen Austausch und Einflüsse. Es  gibt keine feststehende deutsche ,NON_HATE,0.0505,sie,0.040476
-2,"sen wir auch gute  Deutsche bleiben dürfen.   (Beifall AfD)   Ja, die AfD ist gegen unkontrollierte ",NON_HATE,0.0178,und,-0.022645
-2,"sen wir auch gute  Deutsche bleiben dürfen.   (Beifall AfD)   Ja, die AfD ist gegen unkontrollierte ",NON_HATE,0.0178,finden,-0.017586
-2,"sen wir auch gute  Deutsche bleiben dürfen.   (Beifall AfD)   Ja, die AfD ist gegen unkontrollierte ",NON_HATE,0.0178,Ja,-0.013272
-2,"sen wir auch gute  Deutsche bleiben dürfen.   (Beifall AfD)   Ja, die AfD ist gegen unkontrollierte ",NON_HATE,0.0178,gut,-0.012899
-2,"sen wir auch gute  Deutsche bleiben dürfen.   (Beifall AfD)   Ja, die AfD ist gegen unkontrollierte ",NON_HATE,0.0178,Migration,-0.012613
-2,"sen wir auch gute  Deutsche bleiben dürfen.   (Beifall AfD)   Ja, die AfD ist gegen unkontrollierte ",NON_HATE,0.0178,Deutsche,-0.012353
-2,"sen wir auch gute  Deutsche bleiben dürfen.   (Beifall AfD)   Ja, die AfD ist gegen unkontrollierte ",NON_HATE,0.0178,AfD,-0.011773
-2,"sen wir auch gute  Deutsche bleiben dürfen.   (Beifall AfD)   Ja, die AfD ist gegen unkontrollierte ",NON_HATE,0.0178,gibt,-0.01019
-2,"sen wir auch gute  Deutsche bleiben dürfen.   (Beifall AfD)   Ja, die AfD ist gegen unkontrollierte ",NON_HATE,0.0178,Beifall,-0.00899
-2,"sen wir auch gute  Deutsche bleiben dürfen.   (Beifall AfD)   Ja, die AfD ist gegen unkontrollierte ",NON_HATE,0.0178,eine,-0.008682
-2,"sen wir auch gute  Deutsche bleiben dürfen.   (Beifall AfD)   Ja, die AfD ist gegen unkontrollierte ",NON_HATE,0.0178,Wir,-0.008674
-2,"sen wir auch gute  Deutsche bleiben dürfen.   (Beifall AfD)   Ja, die AfD ist gegen unkontrollierte ",NON_HATE,0.0178,verneinen,-0.008627
-2,"sen wir auch gute  Deutsche bleiben dürfen.   (Beifall AfD)   Ja, die AfD ist gegen unkontrollierte ",NON_HATE,0.0178,unkontrollierte,-0.006648
-2,"sen wir auch gute  Deutsche bleiben dürfen.   (Beifall AfD)   Ja, die AfD ist gegen unkontrollierte ",NON_HATE,0.0178,sen,0.006591
-2,"sen wir auch gute  Deutsche bleiben dürfen.   (Beifall AfD)   Ja, die AfD ist gegen unkontrollierte ",NON_HATE,0.0178,moralische,0.005888
-3,"Bestände kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  ",NON_HATE,0.0212,irre,0.009344
-3,"Bestände kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  ",NON_HATE,0.0212,betrachtet,-0.008787
-3,"Bestände kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  ",NON_HATE,0.0212,sein,-0.007441
-3,"Bestände kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  ",NON_HATE,0.0212,und,-0.00668
-3,"Bestände kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  ",NON_HATE,0.0212,ich,-0.00635
-3,"Bestände kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  ",NON_HATE,0.0212,leisten,-0.005508
-3,"Bestände kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  ",NON_HATE,0.0212,also,-0.005497
-3,"Bestände kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  ",NON_HATE,0.0212,einer,-0.005381
-3,"Bestände kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  ",NON_HATE,0.0212,auch,-0.005177
-3,"Bestände kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  ",NON_HATE,0.0212,in,-0.005079
-3,"Bestände kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  ",NON_HATE,0.0212,Beitrag,-0.004881
-3,"Bestände kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  ",NON_HATE,0.0212,unter,-0.004508
-3,"Bestände kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  ",NON_HATE,0.0212,zur,-0.004417
-3,"Bestände kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  ",NON_HATE,0.0212,der,-0.003984
-3,"Bestände kann also, unter diesem Aspekt  betrachtet, einen Beitrag zur Etablierung einer deutschen  ",NON_HATE,0.0212,diesem,0.003028
+1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
+könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,bedanke,0.056206
+1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
+könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,aber,-0.038571
+1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
+könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,provokant,0.036634
+1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
+könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,könnte,-0.034355
+1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
+könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,normalerweise,-0.030824
+1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
+könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,eine,-0.027303
+1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
+könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,mich,0.024697
+1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
+könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,noch,0.022975
+1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
+könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,nicht,0.022581
+1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
+könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,Auskunft,0.021317
+1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
+könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,hätte,0.020118
+1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
+könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,etwas,0.018344
+1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
+könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,stelle,-0.017668
+1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
+könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,für,-0.011355
+1,"Ich hätte normalerweise noch eine Zusatzfrage, aber sie 
+könnte etwas provokant sein. Ich stelle sie",HATE,0.8738,die,-0.007566
+2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
+Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,vorgeworfen,0.089263
+2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
+Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,und,-0.067529
+2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
+Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,meinem,0.062045
+2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
+Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,seiner,0.055257
+2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
+Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,hat,-0.049399
+2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
+Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,Rede,-0.03425
+2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
+Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,Kinkel,-0.030388
+2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
+Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,Präsidentin,-0.030334
+2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
+Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,Lichert,-0.028342
+2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
+Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,geehrte,0.028273
+2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
+Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,Damen,0.025119
+2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
+Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,indirekt,0.024631
+2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
+Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,Antisemitismus,0.023798
+2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
+Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,grüne,-0.023171
+2,"Sehr geehrte Frau Präsidentin, sehr verehrte Damen und 
+Herren! Die grüne Abg. Kinkel hat meinem Kol",HATE,0.5753,verehrte,0.02303
+3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
+Gerade nach den Äußerungen von ",HATE,0.8027,geboten,0.126747
+3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
+Gerade nach den Äußerungen von ",HATE,0.8027,bitten,0.114627
+3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
+Gerade nach den Äußerungen von ",HATE,0.8027,wir,-0.056698
+3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
+Gerade nach den Äußerungen von ",HATE,0.8027,ist,-0.055895
+3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
+Gerade nach den Äußerungen von ",HATE,0.8027,einen,-0.049402
+3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
+Gerade nach den Äußerungen von ",HATE,0.8027,nach,-0.0472
+3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
+Gerade nach den Äußerungen von ",HATE,0.8027,jetzt,-0.043056
+3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
+Gerade nach den Äußerungen von ",HATE,0.8027,darauf,0.041033
+3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
+Gerade nach den Äußerungen von ",HATE,0.8027,einzuberufen,-0.03603
+3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
+Gerade nach den Äußerungen von ",HATE,0.8027,haben,-0.033431
+3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
+Gerade nach den Äußerungen von ",HATE,0.8027,Ältestenrat,0.02258
+3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
+Gerade nach den Äußerungen von ",HATE,0.8027,Fraktion,0.015101
+3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
+Gerade nach den Äußerungen von ",HATE,0.8027,Gerade,-0.014828
+3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
+Gerade nach den Äußerungen von ",HATE,0.8027,das,0.013085
+3,"Herr Vizepräsident, wir bitten, den Ältestenrat jetzt einzuberufen. 
+Gerade nach den Äußerungen von ",HATE,0.8027,Wir,0.011879
