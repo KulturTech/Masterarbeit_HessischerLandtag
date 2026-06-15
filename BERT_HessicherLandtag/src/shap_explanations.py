@@ -219,15 +219,17 @@ def _save_bar_plot(top_series: pd.Series, out_dir: Path):
 # ---------------------------------------------------------------------------
 def parse_args():
     parser = argparse.ArgumentParser(description="SHAP-Erklärungen für BERT Hate-Speech-Modell")
+    parser.add_argument("--text",      type=str, default=None,
+                        help="Einzelner Text direkt als Argument (überschreibt --csv)")
     parser.add_argument("--csv",       type=str, default=str(DEFAULT_CSV),
-                        help=f"Pfad zur CSV (Standard: {DEFAULT_CSV.name})")
+                        help=f"Pfad zur CSV oder Parquet (Standard: {DEFAULT_CSV.name})")
     parser.add_argument("--n",         type=int, default=10,
-                        help="Anzahl zu erklärender Redebeiträge (Standard: 10)")
+                        help="Anzahl zu erklärender Texte aus CSV (Standard: 10)")
     parser.add_argument("--model",     type=str, default=str(MODEL_DIR),
                         help="Pfad zum Modellverzeichnis")
     parser.add_argument("--filter",    type=str, default=None,
                         choices=["HATE", "NON_HATE"],
-                        help="Nur Texte mit diesem Label laden")
+                        help="Nur Texte mit diesem Label laden (wenn label-Spalte vorhanden)")
     parser.add_argument("--no-filter", action="store_true",
                         help="TOC-Filter deaktivieren")
     return parser.parse_known_args()[0]
@@ -238,16 +240,21 @@ def main():
 
     predict_fn, explainer = build_explainer(Path(args.model))
 
-    csv_path = Path(args.csv)
-    print(f"\nLade Redebeiträge aus: {csv_path.name}")
-    df = load_texts(csv_path, args.n, args.filter, args.no_filter)
+    if args.text:
+        # Einzelner Text direkt per CLI
+        print(f"\nEinzeltext: '{args.text[:80]}...'")
+        df = pd.DataFrame([{"text": args.text}])
+        text_col = "text"
+    else:
+        csv_path = Path(args.csv)
+        print(f"\nLade Texte aus: {csv_path.name}")
+        df = load_texts(csv_path, args.n, args.filter, args.no_filter)
+        text_col = next((c for c in ["text", "context"] if c in df.columns))
 
-    text_col = next((c for c in ["text", "context"] if c in df.columns))
-
-    if "speaker" in df.columns:
-        print(f"\nRedner in diesem Lauf:")
-        for _, row in df.iterrows():
-            print(f"  {row['speaker']} ({row.get('party','?')})  p_hate={row.get('p_hate','?')}")
+        if "speaker" in df.columns:
+            print("\nRedner in diesem Lauf:")
+            for _, row in df.iterrows():
+                print(f"  {row['speaker']} ({row.get('party','?')})  p_hate={row.get('p_hate','?')}")
 
     print(f"\nAusgabe: {OUT_DIR}")
     print("=" * 70)
