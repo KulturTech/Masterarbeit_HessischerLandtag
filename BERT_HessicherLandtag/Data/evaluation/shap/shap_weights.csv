@@ -1,0 +1,529 @@
+text_idx,speaker,party,p_hate_orig,pred_label,p_hate,text_preview,token,shap_value
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",Auch ,-0.003364
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",wenn ,-0.003328
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",es ,-0.003549
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",eine ,-0.002939
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",Frage ,-0.003248
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",der ,-0.003284
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",Haushaltspolitik ,-0.003563
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d","ist, ",-0.003416
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",will ,-0.00377
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d","ich 
+",-0.003969
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",es ,-0.004032
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",hier ,-0.003808
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",noch ,-0.004796
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",einmal ,-0.003973
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",erwähnen: ,-0.002123
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",Hessen ,-0.000801
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",müsste ,0.00187
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",das ,0.002783
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d","Geld, 
+",0.002362
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",das ,0.002354
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",durch ,0.002507
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",die ,0.002681
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",Inflationseffekte ,0.001842
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",kräftig ,0.001828
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",in ,0.002136
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",die ,0.002308
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d","öffentlichen 
+",0.001994
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",Kassen ,0.001998
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d","sprudelt, ",0.001203
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",seinen ,0.001576
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",Bürgern ,0.001994
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",eigentlich ,0.001899
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d","zurückgeben 
+",0.003782
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",und ,0.004622
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",dürfte ,0.00423
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",es ,0.004476
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",nicht ,0.004037
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",für ,0.00384
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",zusätzliche ,0.002377
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",Migration ,0.002481
+1,,,0.8788,HATE,0.8788,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müsste das Geld, 
+das d",verpulvern,0.013016
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",@,-0.000512
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",Odenwaelderin ,-7e-06
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",Dass ,0.00039
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",ist ,0.001691
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",nicht ,0.00066
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As","freiwillig,",0.001262
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",sondern ,0.000324
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",der ,0.000428
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",Geldknappheit ,0.000404
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",der ,0.001074
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",Städte ,0.000234
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",und ,0.000876
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",Gemeinden ,-0.00017
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As","geschuldet,",6.7e-05
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",die ,0.000561
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",Gelder ,0.001262
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",den ,0.000818
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",Asylanten ,0.000144
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",wie ,0.001007
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",Puderzucker ,0.000171
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",in ,-0.000895
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",den ,0.000264
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",Hintern ,0.001502
+2,,,0.8782,HATE,0.8782,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuldet,die Gelder den As",blasen,0.00735
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio","Nein, ",0.000277
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",wir ,0.000336
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",haben ,9.1e-05
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",genug ,0.001305
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",von ,0.000583
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",dem ,0.000662
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",Zeug ,-7e-06
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",gehört.  ,-0.000283
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",Aber ,0.00029
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio","das 
+",-3e-05
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",ist ,-0.000234
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",nichts ,-0.000632
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",Neues ,0.000186
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",bei ,0.000366
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",Ihnen: ,-4.1e-05
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",Wer ,0.000551
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",von ,-0.004474
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",todbringender ,0.089978
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio","Messermigration, 
+",0.033537
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",alimentierten ,0.056336
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio","Messermännern, ",0.01189
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio","Kopftuchmädchen 
+",-0.023367
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",und ,-0.021541
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",sonstigen ,0.017103
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",Taugenichtsen ,0.036531
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio","spricht, ",0.000156
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio","Migranten 
+",-0.00444
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",als ,-0.032011
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",Parasiten ,-0.018311
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",und ,-0.041612
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",Gesindel ,-0.022339
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio","bezeichnet, ",-0.022674
+3,,,0.8774,HATE,0.8774,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbringender Messermigratio",Türkei,-0.044344
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",setzen ,0.001192
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",Sie ,0.000719
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",sich ,0.000969
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",an ,0.000939
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",die ,0.000812
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",Spitze ,0.000389
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",einer ,0.000489
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w","Bewegung, ",0.000269
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w","gerade 
+",0.000753
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",in ,0.000715
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",diesen ,2.5e-05
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w","Zeiten, ",0.000141
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",in ,0.000273
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",denen ,0.000602
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",die ,0.000698
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",Bürger ,-0.000266
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",Hessens ,0.000174
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w","überlegen 
+",0.000199
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w","müssen, ",0.000157
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",wie ,0.000105
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",sie ,0.000449
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",mit ,0.000573
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",Inflation ,-6.3e-05
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",und ,0.000548
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",Gasknappheit ,-0.000257
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w","überleben 
+",-0.000199
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w","können, ",-0.000257
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",in ,-0.000405
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",diesen ,-0.000416
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w","Zeiten, ",-0.000588
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",in ,-0.000225
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",denen ,-0.000129
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",das ,-0.030742
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",Land ,-0.008075
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",erneut ,-0.008677
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w","mit 
+",0.013695
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",Migranten ,0.007795
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",geflutet ,0.041412
+4,,,0.877,HATE,0.877,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens überlegen 
+müssen, w",wird,-0.007515
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,@,-0.000361
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,SteinbachErika ,-6.4e-05
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,Man ,0.000142
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,sollte ,0.000772
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,grundsätzlich ,0.000303
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,nur ,0.000477
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,Schweinefleisch ,0.000287
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,an ,0.000225
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,das ,0.000562
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,Migrantenpack ,-2.4e-05
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,ausgeben. ,-6.7e-05
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,Sollten ,-0.00022
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,diese ,-0.000249
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,das ,0.00056
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,"zurückweisen, ",-0.000155
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,könnten ,0.000538
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,sie ,-0.000308
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,ja ,-0.000368
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,in ,0.000431
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,den ,0.001235
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,zahlreichen ,0.001031
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,Kanalisationen ,0.000368
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,Ratten ,0.000125
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,fangen ,0.001952
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,und ,0.00065
+5,,,0.8761,HATE,0.8761,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweis,verzehren,0.005799
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",mit ,0.002468
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",oder ,4.4e-05
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",ohne ,0.000713
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",Verfolgung. ,-0.000814
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",Sie ,0.000416
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",wollen ,-0.000335
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",keine ,0.000429
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m","Abschiebung. 
+",-0.000436
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",Dann ,9.4e-05
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",sagen ,0.001012
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",Sie ,0.000238
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",es ,0.000518
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",doch ,-0.0005
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",ehrlich ,0.000769
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",und ,-0.000365
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",führen ,0.000267
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",nicht ,-0.000338
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m","dieses 
+",-0.000348
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",Thema ,0.000128
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",mit ,0.001882
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",dem ,0.001861
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",Erdbeben ,0.001002
+6,,,0.876,HATE,0.876,"mit oder ohne Verfolgung. Sie wollen keine Abschiebung. 
+Dann sagen Sie es doch ehrlich und führen nicht dieses 
+Thema m",an,0.002043
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,in ,0.001922
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,ihrem ,0.000951
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,Heimatland ,-0.000116
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,scheißen ,0.001044
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,sich ,0.001022
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,die #,0.000579
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,Flüchtlinge ,-0.000293
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,in ,-5.9e-05
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,die ,0.000543
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,Hose ,0.000169
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,und ,0.000614
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,hier ,-0.000143
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,in ,0.000547
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,Deutschland ,-0.000129
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,lassen ,-0.000324
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,Sie ,1.9e-05
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,die ,0.000298
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,Sau ,0.00033
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,raus @,-0.000316
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,aktuelleStunde #,-0.000318
+7,,,0.8713,HATE,0.8713,in ihrem Heimatland scheißen sich die #Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @aktuelle,WDR,0.001339
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,Das ,0.001062
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,Geseiere ,1.3e-05
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,dieses ,0.001182
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,Pfaffen ,-4.5e-05
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,Gauck ,4e-05
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,widert ,0.000619
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,jeden ,0.000713
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,Aufrechten ,-9.2e-05
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,nur ,5e-05
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,an!,6.8e-05
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,Warum ,-3.3e-05
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,beantragt ,-4.9e-05
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,dieses ,0.000573
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,Objekt ,0.000176
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,der ,0.000638
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,Zersetzung ,0.000171
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,nicht ,-0.001101
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,Asyl ,-0.000472
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,im ,0.000364
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,gelobten ,0.002431
+8,,,0.871,HATE,0.871,Das Geseiere dieses Pfaffen Gauck widert jeden Aufrechten nur an!Warum beantragt dieses Objekt der Zersetzung nicht Asyl,Land,0.001523
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,Was ,-0.00011
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,soll ,-0.000273
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,dass ,-0.000881
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,220.,-0.000912
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,000 ,-0.021281
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,Invasoren ,0.016354
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,dürfen ,-0.000705
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,kommen + ,0.000475
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,Familiennachzug ,-0.000627
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,u ,0.000867
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,Hunderttausende ,0.001212
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,die ,0.001426
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,an ,0.001582
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,der ,0.001359
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,DE ,0.000662
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,Grenze ,0.000191
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,dass ,0.000371
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,Wort ,0.000517
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,Asyl ,0.000574
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,stammeln ,0.005493
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,können |,-0.000864
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,LBR| ,-0.001117
+9,,,0.87,HATE,0.87,Was soll dass 220.000 Invasoren dürfen kommen + Familiennachzug u Hunderttausende die an der DE Grenze dass Wort Asyl st,AFD,0.002082
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,@,-0.00058
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,krippmarie @,0.002156
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,jouwatch ,0.000477
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,Facebook ,0.000273
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,ist ,0.00106
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,nur ,0.000444
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,für ,0.000225
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,Posten ,-9.5e-05
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,von ,0.000206
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,Urlaubsbilder ,-0.00042
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,geeignet...,-0.001205
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,und ,-0.000331
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,den ,-0.000219
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,Migranten-,0.000745
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,Dreck ,0.0003
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,will ,0.000379
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,man ,0.000344
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,uns ,0.000287
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,mit ,0.000938
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,aller ,0.000422
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,Gewalt ,4.3e-05
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,schönreden..,-0.001416
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,zum ,0.001665
+10,,,0.8689,HATE,0.8689,@krippmarie @jouwatch Facebook ist nur für Posten von Urlaubsbilder geeignet...und den Migranten-Dreck will man uns mit ,kotzen,0.004148
