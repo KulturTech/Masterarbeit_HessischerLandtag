@@ -1,0 +1,18 @@
+Segmente gesamt: 29165
+
+[1] Reiner Struktur-/Verzeichnistext (ausschliessen): 8
+    davon ft_label==HATE: 2
+    Beispiele (erste 10, je 120 Zeichen):
+    - [Ulrike Alex] 'Ich frage die Landesregierung: \n\nWann werden voraussichtlich belastbare Angaben zum finanziellen \nUmfang des Erhaltungsb'
+    - [Vanessa Gronemann, Berichterstatterin] 'Beschlussempfehlung und Bericht zum Gesetzentwurf der \nLandesregierung zur Änderung des Lebensmittelchemikergesetzes, \nD'
+    - [Vizepräsidentin Heike Hofmann] 'Meine Damen und Herren, damit ist die Aktuelle Stunde, \nTagesordnungspunkt 75, abgehalten. \n\nIch rufe Tagesordnungspunkt'
+    - [Vizepräsident Frank Lortz] 'Vielen Dank, Herr Staatssekretär. \x96 Das war die Aktuelle \nStunde, Tagesordnungspunkt 58. \n\nIch rufe Tagesordnungspunkt 5'
+    - [Gewählt als Nachrücker] '1. \nDritte Lesung \nAbg. Astrid Wallmann \nDringlicher Gesetzentwurf \nAbg. Holger BellinoFraktion der CDU, Fraktion BÜNDNI'
+    - [Ebenso wird Tagesordnungspunkt 84 aufgerufen] 'Dringlicher EntschließungsantragFraktion der CDU, Fraktion BÜNDNIS 90/DIE GRÜNEN \nAufklärung des AWO-Skandals in Frankfu'
+    - [In zweiter Lesung angenommen] 'Gesetz beschlossen \n...............................................9972 \nMarius Weiß....................................'
+    - [Außerdem rufe ich Tagesordnungspunkt 72 auf] 'Dringlicher EntschließungsantragFraktion DIE LINKE \nEinbürgerungen erleichtern und beschleunigen \x96 auch \nin Hessen! \n\x96 D'
+
+[2] Echte Reden mit eingebetteten Seitenzahl-Artefakten (Text bereinigen, NICHT ausschliessen): 6164
+    Empfehlung: Muster r'\n\s*\d{4}\s*\n' aus den Texten
+    entfernen, bevor tokenisiert wird - sonst lernen Modelle
+    Seitenzahlen als Feature und Zitate werden verunreinigt.
