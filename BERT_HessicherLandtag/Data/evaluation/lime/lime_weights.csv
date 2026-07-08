@@ -1,0 +1,121 @@
+text_idx,text_preview,pred_label,p_hate,word,weight
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,verpulvern,0.286512
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,sprudelt,0.247821
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,durch,0.08128
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,erwähnen,0.076449
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,und,-0.073588
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,es,0.071149
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,seinen,0.069027
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,nicht,-0.056096
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,Kassen,-0.051655
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,eigentlich,0.043759
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,öffentlichen,-0.041767
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,Haushaltspolitik,-0.038698
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,für,0.036068
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,der,-0.035159
+1,"Auch wenn es eine Frage der Haushaltspolitik ist, will ich 
+es hier noch einmal erwähnen: Hessen müs",HATE,0.8788,ich,0.028192
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,die,-0.010942
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,Gemeinden,0.009593
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,ist,0.009478
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,sondern,0.008177
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,Puderzucker,0.007818
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,Städte,0.006569
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,blasen,0.006107
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,nicht,0.005592
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,in,-0.005165
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,freiwillig,0.005147
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,und,-0.004973
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,Asylanten,-0.004636
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,den,0.004347
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,Gelder,-0.004031
+2,"@Odenwaelderin Dass ist nicht freiwillig,sondern der Geldknappheit der Städte und Gemeinden geschuld",HATE,0.8782,Hintern,-0.003973
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,todbringender,0.352124
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,alimentierten,0.238653
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,bei,-0.143028
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,und,-0.124919
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,Türkei,0.089673
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,als,0.080584
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,spricht,-0.071227
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,Parasiten,-0.068684
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,Migranten,-0.061044
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,Ihnen,0.055557
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,Kopftuchmädchen,0.051577
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,von,-0.051098
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,Messermännern,0.049534
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,Messermigration,0.039587
+3,"Nein, wir haben genug von dem Zeug gehört.  Aber das 
+ist nichts Neues bei Ihnen: Wer von todbring",HATE,0.8774,Nein,-0.039064
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,geflutet,0.291919
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,in,-0.106607
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,sie,0.06377
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,Spitze,-0.052552
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,gerade,-0.045975
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,Bewegung,0.037233
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,mit,0.035814
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,und,-0.035179
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,setzen,0.034845
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,an,-0.030844
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,Hessens,-0.028682
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,die,-0.023941
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,wird,0.023691
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,diesen,0.016919
+4,"setzen Sie sich an die Spitze einer Bewegung, gerade 
+in diesen Zeiten, in denen die Bürger Hessens ",HATE,0.877,überleben,-0.015029
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,verzehren,0.003087
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,ja,-0.002281
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,in,0.002074
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,zahlreichen,0.001954
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,fangen,0.001403
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,Migrantenpack,0.001371
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,nur,-0.001355
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,diese,0.001242
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,grundsätzlich,0.001167
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,Kanalisationen,-0.000964
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,Sollten,0.000901
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,an,0.000746
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,ausgeben,0.000742
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,SteinbachErika,-0.000626
+5,@SteinbachErika Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten ,HATE,0.8761,und,-0.000431

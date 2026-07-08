@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BERT Analyse - Hessischer Landtag</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6; color: #333; background-color: #f5f5f5;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white; padding: 2rem 0; text-align: center;
+        }
+        header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        header p { font-size: 1.1rem; opacity: 0.9; }
+        .container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .summary {
+            background: white; border-radius: 10px; padding: 2rem;
+            margin-bottom: 2rem; box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .stats-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1.5rem; margin-top: 1.5rem;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white; padding: 1.5rem; border-radius: 8px; text-align: center;
+        }
+        .stat-card h3 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+        .stat-card p { font-size: 0.85rem; opacity: 0.9; }
+        .section-title {
+            margin: 2.5rem 0 1.5rem 0; color: #667eea; font-size: 1.5rem;
+            border-bottom: 2px solid #667eea; padding-bottom: 0.5rem;
+        }
+        .section-title.red { color: #d32f2f; border-color: #d32f2f; }
+        .section-title.green { color: #2e7d32; border-color: #2e7d32; }
+        .visualizations {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 2rem;
+        }
+        .viz-card {
+            background: white; border-radius: 10px; padding: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .viz-card h2 { color: #667eea; margin-bottom: 0.5rem; font-size: 1.2rem; }
+        .viz-card p { font-size: 0.9rem; color: #666; margin-bottom: 1rem; }
+        .viz-card img { width: 100%; border-radius: 5px; }
+        .viz-card.red-border { border-top: 4px solid #d32f2f; }
+        .viz-card.red-border h2 { color: #d32f2f; }
+        .viz-card.green-border { border-top: 4px solid #2e7d32; }
+        .viz-card.green-border h2 { color: #2e7d32; }
+        .party-table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        .party-table th, .party-table td { padding: 0.8rem; text-align: left; border-bottom: 1px solid #ddd; }
+        .party-table th { background: #f5f5f5; font-weight: 600; }
+        .party-badge {
+            display: inline-block; padding: 0.2rem 0.6rem; border-radius: 4px;
+            color: white; font-weight: bold; font-size: 0.85rem;
+        }
+        .party-cdu { background: #000000; }
+        .party-spd { background: #E3000F; }
+        .party-gruene { background: #64A12D; }
+        .party-fdp { background: #FFED00; color: #333; }
+        .party-linke { background: #BE3075; }
+        .party-afd { background: #009EE0; }
+        .nav-tabs { display: flex; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
+        .nav-tab {
+            padding: 0.8rem 1.5rem; background: white; border: 2px solid #667eea;
+            border-radius: 5px; color: #667eea; text-decoration: none; font-weight: 500;
+        }
+        .nav-tab:hover, .nav-tab.active { background: #667eea; color: white; }
+        footer {
+            text-align: center; padding: 2rem; color: #666; margin-top: 3rem; background: white;
+        }
+        .wordcloud-section { margin-top: 2rem; }
+        .wordcloud-img { max-width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BERT Analyse - Hessischer Landtag</h1>
+        <p>Analyse von 11.950 Dokumenten | 20. Wahlperiode (2019-2023)</p>
+    </header>
+
+    <div class="container">
+        <div class="nav-tabs">
+            <a href="#overview" class="nav-tab active">Uebersicht</a>
+            <a href="#adjectives" class="nav-tab">Adjektive & Migration</a>
+            <a href="#parties" class="nav-tab">Parteien-Analyse</a>
+            <a href="#timeline" class="nav-tab">Zeitverlauf</a>
+            <a href="#wordclouds" class="nav-tab">Word Clouds</a>
+        </div>
+
+        <!-- OVERVIEW -->
+        <section id="overview">
+            <div class="summary">
+                <h2>Uebersicht: Hate Speech Klassifikation</h2>
+                <div class="stats-grid">
+                    <div class="stat-card"><h3>11.950</h3><p>Dokumente gesamt</p></div>
+                    <div class="stat-card"><h3>3.169</h3><p>Migrations-bezogen</p></div>
+                    <div class="stat-card"><h3>121</h3><p>Als HATE klassifiziert</p></div>
+                    <div class="stat-card"><h3>3,8%</h3><p>Hate-Rate (Migration)</p></div>
+                    <div class="stat-card"><h3>9.297</h3><p>Adjektiv-Vorkommen</p></div>
+                    <div class="stat-card"><h3>2.955</h3><p>In negativem Kontext</p></div>
+                </div>
+            </div>
+
+            <h2 class="section-title">Klassifikations-Ergebnisse</h2>
+            <div class="visualizations">
+                <div class="viz-card">
+                    <h2>Label-Verteilung</h2>
+                    <p>HATE vs NON_HATE Klassifikation aller Dokumente.</p>
+                    <img src="images/1_label_distribution.png" alt="Label Distribution">
+                </div>
+                <div class="viz-card">
+                    <h2>Konfidenz-Scores</h2>
+                    <p>Verteilung der BERT-Modell Konfidenz.</p>
+                    <img src="images/2_confidence_scores.png" alt="Confidence Scores">
+                </div>
+            </div>
+        </section>
+
+        <!-- ADJECTIVES -->
+        <section id="adjectives">
+            <h2 class="section-title red">Negative Adjektive im Migrations-Kontext</h2>
+            <div class="summary" style="border-left: 5px solid #d32f2f;">
+                <h2>BERT Sentiment-Analyse</h2>
+                <p style="margin-top: 1rem;">Adjektive in Verbindung mit Migrations-Begriffen, klassifiziert mit german-sentiment-bert.</p>
+                <div class="stats-grid">
+                    <div class="stat-card" style="background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);">
+                        <h3>9.297</h3><p>Adjektiv-Vorkommen</p>
+                    </div>
+                    <div class="stat-card" style="background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);">
+                        <h3>2.955</h3><p>In negativem Kontext</p>
+                    </div>
+                    <div class="stat-card" style="background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);">
+                        <h3>31,8%</h3><p>Negativ-Anteil</p>
+                    </div>
+                </div>
+            </div>
+            <div class="visualizations">
+                <div class="viz-card red-border">
+                    <h2>Top Negative Adjektive</h2>
+                    <p>Haeufigste Adjektive in negativem Kontext.</p>
+                    <img src="images/top_negative_adjectives_migration.png" alt="Top Negative">
+                </div>
+                <div class="viz-card red-border">
+                    <h2>Sentiment-Verteilung</h2>
+                    <p>Anteil negativ/positiv/neutral.</p>
+                    <img src="images/sentiment_distribution_adjectives.png" alt="Sentiment">
+                </div>
+            </div>
+        </section>
+
+        <!-- PARTIES -->
+        <section id="parties">
+            <h2 class="section-title green">Analyse nach Parteien</h2>
+            <div class="summary" style="border-left: 5px solid #2e7d32;">
+                <h2>Wer verwendet welche Adjektive?</h2>
+                <p style="margin-top: 1rem;">NER-basierte Zuordnung nach Redner-Partei.</p>
+                <table class="party-table">
+                    <thead>
+                        <tr><th>Partei</th><th>Reden</th><th>Adjektive</th><th>Top 3</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><span class="party-badge party-afd">AfD</span></td><td>338</td><td>443</td><td>gut, gute, wichtig</td></tr>
+                        <tr><td><span class="party-badge party-linke">LINKE</span></td><td>336</td><td>401</td><td>gut, wichtig, gute</td></tr>
+                        <tr><td><span class="party-badge party-spd">SPD</span></td><td>194</td><td>278</td><td>gut, wichtig, gute</td></tr>
+                        <tr><td><span class="party-badge party-gruene">GRUENE</span></td><td>133</td><td>208</td><td>gut, gute, wichtig</td></tr>
+                        <tr><td><span class="party-badge party-cdu">CDU</span></td><td>117</td><td>152</td><td>wichtig, gut, notwendig</td></tr>
+                        <tr><td><span class="party-badge party-fdp">FDP</span></td><td>77</td><td>109</td><td>gut, wichtig, gute</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="visualizations">
+                <div class="viz-card green-border">
+                    <h2>Adjektive nach Redner-Partei</h2>
+                    <img src="images/adjectives_by_speaker_party.png" alt="By Speaker">
+                </div>
+                <div class="viz-card green-border">
+                    <h2>Stark negative Adjektive</h2>
+                    <img src="images/negative_adjectives_by_speaker.png" alt="Negative by Speaker">
+                </div>
+                <div class="viz-card green-border">
+                    <h2>Heatmap: Adjektive pro Partei</h2>
+                    <img src="images/adjectives_heatmap_by_speaker.png" alt="Heatmap">
+                </div>
+            </div>
+        </section>
+
+        <!-- TIMELINE -->
+        <section id="timeline">
+            <h2 class="section-title" style="color: #1976d2; border-color: #1976d2;">Zeitliche Entwicklung (AfD)</h2>
+            <div class="summary" style="border-left: 5px solid #1976d2;">
+                <h2>AfD: Entwicklung 2019-2023</h2>
+                <div class="stats-grid">
+                    <div class="stat-card" style="background: #1976d2;"><h3>2019</h3><p>250 Adjektive</p></div>
+                    <div class="stat-card" style="background: #1976d2;"><h3>2020</h3><p>194 Adjektive</p></div>
+                    <div class="stat-card" style="background: #1976d2;"><h3>2021</h3><p>175 Adjektive</p></div>
+                    <div class="stat-card" style="background: #1565c0;"><h3>2022</h3><p>294 (Peak)</p></div>
+                    <div class="stat-card" style="background: #1976d2;"><h3>2023</h3><p>252 Adjektive</p></div>
+                </div>
+            </div>
+            <div class="visualizations">
+                <div class="viz-card" style="border-top: 4px solid #1976d2;">
+                    <h2 style="color: #1976d2;">Adjektive pro Jahr</h2>
+                    <img src="images/afd_negative_adjectives_per_year.png" alt="Per Year">
+                </div>
+                <div class="viz-card" style="border-top: 4px solid #1976d2;">
+                    <h2 style="color: #1976d2;">Entwicklung: illegal, kriminell, etc.</h2>
+                    <img src="images/afd_key_adjectives_over_time.png" alt="Key Adjectives">
+                </div>
+            </div>
+        </section>
+
+        <!-- WORD CLOUDS -->
+        <section id="wordclouds">
+            <h2 class="section-title" style="color: #9c27b0; border-color: #9c27b0;">Word Clouds</h2>
+            <div class="wordcloud-section">
+                <div class="viz-card" style="border-top: 4px solid #9c27b0; margin-bottom: 2rem;">
+                    <h2 style="color: #9c27b0;">Negativ konnotierte Adjektive (Gesamt)</h2>
+                    <p>Word Cloud aller negativ konnotierten Begriffe im Migrationskontext.</p>
+                    <img src="images/wordcloud_truly_negative.png" alt="Word Cloud Negative" class="wordcloud-img">
+                </div>
+                <div class="viz-card" style="border-top: 4px solid #9c27b0;">
+                    <h2 style="color: #9c27b0;">Negative Adjektive nach Partei</h2>
+                    <p>Word Clouds aufgeteilt nach Partei des Redners.</p>
+                    <img src="images/wordcloud_truly_negative_by_party.png" alt="Word Cloud by Party" class="wordcloud-img">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p><strong>Masterarbeit: Hessischer Landtag Analyse</strong></p>
+        <p style="margin-top: 0.5rem;">BERT-Modelle: dehatebert-mono-german, german-sentiment-bert</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">20. Wahlperiode (2019-2023) | 11.950 Dokumente</p>
+        <p style="margin-top: 1rem;"><a href="https://github.com/KulturTech/Masterarbeit_HessischerLandtag" style="color: #667eea;">GitHub Repository</a></p>
+    </footer>
+</body>
+</html>
